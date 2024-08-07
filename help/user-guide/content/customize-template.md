@@ -3,9 +3,9 @@ title: Personalizar modelos
 description: Saiba como criar um modelo personalizado para o GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,8 @@ ht-degree: 0%
 
 Você pode adaptar seus modelos de HTML para o GenStudio usando a linguagem de modelo _Handlebars_. A sintaxe Handlebars usa texto regular com chaves duplas como espaços reservados para o conteúdo. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) no _Guia de linguagem do Handlebars_ para saber como preparar seu modelo.
 
-## Estrutura do modelo
-
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->
-
-Se você não tiver um modelo de HTML pronto para uso no GenStudio, poderá começar definindo a estrutura do email usando as tags de HTML: `DOCTYPE`, `html`, `head` e `body`. É possível incluir estilos CSS para personalizar a aparência do email.
+-->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
 
 ```html
 <!DOCTYPE html>
@@ -35,13 +31,15 @@ Se você não tiver um modelo de HTML pronto para uso no GenStudio, poderá come
 </html>
 ```
 
+Consulte [Exemplos de modelo](#template-examples).
+
 >[!TIP]
 >
->Nas próximas seções, adicione espaços reservados para o conteúdo de campos de email, oculte elementos desnecessários da pré-visualização e gerencie links para conteúdo estático. Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
+>Nas próximas seções, adicione espaços reservados para o conteúdo de campos de email. Consulte exemplos de modelos, oculte elementos desnecessários da pré-visualização e gerencie links para conteúdo estático. Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
 
 ## Espaços reservados de conteúdo
 
-No cabeçalho ou no corpo do modelo, é possível usar a sintaxe Handlebars para inserir espaços reservados de conteúdo, nos quais é necessário que o GenStudio preencha o email com o conteúdo real. O GenStudio reconhece e interpreta automaticamente os espaços reservados de conteúdo com base no nome do campo.
+Dentro do cabeçalho ou do corpo de um modelo, você pode usar a sintaxe Handlebars para inserir espaços reservados de conteúdo, nos quais é necessário que o GenStudio preencha o modelo com conteúdo real. O GenStudio reconhece e interpreta automaticamente os espaços reservados de conteúdo com base no nome do campo.
 
 Por exemplo, você pode usar `{{ headline }}` para indicar onde o título do email deve ser colocado:
 
@@ -49,27 +47,68 @@ Por exemplo, você pode usar `{{ headline }}` para indicar onde o título do ema
 <div>{{ headline }}</div>
 ```
 
+### Nomes de campos
+
 O número máximo de campos permitidos em um modelo personalizado é vinte.
 
-**Nomes de campos reconhecidos**:
+#### Nomes de campo reconhecidos
+
+A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para preenchimento em modelos.
 
 | Texto | Função | Modelo de canal |
 | -------------- | ---------------------- | -------------------- |
-| `pre_header` | Pré-cabeçalho | email |
-| `headline` | Título | email<br>anúncio social |
-| `body` | Corpo do texto | email<br>anúncio social |
-| `cta` | Chamada para ação | email<br>anúncio social |
-| `on_image_text` | No texto da imagem | anúncio social |
-| `image` | Imagem | email<br>anúncio social |
-| `brand_logo` | Logotipo da marca selecionada | anúncio social |
+| `pre_header` | Pré-cabeçalho | email (recomendado) |
+| `headline` | Título | email (recomendado)<br>Meta-anúncio |
+| `body` | Corpo do texto | email (recomendado)<br>Meta-anúncio |
+| `cta` | Chamada para ação | email (recomendado)<br>Meta-anúncio |
+| `on_image_text` | No texto da imagem | Meta-anúncio (recomendado) |
+| `image` | Imagem | email (recomendado)<br>Meta-anúncio (recomendado) |
+| `brand_logo` | Logotipo da marca selecionada | Meta-anúncio |
 
->[!IMPORTANT]
+O GenStudio preenche automaticamente determinados campos em modelos, portanto, não é necessário incluí-los em seus designs de modelo:
+
+* Campo `subject` (modelo de email)
+* Campos `headline`, `body` e `CTA` (Modelo de metadados)
+
+>[!WARNING]
 >
->O GenStudio fornece automaticamente ao modelo de email um campo `subject` durante o processo [!DNL Create], de modo que não é necessário incluir o campo de assunto em seu modelo de email.
+>Para anúncios do Instagram, o título gerado não aparece na experiência final.
 
-+++Exemplo: modelo básico
+#### Nomes de campo manuais
 
-Este é um exemplo básico de um template de HTML para email. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um espaço reservado de `pre-header`, `headline` e `image` para uso do GenStudio para inserir conteúdo durante o processo de geração de email.
+Todos os outros nomes de campo são tratados como campos preenchidos manualmente. Se quiser que uma seção seja editável, adicione colchetes duplos ao redor da seção que deseja editar.
+
+> Exemplo: ``{{customVariable}}`` (customVariable é a seção editável manualmente)
+
+## Seções ou grupos
+
+_As seções_ informam à GenStudio que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
+
+Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo.
+
+Por exemplo, talvez você queira destacar o conteúdo que aparece em uma área destacada:
+
+* `spotlight_headline`
+* `spotlight_body`
+
+Cada seção pode ter apenas uma de cada tipo de campo. No exemplo acima, o prefixo `spotlight` só pode ter um campo `spotlight_headline`.
+
+Um modelo pode incluir até três seções:
+
+* `headline`
+* `body`
+* `spotlight_headline`
+* `spotlight_body`
+* `news_headline`
+* `news_body`
+
+A GenStudio entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
+
+## Exemplos de modelo
+
++++Exemplo: modelo de email com uma seção
+
+Este é um exemplo básico de um modelo de HTML para um email que contém uma seção. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um `pre-header`, `headline`, e `image` [espaço reservado](#content-placeholders) para uso do GenStudio para inserir conteúdo durante o processo de geração de email.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -99,35 +138,9 @@ Este é um exemplo básico de um template de HTML para email. O cabeçalho cont�
 
 +++
 
-### Imagem de fundo
++++Exemplo: modelo de email com várias seções
 
-Ao criar um anúncio para Meta, é importante usar uma imagem de fundo complementada por texto e uma sobreposição de logotipo de marca. Para garantir o dimensionamento adequado da imagem, os modelos de Metadados exigem a especificação de um `aspect ratio`. Nesse contexto, você pode fornecer apenas um campo de imagem.
-
-## Seções ou grupos
-
-_As seções_ fornecem uma maneira de informar ao GenStudio que os campos pertencentes a uma seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção. Um modelo pode incluir até três seções.
-
-Use um prefixo de sua escolha no nome do campo para indicar que este campo faz parte de uma seção ou grupo. Por exemplo, talvez você queira destacar o conteúdo que aparece em uma área realçada. Você pode optar por identificar o conteúdo dessa área com um prefixo comum:
-
-- `spotlight_headline`
-- `spotlight_body`
-
-Cada seção pode ter apenas uma de um tipo de campo. Por exemplo, o grupo de exemplos acima com o prefixo `spotlight` só pode ter um campo `spotlight_headline`.
-
-Quando você tiver várias seções (no máximo três):
-
-- `headline`
-- `body`
-- `spotlight_headline`
-- `spotlight_body`
-- `news_headline`
-- `news_body`
-
-A GenStudio entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
-
-+++Exemplo: modelo com várias seções
-
-O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas seções. O cabeçalho contém CSS em linha para estilizar um pod. O corpo usa dois pods com espaços reservados de conteúdo usando um prefixo.
+O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas seções. O cabeçalho contém CSS em linha para estilizar um grupo. O corpo usa dois grupos com [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
 
 ```handlebars {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
@@ -177,11 +190,67 @@ O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas 
 
 +++
 
++++Exemplo: modelo de metadados
+
+Este é um exemplo básico de um modelo de Meta-anúncio. O cabeçalho contém CSS em linha para estilo. O corpo usa [espaços reservados para o conteúdo](#content-placeholders) usando um prefixo.
+
+```handlebars {line-numbers="true" highlight="33"}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe</title>
+    <style>
+        .ad-container {
+            width: 300px;
+            border: 1px solid #ddd;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .ad-image {
+            width: 100%;
+            height: auto;
+        }
+        .ad-headline {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 12px 0;
+        }
+        .ad-body {
+            font-size: 14px;
+            margin: 12px 0;
+        }
+        .ad-cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="ad-container">
+    <img src="{{ image }}" alt="Ad Image" class="ad-image">
+    <div class="ad-headline">"{{ headline }}"</div>
+    <div class="ad-body">"{{ body }}"</div>
+    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+</div>
+
+</body>
+</html>
+```
+
++++
+
 ## Visualização do modelo
 
-Os templates de email às vezes contêm conteúdo especial que não é necessário visualizar no GenStudio. Você pode controlar a visibilidade desse conteúdo usando os Auxiliares integrados, que são expressões especiais na linguagem de modelo Handlebars que ajudam a executar determinadas ações.
+Controle a visibilidade de conteúdo especial usando Auxiliares incorporados (expressões especiais na linguagem de modelo Handlebars que executa determinadas ações). Por exemplo, é possível adicionar parâmetros de rastreamento a links no modelo exportado, mantendo os links de visualização limpos.
 
-O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `genStudio.export` é definido ao exportar um modelo. Você pode decidir incluir determinado conteúdo na parte superior dos emails usando um invólucro condicional, por exemplo, quando o modelo for usado para exportação:
+O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `genStudio.export` é definido ao exportar um modelo. Você pode decidir incluir determinado conteúdo na parte superior de um email usando um invólucro condicional, por exemplo, quando o modelo for usado para exportação:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -189,7 +258,7 @@ O valor `_genStudio.browser` é definido ao renderizar um modelo, e o valor `gen
 {{/if}}
 ```
 
-Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar um modelo de email no GenStudio. Este exemplo mostra como adicionar parâmetros de rastreamento a links no modelo exportado, mantendo os links de visualização limpos:
+Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar um modelo no GenStudio. Este exemplo mostra como adicionar parâmetros de rastreamento a links no modelo exportado, mantendo os links de visualização limpos:
 
 ```handlebars
 <a class="button" {{#if _genStudio.browser }}
