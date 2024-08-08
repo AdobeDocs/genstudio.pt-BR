@@ -2,7 +2,7 @@
 title: Revisar e editar conteúdo
 description: Saiba como revisar e editar o conteúdo interativamente.
 feature: Approval
-source-git-commit: bb06f20c436c0d2d426c8a07a419536716665a03
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Os criadores podem fazer edições em andamento no conteúdo em resposta aos com
 
 Como um aprovador designado, você pode acessar o conteúdo que deve ser revisado e aprovado de várias maneiras:
 
-* **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho na notificação por email da solicitação de aprovação ou na notificação no produto. O GenStudio abre uma Tela que exibe o ativo ou a experiência. O painel esquerdo de detalhes do _Ativo_ inclui um painel de _Aprovação_.
+* **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho na notificação por email da solicitação de aprovação ou na notificação no produto. O GenStudio abre uma Tela que exibe o ativo ou a experiência. O painel esquerdo de detalhes do _Ativo_ inclui um painel _Aprovação_.
 
 * **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique neste botão para navegar para uma página que exibe todas as suas solicitações de revisão pendentes.
 

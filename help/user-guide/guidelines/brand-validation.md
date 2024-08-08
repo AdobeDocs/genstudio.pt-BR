@@ -2,7 +2,7 @@
 title: Validação da marca no GenStudio
 description: Saiba como o sistema integrado de validação de marca funciona no GenStudio.
 feature: Brands Service, Guidelines
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -30,11 +30,11 @@ Clique no ícone para ver quais diretrizes são compatíveis com sua marca e qua
 
 Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment).
 
-## Painel Validação da marca
+## Painel de validação da marca
 
-O _painel Validação de marca_ fornece informações detalhadas sobre a validação de marca e esclarece oportunidades de aprimoramento para cada fragmento de variante.
+O _painel de validação de marca_ fornece informações detalhadas sobre a validação de marca e esclarece oportunidades de aprimoramento para cada fragmento de variante.
 
-O _painel de Validação da Marca_ exibe informações sobre:
+O _Painel de validação de marca_ exibe informações sobre:
 
 * **Email**:
    * Fragmento da linha de assunto
@@ -53,13 +53,13 @@ Consulte [Melhorar o alinhamento da marca](#improve-brand-alignment).
 
 ### Filtro
 
-No _painel de Validação da Marca_, você pode filtrar quais diretrizes serão exibidas. Clique no ícone de filtro na parte superior do painel para exibir:
+No _painel de validação de marca_, você pode filtrar quais diretrizes são mostradas. Clique no ícone de filtro na parte superior do painel para exibir:
 
 * **Diretrizes com falha**—_Mostrar diretrizes com falha_ exibe somente as diretrizes que não passaram na validação da marca.
 * **Todas as diretrizes**—_Mostrar diretrizes com falha e aprovadas_ exibem todas as diretrizes em relação às quais as variantes são medidas.
 * **Diretrizes aprovadas**—_Mostrar diretrizes aprovadas_ exibe somente as diretrizes que passaram na validação da marca.
 
-<!-- The _Brand Validation panel_ has different areas of focus for each content channel:
+<!-- The _Brand validation panel_ has different areas of focus for each content channel:
 
 * Email - brand voice and channel compliance
 * Images - application photography restrictions and other considerations -->

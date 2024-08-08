@@ -4,9 +4,9 @@ description: Saiba como adicionar diretrizes—[!DNL Brands], [!DNL Products] e 
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: 3693d7dc3b9ee5c4b6c22bdc373f3c78bded4bef
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Na área de navegação esquerda, clique em **[!DNL Brands]**. No painel _[!DNL 
 
 Você pode fazer upload de seus próprios documentos de marca para preencher uma nova marca no GenStudio.
 
-Consulte [[!DNL Brands]](/help/user-guide/guidelines/brands.md) para ver um exemplo de guia de marca.
+Consulte [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Para carregar documentos da marca**:
 
@@ -110,7 +110,7 @@ Consulte [[!DNL Products]](products.md).
    1. Escolha uma imagem da galeria na guia _Galeria_.
 1. Clique em **[!UICONTROL Usar imagem]**.
 
-   Para ver o [!DNL Products] criado, clique na seta para trás próximo à parte superior do painel do _Produto_ para navegar de volta para a página inicial do _[!DNL Products]_.
+   Para ver o [!DNL Products] criado, clique na seta para trás próxima à parte superior da exibição do _Produto_ para navegar de volta para a página inicial do _[!DNL Products]_.
 
 ### Gerenciar [!DNL Products]
 
@@ -137,7 +137,7 @@ Consulte [[!DNL Personas]](personas.md).
    1. Escolha uma imagem da galeria na guia _Galeria_.
 1. Clique em **[!UICONTROL Usar imagem]**.
 
-Para ver a [!DNL Personas] criada, clique na seta para trás próxima à parte superior do painel _Persona_ para navegar de volta à página inicial do _[!DNL Personas]_.
+Para ver a [!DNL Personas] criada, clique na seta para trás próxima à parte superior da exibição _Persona_ para voltar à página inicial do _[!DNL Personas]_.
 
 ### Gerenciar [!DNL Personas]
 

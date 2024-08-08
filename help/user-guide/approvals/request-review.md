@@ -1,7 +1,7 @@
 ---
 title: Solicitar revisões e aprovações
 description: Solicite uma revisão.
-source-git-commit: c9bd8bf434e493696e674900f403307260a65b02
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Opcional: adicione comentários para guiar o foco do aprovador para recursos esp
 
 Se você for o criador do conteúdo, a Tela de rascunho exibirá o botão **[!UICONTROL Gerenciar aprovações]**. Use este botão para abrir um pop-up do qual você pode remover ou adicionar aprovadores através do processo de revisão e aprovação.
 
-Os nomes dos aprovadores são listados neste painel com um status [!DNL Notified] após o início das solicitações de aprovação. Consulte [Aprovar conteúdo](./approve-content.md) para obter uma visão geral das tarefas de aprovação do GenStudio.
+Os nomes de aprovadores são listados nesta exibição com um status [!DNL Notified] após o início das solicitações de aprovação. Consulte [Aprovar conteúdo](./approve-content.md) para obter uma visão geral das tarefas de aprovação do GenStudio.
 
 
 

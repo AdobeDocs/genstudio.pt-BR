@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,8 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 **Para escolher um modelo de meta-anúncio**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL Meta anúncios]**na_&quot;O que você deseja criar hoje?&quot;seção _.
-1. Na exibição _Selecionar modelo_, alterne o filtro _Canais_ para **[!UICONTROL Metadados]**.
 1. Use a opção de pesquisa, adjacente ao _Filtro_, para localizar um Modelo de Metadados específico.
-1. Clique para selecionar um modelo ou selecione vários modelos e clique em **[!UICONTROL Usar]**. Se você selecionar vários modelos, quando as variantes forem geradas, todos os modelos selecionados serão usados para fornecer opções.
+1. Clique para selecionar um modelo e clique em **[!UICONTROL Usar]**.
 
    Essa ação abre a Tela, que é o hub central para a criação de conteúdo.
 
@@ -53,7 +52,7 @@ Quando terminar de adicionar parâmetros, você poderá recolher a área de prom
 
 ## Digite um prompt
 
-Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad.
+Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou indescritivos.
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -62,7 +61,7 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 1. Digite um prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
 1. Clique em **[!UICONTROL Gerar]**.
 
-Por padrão, quatro variações geradas — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
+Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
 
 ## Escolher canal de metadados
 
@@ -76,6 +75,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 **Para revisar variantes geradas**:
 
+* **Para editar o nome do rascunho do Metaanúncio**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para editar um Metadado** manualmente, clique duas vezes em qualquer fragmento do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
 
   A linha de assunto e o pré-cabeçalho exigem apenas um único clique para serem editados, enquanto o cabeçalho e a cópia do corpo exigem um clique duplo.
@@ -93,7 +93,7 @@ Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da
 1. Para obter os detalhes dos fragmentos e diretrizes que precisam ser aprimorados, clique em **[!UICONTROL Revisar]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alterne cada anúncio para ver como você pode melhorar o conteúdo gerado para torná-lo mais alinhado à marca.
-1. [Revise emails manualmente](#revise-generated-emails) para garantir que seus anúncios estejam alinhados à sua marca.
+1. [Revise os anúncios manualmente](#revise-generated-meta-ads) para garantir que seus anúncios estejam alinhados à sua marca.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 

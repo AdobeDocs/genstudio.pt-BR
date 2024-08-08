@@ -2,9 +2,9 @@
 title: Detalhes do ativo
 description: O GenStudio armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
-source-git-commit: ba7dced9e62f797cd43a0bd8d8263828ec5c3d5e
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -46,8 +46,8 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | ------------- | ----------- | -------- | -------- |
 | Nome da campanha (nome do projeto) | Metadados padrão capturados e armazenados com o ativo | Y | N |
 | Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio e publicado para uso | Y | N |
-| Produtos | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para uso | Y | N |
-| Personas | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para uso | Y | N |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para uso | Y | N |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para uso | Y | N |
 | Canais | Tipos de conteúdo no GenStudio para os quais o ativo é usado, como email e Metadados | Y | N |
 | Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` | Y | N |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` | Y | N |
@@ -66,7 +66,7 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 
 >[!TIP]
 >
->Você também pode exibir detalhes do ativo de [!DNL Insights]. O Insights fornece estatísticas de uso e contexto de desempenho em todas as experiências. Em _[!DNL Insights]_, selecione a seção **[!UICONTROL Assets]**.
+>Você também pode exibir detalhes do ativo de [!DNL Insights]. [!DNL Insights] fornece estatísticas de uso e contexto de desempenho entre experiências. Em _[!DNL Insights]_, selecione a seção **[!UICONTROL Assets]**.
 
 <!-- ## History
 

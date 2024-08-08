@@ -3,9 +3,9 @@ title: Introdução ao GenStudio
 description: Saiba como configurar seu GenStudio para gerar novo conteúdo de marketing alinhado à marca.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 2501d1e36f76d1534a735b9147fb42f762a665e8
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ A tabela a seguir exibe as permissões padrão do GenStudio collaborator:
 
 ### Administradores
 
-Os usuários administradores criam e atribuem usuários a qualquer uma das funções compatíveis com o GenStudio. Eles podem atribuir novas permissões a criadores ou colaboradores individuais, conforme necessário. O trabalho mais importante é concluir as tarefas iniciais de integração que preparam sua organização para implantar o GenStudio.
+**Os administradores** criam e atribuem usuários a qualquer uma das funções da GenStudio com suporte. Eles podem atribuir novas permissões a criadores ou colaboradores individuais, conforme necessário. O trabalho mais importante é concluir as tarefas iniciais de integração que preparam sua organização para implantar o GenStudio.
 
 A tabela a seguir exibe as permissões padrão de administrador do sistema do GenStudio:
 
@@ -93,7 +93,7 @@ A tabela a seguir exibe as permissões padrão de administrador do sistema do Ge
 
 Os administradores de sistema preparam o ambiente GenStudio de sua organização para que criadores e colaboradores criem ativos de campanha. Essas tarefas preliminares de configuração incluem:
 
-1. [Configurar diretrizes](./guidelines/overview.md) para [!DNL Brands], [!DNL Products] e [!DNL Personas]. Configurando os blocos de construção principais da marca da sua organização **[Adicione diretrizes](./guidelines/overview.md)** ([!DNL Brands], [!DNL Products] e [!DNL Personas]) à GenStudio. Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho dos criadores e colaboradores da GenStudio. Você pode fazer upload de documentos de diretrizes da marca ou inserir manualmente as informações da marca.
+1. [Adicionar diretrizes](./guidelines/overview.md) para [!DNL Brands], [!DNL Products] e [!DNL Personas]. Configurar os elementos fundamentais da identidade de marca de sua organização é um pré-requisito essencial para o trabalho dos criadores e colaboradores da GenStudio. Você pode fazer upload de documentos de diretrizes da marca ou inserir manualmente as informações da marca.
    * **Prepare seus documentos de diretrizes**. Quanto mais descritivas e abrangentes forem as diretrizes da sua marca, melhor será o resultado da GenStudio. Inclua exemplos resumidos de recursos que você considera essenciais para sua marca e adicione descrições de comportamento que deseja excluir da criação de conteúdo do GenStudio. O GenStudio extrai informações desses documentos carregados e começa a criar sua marca. Informações como voz da marca, canal e diretrizes de imagem são preenchidas conforme a GenStudio monta cada diretriz dos documentos carregados.
    * **Edite ou preencha os campos de diretriz da marca conforme necessário**. As diretrizes abrangentes da marca formam a base da compreensão da GenStudio sobre a marca da sua organização. Depois que a GenStudio tiver extraído as informações necessárias dos documentos de diretrizes da marca, você será solicitado a editar ou preencher manualmente os campos das informações extraídas. Especifique áreas de foco de produto individuais para criação de conteúdo adicionando um [!DNL Product]. As diretrizes do [!DNL Personas] ajudam a adaptar a criação de conteúdo para segmentos de clientes definidos.
 

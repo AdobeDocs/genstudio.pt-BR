@@ -2,7 +2,7 @@
 title: Trabalhar com modelos
 description: Saiba como usar modelos para criar experiências envolventes no GenStudio.
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -73,7 +73,7 @@ Localize e use um modelo existente para criar experiências.
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Modelos]**.
 
-   ![Lista de modelos de conteúdo](../../assets/content-templates.png)
+   ![Lista de modelos de conteúdo](../../assets/content-templates.png){width="650" zoomable="yes"}
 
 1. Selecione um modelo para obter uma exibição completa e uma lista de detalhes.
 

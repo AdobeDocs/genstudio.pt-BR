@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
+source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Para começar a criar uma nova experiência de email, use um modelo disponível 
 **Para escolher um modelo de email**:
 
 1. Em _[!DNL Create]_, clique em **[!UICONTROL Email]**na_&quot;O que deseja criar hoje?&quot;seção _.
-1. Na exibição _Selecionar modelo_, alterne o filtro _Canais_ para **[!UICONTROL Email]**.
 1. Use a opção de pesquisa, ao lado de _Filtro_, para localizar um modelo de email específico.
 1. Clique para selecionar um modelo de email e clique em **[!UICONTROL Usar]**.
 
@@ -53,7 +52,7 @@ Quando terminar de adicionar parâmetros, você poderá recolher a área de prom
 
 ## Digite um prompt
 
-Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de email.
+Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de email. Prompts detalhados produzem uma saída de qualidade superior aos prompts vagos ou indescritivos.
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
@@ -62,7 +61,7 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 1. Digite um prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
 1. Clique em **[!UICONTROL Gerar]**.
 
-Por padrão, quatro variações geradas — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
+Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
 
 ## Revisar emails gerados
 
@@ -70,6 +69,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 **Para revisar variantes geradas**:
 
+* **Para editar o nome do rascunho do email**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para editar um email** manualmente, clique duas vezes em qualquer fragmento de email (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
 
   A linha de assunto e o pré-cabeçalho exigem apenas um único clique para serem editados, enquanto o cabeçalho, a cópia do corpo e o plano de ação exigem um clique duplo.
