@@ -2,9 +2,9 @@
 title: GenStudio [!DNL Personas]
 description: O GenStudio [!DNL Personas] é uma representação real dos segmentos de clientes, capturando seus interesses, pontos problemáticos, preferências e características comportamentais.
 feature: Personas Service, Guidelines
-source-git-commit: 423956d6fdbf5b31041d44eb434f90d55a87d7c0
+source-git-commit: 21d0c7c6aab6f4d81fc4376251e85eb2d4be3f25
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Essas diretrizes detalham cada categoria de diretrizes e exemplos relacionados. 
 
 A tabela a seguir mostra cada categoria de diretrizes de [!DNL Personas] e exemplos associados.
 
-| Categoria de diretriz | Exemplos de diretrizes |
-| ------------------| :---------- |
-| Descrição | `Brand Uno's Curious Jobseekers are curious about finding a job within their immediate area and need assistance with learning how to find applicable positions, interviewing successfully, and researching transportation options. This prep work will prepare the Curious Jobseeker to take the next step in applying to fitting job opportunities and entering the interview process with confidence.` |
-| Preferências de mensagens | `Curious Jobseekers respond to communications and marketing messaging when they feel the Empower Outreach program's capabilities are affordable and successful in helping them obtain the job they desire. They enjoy visuals/graphics and short punchy headlines crafted to get their attention.` |
+| Categoria de diretriz | Exemplos de diretrizes | Práticas recomendadas |
+| ------------------| :---------- |-------------|
+| Nome pessoal | Representa um segmento de público-alvo específico para o qual os materiais de marketing gerados são adaptados | Adicione um nome de usuário claro e conciso.<br><br>_Exemplos_: &quot;CMOs de Varejo&quot;, &quot;Estudantes em potencial de Enfermagem&quot;, &quot;Novos Clientes de Conta de Poupança&quot; |
+| Descrição | Resumo definindo as principais características, necessidades e comportamentos | Use linguagem consistente para descrever claramente a segmentação de persona e público-alvo único (1-2 frases).<br><br>Concentre-se no que direciona este segmento de público-alvo (necessidades, características principais etc.)<br><br>Mantenha a descrição sucinta e sem dados demográficos profundos ou informações extras. |
+| Preferências de mensagens | Resumo claro de estilos de comunicação preferidos que refletem em um perfil específico | Defina requisitos de mensagem exclusivos e motivações para persona, com foco em como a persona prefere receber e interagir com as comunicações.<br><br>Forneça preferências de mensagens específicas na lista (cada item de lista 1-2 frases).<br><br>Limite a lista para um total de 10 frases ou menos, garantindo que as informações mais críticas sejam destacadas.<br><br>_Exemplo_: &quot;Preferências de mensagens para profissionais com conhecimento técnico:<li>Prefere comunicação concisa e sem jargões.</li><li>Responde positivamente a insights orientados por dados e conselhos acionáveis.</li><li>Prefere recursos visuais, como infográficos e gráficos, para compreender rapidamente informações complexas.<li><li>Valoriza a transparência com uma abordagem honesta e direta.</li>” |
+| Detalhes adicionais | Capturar informações essenciais importantes para a geração de conteúdo personalizado | Forneça detalhes adicionais (1-3 frases) vitais para a personalização do conteúdo e garanta que as informações contribuam diretamente para a eficácia do conteúdo.<br><br>Concentre-se na clareza e na brevidade. |
