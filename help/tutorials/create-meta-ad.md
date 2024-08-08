@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: fa89422db3e1679516a377c9bfd9f05ab6e63428
+source-git-commit: 12af1741c368666a56ff8663b8b3dfe2087d7e54
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -35,39 +35,34 @@ Para começar a gerar uma nova experiência de Metadados, use um modelo disponí
 
 ## Adicionar parâmetros
 
-A adição de parâmetros de diretrizes melhora o processo de geração de conteúdo e é uma etapa essencial na preparação para gerar um Meta anúncio.
+Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Parâmetros_ na área de prompt melhora o processo de geração de conteúdo e é uma etapa crucial na preparação para gerar um Metadado.
 
 **Para adicionar parâmetros e ativos**:
 
-1. Clique no ícone _Parâmetros_ para expandir as opções de parâmetros e adicionar parâmetros de referências e ativos.
+1. Clique no ícone _Parâmetros_ para expandir a área de prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Na seção _Conteúdo_, adicione o conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo. Há três maneiras de adicionar ativos:
-   * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens ou vídeo) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
+1. Clique em **[!UICONTROL Selecionar conteúdo]** para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo.
+   * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
    * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox.
-   * Arraste e solte arquivos de imagem na seção _Conteúdo_.
+   * Arraste e solte ativos na seção _Conteúdo_.
 
-   Ao selecionar ativos do conteúdo do GenStudio, você escolhe entre os ativos já salvos em [[!DNL Content]](/help/user-guide/content/overview.md). Você pode filtrar por canal, produto, idioma e muito mais, para encontrar os ativos necessários rapidamente.
+Quando terminar de adicionar parâmetros, você poderá recolher a área de prompt clicando no ícone _Parâmetros_ novamente.
 
-Quando terminar de adicionar parâmetros, você poderá recolher as seções *Parâmetros* e *Conteúdo* clicando novamente no ícone _Parâmetros_.
-
-## Usar um prompt
+## Digite um prompt
 
 Depois que as diretrizes forem selecionadas, crie um prompt usando a linguagem natural para começar a gerar conteúdo para sua nova experiência de Meta ad.
 
 Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para saber mais sobre a gravação de prompts.
 
-**Para usar um prompt**:
+**Para inserir um prompt**:
 
 1. Digite um prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
-   <!-- If the prompt box is not visible, click **[!UICONTROL Open to prompt]** to expand it. -->
-
-<!-- 1. Optionally, click one of the prompt suggestions visible just above the prompt text box. Clicking a suggestion auto-fills the suggested prompt in the prompt box. -->
 1. Clique em **[!UICONTROL Gerar]**.
 
-Por padrão, quatro variações geradas — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são mostradas na Tela.
+Por padrão, quatro variações geradas — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
 
 ## Escolher canal de metadados
 
@@ -92,15 +87,13 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento.
 
-Você pode editar manualmente fragmentos de anúncios individuais ou [gerar variantes refinadas](/help/user-guide/create/generate-variants.md) do resultado inicial para alcançar o alinhamento com sua marca.
-
 **Para verificar o alinhamento da marca**:
 
 1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
 1. Para obter os detalhes dos fragmentos e diretrizes que precisam ser aprimorados, clique em **[!UICONTROL Revisar]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alterne cada anúncio para ver como você pode melhorar o conteúdo gerado para torná-lo mais alinhado à marca.
-1. [Revise emails manualmente](#revise-generated-emails) ou [gere variantes](/help/user-guide/create/generate-variants.md) para garantir que seus anúncios estejam alinhados à sua marca.
+1. [Revise emails manualmente](#revise-generated-emails) para garantir que seus anúncios estejam alinhados à sua marca.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md).
 

@@ -3,9 +3,9 @@ title: Preparar um modelo de email para o GenStudio
 description: Saiba como criar um modelo de email personalizado para o GenStudio.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 6870f1b7056219d03cabbcc4e5ddbfa436b1a56d
+source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Consulte [Anatomia de um modelo](/help/user-guide/content/use-templates.md#anato
 
 Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio e as preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
 
-> **Exemplo**: se você quiser que o corpo de um modelo de email não tenha mais de 500 caracteres, adicione esse requisito às [diretrizes do canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para o campo &quot;corpo&quot;.
+**Exemplo**: se você quiser que o corpo de um modelo de email não tenha mais de 500 caracteres, adicione esse requisito às [diretrizes do canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para o campo &quot;corpo&quot;.
+
+Se as diretrizes não forem adicionadas ao GenStudio, os padrões serão usados.
 
 ## Codifique um modelo de email
 

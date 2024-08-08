@@ -4,10 +4,10 @@ breadcrumb-title: Guia do usuário
 user-guide-description: Saiba como localizar e gerar ativos na marca rapidamente, criar variações e otimizar experiências com base em insights de desempenho de conteúdo em tempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 6a0b8371ac48c4861c1264b50fc2766f2d1f6beb
+source-git-commit: 33f53659894bc53e9a8e0740b0fff5621907bf15
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,6 @@ ht-degree: 9%
    + [Validação da marca](guidelines/brand-validation.md)
 + Criar {#create}
    + [Visão geral do [!DNL Create]](create/overview.md)
-   + [Gerar variantes](create/generate-variants.md)
 + Revisões e aprovações {#approve}
    + [Visão geral de revisão e aprovações](approvals/overview.md)
    + [Solicitar revisão e aprovação de conteúdo](approvals/request-review.md)

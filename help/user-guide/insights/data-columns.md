@@ -3,10 +3,10 @@ title: Colunas de dados para  [!DNL Insights]
 description: Entenda o que cada coluna em uma grade  [!DNL Insights]  representa.
 feature: Attributes, Insights
 recommendations: noDisplay
-source-git-commit: 52a37b83b6f13b16a2234e50827c8d08b9a86680
+source-git-commit: 4d5de6fc053297c823be9005c628dafcecc3f7a7
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '254'
+ht-degree: 3%
 
 ---
 
@@ -34,4 +34,3 @@ As colunas disponíveis incluem:
 | Impressões | O número de vezes que os anúncios da campanha foram exibidos aos visualizadores por meio de impressões registradas. |
 | Objetivo | A meta de uma campanha ou projeto. Defina o objetivo ao criar a campanha ou o projeto.<br>Os tipos de objetivos incluem: `Awareness`, `Traffic`, `Engagement`, `Leads`, `App promotion`, `Sales` |
 | Gastos | O valor total do dinheiro gasto em USD para todos os anúncios em uma campanha. |
-| Reprodução de vídeo | O número de vezes que uma reprodução de vídeo começou. As reproduções de vídeo podem ocorrer quando um vídeo começa a ser reproduzido automaticamente ou quando alguém clica para reproduzi-lo. |
