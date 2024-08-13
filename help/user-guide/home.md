@@ -1,18 +1,20 @@
 ---
 title: Guia do usuário do Adobe GenStudio
-description: Saiba como usar o GenStudio e a IA gerativa para personalizar sua cadeia de fornecimento de conteúdo.
-source-git-commit: 214f54bcc15eb8d0c3b766784ac911790a8fb351
+description: Habilite profissionais de marketing e criações de sobrecarga com o GenStudio, o aplicativo Adobe AI-first que fornece acesso de autoatendimento ao conteúdo da marca com medidas de proteção e governança corporativas para experiências de alto desempenho.
+source-git-commit: a0646480c863f9776aa7dfe1ef17eb9d23f269ea
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 1%
+source-wordcount: '234'
+ht-degree: 0%
 
 ---
 
 # Guia do usuário do GenStudio
 
-O GenStudio é uma solução de marketing abrangente baseada na tecnologia de IA gerativa Adobe. Ela permite que os profissionais de marketing simplifiquem a cadeia de fornecimento de conteúdo, desde a ideação até a entrega e a avaliação de desempenho.
+O Adobe GenStudio é uma plataforma orientada por IA que capacita as empresas a gerar e gerenciar de forma independente conteúdo de marketing que segue os padrões da marca, está em conformidade com as políticas corporativas e oferece suporte perfeito a uma estratégia de marketing impactante.
 
-Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a criação de conteúdo, localizar e reutilizar facilmente o conteúdo e impulsionar campanhas omnicanais bem-sucedidas.
+Com o GenStudio, os profissionais de marketing e criação podem simplificar o processo de criação de conteúdo para criar conteúdo de marketing que seja envolvente, culturalmente relevante e personalizado para públicos-alvo específicos, tudo isso mantendo a alta qualidade e a integridade da marca.
+
+Ao utilizar a tecnologia de IA, o GenStudio fornece um conjunto abrangente de ferramentas que simplificam as complexidades da criação e do gerenciamento de conteúdo para que os criadores possam se concentrar na inovação.
 
 ## Explorar os recursos do GenStudio
 
@@ -28,7 +30,7 @@ Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a cria
          </a>
       </div>
       <p>
-         <em>Solicitações de artesanato com idioma descritivo, ativos de marca e outros critérios.</em>
+         <em>Prompts descritivos de artesanato que geram experiências digitais da marca.</em>
       </p>
    </td>
    <td valign="top">
@@ -41,7 +43,7 @@ Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a cria
          </a>
       </div>
       <p>
-         <em>Crie imagens e conteúdo com desempenho na marca.</em>
+         <em>Crie emails e Metadados de marca com desempenho.</em>
       </p>
    </td>
    <td valign="top">
@@ -54,7 +56,7 @@ Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a cria
          </a>
       </div>
       <p>
-         <em>Revise e aprove os componentes da campanha e os ativos da marca.</em>
+         <em>Orquestrar a revisão e aprovação simplificadas de ativos de marketing.</em>
       </p>
    </td>
    <td valign="top">
@@ -80,7 +82,7 @@ Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a cria
          </a>
       </div>
       <p>
-         <em>Otimize o desempenho do conteúdo com base no uso em tempo real.</em>
+         <em>Analise a eficácia do conteúdo de canais de mídia paga.</em>
       </p>
    </td>
 </tr>
@@ -97,7 +99,7 @@ Com o GenStudio, as empresas podem aproveitar a IA gerativa para acelerar a cria
       </a>
    </div>
    <p>
-      <em>Saiba como adicionar diretrizes ao GenStudio.</em>
+      <em>Saiba como adicionar diretrizes — Marcas, Produtos e Personalidades — à GenStudio.</em>
    </p>
 </td>
 <td valign="top">

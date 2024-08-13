@@ -2,9 +2,9 @@
 title: Gravar prompts efetivos
 description: Saiba como escrever prompts efetivos para o GenStudio.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: d7de679ce310dcdcec4a1b5ea814b2ca8b1fc413
+source-git-commit: 5e17996ee3a86cf664ee468d6b9cf178c8853992
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 A comunicação com a IA gerativa é essencial para trabalhar com eficiência no GenStudio.
 
-O GenStudio fornece um prompt de IA gerativo sempre que há uma oportunidade de criar ou modificar um ativo. Os componentes de um prompt efetivo devem incluir linguagem descritiva, exemplos e informações não fornecidas através das diretrizes configuradas.
+O GenStudio fornece um prompt de IA generativo sempre que há uma oportunidade de modificar um ativo. Os componentes de um prompt efetivo devem incluir linguagem descritiva, exemplos e informações não fornecidas através das diretrizes configuradas.
 
-Como prática recomendada, forneça à GenStudio as informações da sua marca usando as [diretrizes](/help/user-guide/guidelines/overview.md), para que você possa aproveitar ao máximo a IA gerativa para produzir conteúdo alinhado à marca.
+Como prática recomendada, forneça à GenStudio as informações da sua marca usando as [diretrizes](/help/user-guide/guidelines/overview.md) e, em seguida, você poderá aproveitar totalmente a IA gerativa para produzir experiências de conteúdo alinhadas à marca.
 
 ## Linguagem descritiva
 
