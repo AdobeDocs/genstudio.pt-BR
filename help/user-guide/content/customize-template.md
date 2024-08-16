@@ -1,11 +1,11 @@
 ---
 title: Personalizar modelos
-description: Saiba como criar um modelo personalizado para o GenStudio.
+description: Saiba como criar um modelo personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9cf7da078e84cf7696f32ca2278aa71b7b1b7cc
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,10 @@ ht-degree: 0%
 
 # Personalizar modelos
 
-Adapte seus modelos de HTML para o GenStudio usando a linguagem de modelo _Handlebars_. A sintaxe Handlebars usa texto regular com chaves duplas como espaços reservados para o conteúdo. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) no _Guia de linguagem do Handlebars_ para saber como preparar seu modelo.
+Adapte seus modelos de HTML para o Adobe GenStudio para profissionais de marketing de desempenho usando a linguagem de modelo _Handlebars_. A sintaxe Handlebars usa texto regular com chaves duplas como espaços reservados para o conteúdo. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) no _Guia de linguagem do Handlebars_ para saber como preparar seu modelo.
 
 <!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+-->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
 
 ```html
 <!DOCTYPE html>
@@ -35,11 +35,11 @@ Consulte [Exemplos de modelo](#template-examples).
 
 >[!TIP]
 >
->Nas próximas seções, adicione espaços reservados para o conteúdo de campos de email. Consulte exemplos de modelos, oculte elementos desnecessários da pré-visualização e gerencie links para conteúdo estático. Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
+>Nas próximas seções, adicione espaços reservados para o conteúdo de campos de email. Consulte exemplos de modelos, oculte elementos desnecessários da pré-visualização e gerencie links para conteúdo estático. Quando o modelo estiver pronto, você poderá [carregá-lo no GenStudio para Profissionais de marketing de desempenho](use-templates.md#upload-a-template) e começar a gerar emails personalizados com base no modelo personalizado.
 
 ## Espaços reservados de conteúdo
 
-Dentro do cabeçalho ou do corpo de um modelo, você pode usar a sintaxe Handlebars para inserir espaços reservados de conteúdo, nos quais é necessário que o GenStudio preencha o modelo com conteúdo real. O GenStudio reconhece e interpreta automaticamente os espaços reservados de conteúdo com base no nome do campo.
+No cabeçalho ou no corpo de um modelo, você pode usar a sintaxe Handlebars para inserir espaços reservados de conteúdo, em que é necessário que o GenStudio for Performance Marketers preencha o modelo com conteúdo real. O GenStudio para profissionais de marketing de desempenho reconhece e interpreta automaticamente os espaços reservados para conteúdo com base no nome do campo.
 
 Por exemplo, você pode usar `{{ headline }}` para indicar onde o título do email deve ser colocado:
 
@@ -53,7 +53,7 @@ O número máximo de campos permitidos em um modelo personalizado é vinte.
 
 #### Nomes de campo reconhecidos
 
-A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para preenchimento em modelos.
+A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para profissionais de marketing de desempenho para preenchimento de modelos.
 
 | Texto | Função | Modelo de canal |
 | -------------- | ---------------------- | -------------------- |
@@ -65,7 +65,7 @@ A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para preen
 | `image` | Imagem | email (recomendado)<br>Meta-anúncio (recomendado) |
 | `brand_logo` | Logotipo da marca selecionada | email<br>Meta-anúncio |
 
-O GenStudio preenche automaticamente determinados campos em modelos, portanto, não é necessário incluí-los em seus designs de modelo:
+O GenStudio para profissionais de marketing de desempenho preenche automaticamente determinados campos em modelos, portanto, não é necessário incluí-los em seus designs de modelo:
 
 * Campo `subject` (modelo de email)
 * Campos `headline`, `body` e `CTA` (Modelo de metadados)
@@ -106,7 +106,7 @@ _Exemplo_: ``{{customVariable}}`` (`customVariable` é a seção editável manua
 
 ## Seções ou grupos
 
-_As seções_ informam à GenStudio que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
+_As Seções_ informam ao GenStudio para Profissionais de marketing de desempenho que os campos desta seção exigem um alto grau de coerência. O estabelecimento dessa relação ajuda a IA a gerar conteúdo que corresponde aos elementos criativos na seção.
 
 Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo.
 
@@ -126,13 +126,13 @@ Um modelo pode incluir até três seções:
 * `news_headline`
 * `news_body`
 
-A GenStudio entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
+O GenStudio para Comerciantes de Desempenho entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
 
 ## Exemplos de modelo
 
 +++Exemplo: modelo de email com uma seção
 
-Este é um exemplo básico de um modelo de HTML para um email que contém uma seção. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um `pre-header`, `headline`, e `image` [espaço reservado](#content-placeholders) para uso do GenStudio para inserir conteúdo durante o processo de geração de email.
+Este é um exemplo básico de um modelo de HTML para um email que contém uma seção. O cabeçalho contém CSS simples e em linha para estilo. O corpo contém um `pre-header`, `headline`, e `image` [espaço reservado](#content-placeholders) para uso do GenStudio for Performance Marketers para inserir conteúdo durante o processo de geração de email.
 
 ```handlebars {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
@@ -293,9 +293,9 @@ Outro exemplo pode ser impedir o uso de códigos de rastreamento ao visualizar u
 
 ## Conteúdo estático
 
-Os modelos de email e meta geralmente vinculam a imagens e arquivos CSS hospedados fora do GenStudio. Quando o GenStudio gera miniaturas para esses modelos ou as experiências derivadas deles, ele pode ignorar esses recursos externos se eles não tiverem os cabeçalhos corretos do CORS (Cross-Origin Resource Sharing, Compartilhamento de recursos entre origens).
+Os modelos de email e meta geralmente vinculam a imagens e arquivos CSS hospedados fora do GenStudio para profissionais de marketing de desempenho. Quando o GenStudio para profissionais de marketing de desempenho gera miniaturas para esses modelos ou as experiências derivadas deles, ele pode ignorar esses recursos externos se não tiverem os cabeçalhos corretos do CORS (Cross-Origin Resource Sharing, Compartilhamento de recursos entre origens).
 
 Para garantir que esses recursos estejam disponíveis durante o processo de geração de miniaturas, considere duas opções:
 
-1. **Usar cabeçalhos CORS**: o servidor host deve enviar respostas com um cabeçalho `Access-Control-Allow-Origin` definido como valor `https://experience.adobe.com` para ambientes de produção. Esse método permite que o GenStudio acesse e inclua os recursos.
+1. **Usar cabeçalhos CORS**: o servidor host deve enviar respostas com um cabeçalho `Access-Control-Allow-Origin` definido como valor `https://experience.adobe.com` para ambientes de produção. Esse método permite que os profissionais de marketing de desempenho do GenStudio acessem e incluam os recursos.
 1. **Usar URLs de Dados**: Incorpore os recursos externos diretamente no modelo usando URLs de Dados. Esse método ignora as restrições do CORS e garante que os recursos estejam disponíveis durante a geração de miniaturas.

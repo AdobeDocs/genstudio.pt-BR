@@ -1,9 +1,9 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
-source-git-commit: cbae3aeb1b8282fb64f2a6405a7ad9e07a48dbbd
+source-git-commit: 75d966e8474687e8e88ccec6fe6a96fda030dbcf
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 
-Essas notas destacam correções de Adobe GenStudio e aprimoramentos significativos para a semana que terminou em 16 de agosto.
+Essas notas destacam o Adobe GenStudio significativo para correções e aprimoramentos de profissionais de marketing de desempenho para a semana que terminou em 16 de agosto.
 
 ## Destaques
 
@@ -26,8 +26,6 @@ O painel de validação [!DNL Brand] foi aprimorado para melhorar a experiência
 * **Interface de extração de marca atualizada**: a extração de marca agora mostra a conclusão do processo de extração como uma porcentagem.
 
 * **Carregamento incremental de marca durante a extração**: as diretrizes de marca agora são carregadas de forma incremental na interface do usuário.
-
-* **Simplificação do esquema de Diretriz de Cópia**: os campos `unique attributes` e `frequent keywords` foram removidos do esquema de Diretriz de Cópia, simplificando o processo de configuração de diretriz.
 
 ### [!DNL Create]
 
@@ -57,19 +55,8 @@ Esta versão inclui as seguintes correções adicionais.
 
 Os seguintes problemas conhecidos serão resolvidos pela versão do GenStudio for Performance Marketers GA.
 
-### Analytics
-
-* As ações acionadas pelos botões **[!UICONTROL Adicionar modelos]** e **[!UICONTROL Carregar]** não são rastreadas no momento. <!-- GS-3505 -->
-
 ### [!DNL Insights]
 
 * Vídeos não podem ser reproduzidos do _Assets_. <!-- GS-3846 -->
 
 * Os usuários devem fazer logon duas vezes quando também estiverem conectados à Facebook. **Solução alternativa**: saia da Facebook antes de fazer logon em [!DNL Insights].
-
-* **Os valores de gastos no nível da campanha** não são precisos. No momento, os dados não são consistentes entre o Facebook Ads Manager e o data lake. <!-- GS-3202 -->
-
-### [!DNL Reviews and Approvals]
-
-* Os criadores podem alterar os ativos após a aprovação antes da publicação. Os aprovadores não são notificados sobre essas alterações.
-

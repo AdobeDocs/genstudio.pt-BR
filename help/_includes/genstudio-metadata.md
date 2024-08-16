@@ -1,20 +1,20 @@
 ---
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 6%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
-# Campos de metadados do GenStudio
+# GenStudio para campos de metadados de profissionais de marketing de desempenho
 
 <!-- copied this table right into the topic bc was having trouble with snippet injection error -->
 
 | Texto | Descrição | Pode editar | Obrigatório |
 | ------------- | ----------- | -------- |
 | Nome da campanha (nome do projeto) | Metadados padrão capturados e armazenados com o ativo | Y | N |
-| Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio e publicado para uso. | Y | N |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para uso. | Y | N |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md). adicionado ao GenStudio para uso. | Y | N |
+| Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio para profissionais de marketing de desempenho e publicado para uso. | Y | N |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso. | Y | N |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md). adicionado ao GenStudio para profissionais de marketing de desempenho para uso. | Y | N |
 | Canais | Tipos de conteúdo no GenStudio para os quais o ativo é usado, como email e Metadados. | Y | N |
 | Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` | Y | N |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` | Y | N |

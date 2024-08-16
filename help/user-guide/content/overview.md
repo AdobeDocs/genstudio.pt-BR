@@ -1,18 +1,18 @@
 ---
-title: Visão geral de  [!DNL Content]
+title: Visão geral do Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content]
 description: Saiba como localizar, editar, reutilizar e compartilhar ativos aprovados pela marca em um portal intuitivo.
 feature: Attributes, Content, Templates
-source-git-commit: 4192f4a34c30267a2556874fed2e5bc5b300c227
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '285'
 ht-degree: 1%
 
 ---
 
 
-# GenStudio [!DNL Content]
+# Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content]
 
-O GenStudio [!DNL Content] fornece um local central para armazenar, localizar e compartilhar todos os ativos, experiências e modelos aprovados pela marca. Você pode editar e remixar conteúdo, obter insights sobre o uso e o sentimento de conteúdo, além de atualizar e redefinir os ativos existentes usando IA gerativa.
+O GenStudio para profissionais de marketing de desempenho [!DNL Content] fornece um local central para armazenar, localizar e compartilhar todos os ativos, experiências e modelos aprovados pela marca. Você pode editar e remixar conteúdo, obter insights sobre o uso e o sentimento de conteúdo, além de atualizar e redefinir os ativos existentes usando IA gerativa.
 
 ## Casos de uso do [!DNL Content]
 
@@ -65,15 +65,15 @@ O GenStudio [!DNL Content] fornece um local central para armazenar, localizar e 
 
 ## Recursos do [!DNL Content]
 
-O GenStudio [!DNL Content] facilita o gerenciamento de ativos aprovados e acelera o ciclo de vida do conteúdo. No **[!UICONTROL [!DNL Content]]**, você pode pesquisar, localizar e reutilizar conteúdo com bom desempenho ou selecionar um ativo ou experiência para iniciar rapidamente a criação de novas variantes para uma campanha permanente.
+O GenStudio para profissionais de marketing de desempenho [!DNL Content] facilita o gerenciamento de ativos aprovados e acelera o ciclo de vida do conteúdo. No **[!UICONTROL [!DNL Content]]**, você pode pesquisar, localizar e reutilizar conteúdo com bom desempenho ou selecionar um ativo ou experiência para iniciar rapidamente a criação de novas variantes para uma campanha permanente.
 
-### Upload de ativos
+### Faça upload de ativos
 
 O painel **[!UICONTROL Adicionar ativos]** permite que você arraste e solte ou procure ativos em seus arquivos locais. Como opção, você pode importar ativos de uma fonte externa, como o OneDrive ou o Dropbox. Um [!UICONTROL Campaign] ou nome de Projeto é o único detalhe necessário antes do carregamento. Fornecer mais detalhes, como palavras-chave, permite que todos na sua equipe identifiquem e recuperem conteúdo relevante rapidamente.
 
 ### Pesquisar e localizar conteúdo aprovado
 
-Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados avançados, o contexto de geração e o histórico de auditoria. Os detalhes do ativo ajudam a restringir os resultados da pesquisa rapidamente usando filtros e sequências de pesquisa. A IA do GenStudio identifica e armazena automaticamente determinados detalhes, como cor. A pesquisa de `blue` no campo de pesquisa restringe a lista de conteúdo aos ativos marcados como azul.
+Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados avançados, o contexto de geração e o histórico de auditoria. Os detalhes do ativo ajudam a restringir os resultados da pesquisa rapidamente usando filtros e sequências de pesquisa. A IA do GenStudio para profissionais de marketing de desempenho identifica e armazena automaticamente determinados detalhes, como cores. A pesquisa de `blue` no campo de pesquisa restringe a lista de conteúdo aos ativos marcados como azul.
 
 ### Trabalhar com modelos
 

@@ -1,10 +1,10 @@
 ---
 title: Detalhes do ativo
-description: O GenStudio armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
+description: O Adobe GenStudio para profissionais de marketing de desempenho armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '428'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Detalhes do ativo
 
-O GenStudio armazena conteúdo aprovado com metadados avançados para detecção e rastreamento de desempenho.
+O Adobe GenStudio para profissionais de marketing de desempenho armazena conteúdo aprovado com metadados avançados para detecção e rastreamento de desempenho.
 
 Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) que ajudam a identificar, rastrear, usar e aprender com o desempenho do conteúdo.
 
@@ -26,7 +26,7 @@ Os metadados padrão armazenados e capturados para um ativo incluem o nome do ar
 
 ### Tags geradas
 
-Quando os ativos são aprovados e armazenados no [!DNL Content], a GenStudio usa a IA de Adobe e os recursos de aprendizado de máquina para gerar tags com base nos recursos do ativo, como cor e tom ou palavras-chave que identificam os recursos do ativo. Não é possível editar tags.
+Quando os ativos são aprovados e armazenados no [!DNL Content], o GenStudio for Performance Marketing utiliza a IA do Adobe e os recursos de aprendizado de máquina para gerar tags com base nos recursos do ativo, como cor e tom ou palavras-chave que identificam os recursos do ativo. Não é possível editar tags.
 
 ### Metadados de conteúdo gerados
 
@@ -36,7 +36,7 @@ As informações usadas para gerar um novo ativo ou experiência se tornam metad
 
 Os metadados definidos pelo usuário adicionam contexto de marketing ao conteúdo do ativo, permitindo que os profissionais de marketing entendam melhor como usar e se envolver com o ativo.
 
-Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo que existem no GenStudio como metadados.
+Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo existentes no GenStudio para profissionais de marketing de desempenho como metadados.
 
 ### Detalhes de metadados
 
@@ -45,10 +45,10 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | Texto | Descrição | Editável | Obrigatório |
 | ------------- | ----------- | -------- | -------- |
 | Nome da campanha (nome do projeto) | Metadados padrão capturados e armazenados com o ativo | Y | N |
-| Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio e publicado para uso | Y | N |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para uso | Y | N |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para uso | Y | N |
-| Canais | Tipos de conteúdo no GenStudio para os quais o ativo é usado, como email e Metadados | Y | N |
+| Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio para profissionais de marketing de desempenho e publicado para uso | Y | N |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso | Y | N |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso | Y | N |
+| Canais | Tipos de conteúdo no GenStudio para profissionais de marketing de desempenho para os quais o ativo é usado, como email e Meta ads | Y | N |
 | Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` | Y | N |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` | Y | N |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` | Y | N |

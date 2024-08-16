@@ -1,12 +1,12 @@
 ---
-title: Adicionar diretrizes ao GenStudio
-description: Saiba como adicionar diretrizes—[!DNL Brands], [!DNL Products] e [!DNL Personas]—no Adobe [!DNL GenStudio].
+title: Adicionar diretrizes ao Adobe GenStudio para profissionais de marketing de desempenho
+description: Saiba como adicionar diretrizes—[!DNL Brands], [!DNL Products] e [!DNL Personas]—no Adobe GenStudio para Profissionais de marketing de desempenho.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # Adicionar diretrizes
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md) são Diretrizes definidas pelo usuário no GenStudio que garantem que qualquer conteúdo gerado pela IA seja personalizado para alinhar-se à identidade da marca, permitindo a personalização eficaz do conteúdo.
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md) são diretrizes definidas pelo usuário no GenStudio para profissionais de marketing de desempenho que garantem que qualquer conteúdo gerado por IA seja personalizado para alinhar-se à identidade da marca, permitindo uma personalização eficiente do conteúdo.
 
-Consulte a [visão geral das diretrizes do GenStudio](/help/user-guide/guidelines/overview.md).
+Consulte a [visão geral das diretrizes](/help/user-guide/guidelines/overview.md).
 
-Adicionar diretrizes ao GenStudio é uma etapa importante no processo de criação. As diretrizes informam o processo de criação de conteúdo, juntamente com prompts definidos pelo usuário e tecnologia de IA gerativa Adobe, para criar ativos impactantes.
+Adicionar diretrizes ao GenStudio para profissionais de marketing de desempenho é uma etapa importante no processo de criação. As diretrizes informam o processo de criação de conteúdo, juntamente com prompts definidos pelo usuário e tecnologia de IA gerativa Adobe, para criar ativos impactantes.
 
 ## Adicionar [!DNL Brands]
 
-Para adicionar uma marca à GenStudio, você pode [carregar um guia de marca](#upload-brand-guidelines) ou [criar uma marca manualmente](#manually-add-brand) selecionando diretrizes e inserindo os detalhes da sua marca. [Publish uma marca](#publish-brand) para [!DNL Content] para torná-la disponível para uso na geração futura de conteúdo.
+Para adicionar uma marca ao GenStudio para Profissionais de marketing de desempenho, você pode [carregar um guia de marca](#upload-brand-guidelines) ou [criar uma marca manualmente](#manually-add-brand) selecionando diretrizes e inserindo detalhes da sua marca. [Publish uma marca](#publish-brand) para [!DNL Content] para torná-la disponível para uso na geração futura de conteúdo.
 
 Na área de navegação esquerda, clique em **[!DNL Brands]**. No painel _[!DNL Brands]_, selecione **Adicionar marca**.
 
 ### Adicionar marca por upload
 
-Você pode fazer upload de seus próprios documentos de marca para preencher uma nova marca no GenStudio.
+Você pode fazer upload de seus próprios documentos de marca para preencher uma nova marca no GenStudio para profissionais de marketing de desempenho.
 
 Consulte [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
@@ -41,13 +41,13 @@ Consulte [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 1. Selecione **[!UICONTROL Adicionar marca]**.
 
-Usando a tecnologia de IA gerativa Adobe, a GenStudio extrai informações de seus documentos carregados e começa a criar sua marca. As informações da marca, como voz da marca, canal e diretrizes de imagem, são preenchidas à medida que a GenStudio monta cada diretriz dos documentos da marca.
+Usando a tecnologia de IA gerativa Adobe GenStudio, os profissionais de marketing de desempenho extrai informações de seus documentos carregados e começam a criar sua marca. As informações da marca, como voz da marca, canal e diretrizes de imagem, são exibidas à medida que o GenStudio para profissionais de marketing de desempenho monta cada diretriz dos documentos da marca.
 
 Um pop-up o lembrará de revisar o conteúdo extraído antes de [publicar a marca](#publish-brand).
 
 ### Adicionar marca manualmente
 
-Você pode adicionar detalhes da marca manualmente, em vez de carregar documentos de marcas existentes, para preencher uma nova [marca](brands.md) no GenStudio.
+Você pode adicionar detalhes da marca manualmente, em vez de carregar documentos de marca existentes, para preencher uma nova [marca](brands.md) no GenStudio para profissionais de marketing de desempenho.
 
 **Para adicionar manualmente uma marca**:
 
@@ -66,7 +66,7 @@ Você pode adicionar detalhes da marca manualmente, em vez de carregar documento
 
 Para ver o [!DNL Brands] criado, clique na seta para trás próximo à parte superior do painel _Marca_ para navegar de volta à página inicial do _[!DNL Brands]_.
 
-Não é necessário [publicar](#publish-brand) sua marca para tornar as informações acessíveis. Qualquer informação adicionada manualmente fica disponível imediatamente após ser adicionada. Para que outras pessoas na sua organização usem as informações da marca no GenStudio, você deve publicá-las.
+Não é necessário [publicar](#publish-brand) sua marca para tornar as informações acessíveis. Qualquer informação adicionada manualmente fica disponível imediatamente após ser adicionada. Para que outras pessoas na sua organização usem as informações da marca no GenStudio para profissionais de marketing de desempenho, você deve publicá-las.
 
 ### marca Publish
 
@@ -74,7 +74,7 @@ Antes de publicar sua marca, clique nas seções _Diretrizes de voz da marca_, _
 
 **Para publicar a marca**:
 
-1. Selecione **[!UICONTROL Publish]**.
+1. Selecione **[!UICONTROL Publicar]**.
 
    No pop-up da _marca Publish_, verifique quem tem acesso (para visualizar e usar) à marca publicada.
 
@@ -94,7 +94,7 @@ Na página inicial de _[!DNL Brands]_, você pode clicar em **abrir uma marca j�
 
 ## Adicionar [!DNL Products]
 
-Você pode adicionar [!DNL Products] no GenStudio para especificar áreas de foco de produto individuais ao criar conteúdo. <!-- Add Rename, display, reposition functionality -->
+Você pode adicionar [!DNL Products] no GenStudio para profissionais de marketing de desempenho para especificar áreas de foco de produto individuais ao criar conteúdo. <!-- Add Rename, display, reposition functionality -->
 
 Consulte [[!DNL Products]](products.md).
 
@@ -121,7 +121,7 @@ Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**j�
 
 ## Adicionar [!DNL Personas]
 
-Você pode adicionar um [!DNL Persona] no GenStudio para ajudar a direcionar o conteúdo que você cria para o seu público-alvo ideal.
+Você pode adicionar um [!DNL Persona] no GenStudio para profissionais de marketing de desempenho para ajudar a direcionar o conteúdo que você cria para seu público-alvo ideal.
 
 Consulte [[!DNL Personas]](personas.md).
 

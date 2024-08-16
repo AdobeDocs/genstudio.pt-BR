@@ -2,9 +2,9 @@
 title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: ba7dced9e62f797cd43a0bd8d8263828ec5c3d5e
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar ativos e experiências
 
-O GenStudio [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
+O Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 
 ## Adicionar ativos
 
@@ -26,11 +26,11 @@ O GenStudio [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprov
 
 1. Para melhorar a descoberta, adicione detalhes opcionais, como _Marca_, _Personas_, _Região_ e _Palavras-chave_, na seção **Mais detalhes**.
 
-   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
+   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio para profissionais de marketing de desempenho. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
 
    Todos os detalhes adicionados se aplicam a todos os ativos adicionados nesta ação.
 
-   Consulte [detalhes de metadados](/help/user-guide/content/asset-details.md#genstudio-metadata).
+   Consulte [detalhes de metadados](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Clique em **[!UICONTROL Adicionar ativos]**.
 1. Quando o carregamento do ativo for concluído, clique em **Concluído**.
@@ -59,7 +59,3 @@ Aplique filtros e use tags de metadados dos detalhes do ativo para restringir os
 1. Selecione um ativo para obter uma visualização completa e uma lista de detalhes.
 
    Clique em **[!UICONTROL Baixar]** (seta para baixo) para usar o ativo na sua estação de trabalho local.
-
-<!-- 
-There is more here, but not ready yet.
--->

@@ -1,27 +1,27 @@
 ---
-title: Preparar um modelo de meta anúncios para o GenStudio
-description: Saiba como criar um modelo de meta anúncio personalizado para o GenStudio.
+title: Preparar um modelo de meta anúncios para o Adobe GenStudio para profissionais de marketing de desempenho
+description: Saiba como criar um modelo de metadados personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 31f02218e02b1400ca9f32472acdecae03dbd304
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 
-# Preparar modelo de meta anúncios para o GenStudio
+# Preparar modelo de meta anúncios para o Adobe GenStudio para profissionais de marketing de desempenho
 
-A criação de um modelo de meta anúncios envolve uma abordagem estruturada e personalizada para redes sociais. Depois que um modelo de meta anúncio for criado e testado, você poderá prepará-lo para upload e uso no GenStudio.
+A criação de um modelo de meta anúncios envolve uma abordagem estruturada e personalizada para redes sociais. Depois que um modelo de meta anúncio for criado e testado, você poderá prepará-lo para upload e uso no GenStudio para profissionais de marketing de desempenho.
 
 ## Adicionar diretrizes
 
-Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio e as preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
+Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio para profissionais de marketing de desempenho e se preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
 
 **Exemplo**: se você quiser que o corpo de um modelo de Metadados não tenha mais de 500 caracteres, adicione esse requisito às [diretrizes de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para o campo &quot;corpo&quot;.
 
-Se as diretrizes não forem adicionadas ao GenStudio, os padrões serão usados.
+Se as diretrizes não forem adicionadas ao GenStudio para profissionais de marketing de desempenho, os padrões serão usados.
 
 ## Criar um modelo
 
@@ -31,13 +31,13 @@ Consulte [Anatomia de um modelo](/help/user-guide/content/use-templates.md#anato
 
 ### Especificações de publicidade
 
-A GenStudio aceita estas taxas de proporção para Meta anúncios:
+O GenStudio para profissionais de marketing de desempenho aceita estas taxas de aspecto para Meta ads:
 
 * Quadrado (1:1): 1080 x 1080 pixels
 * Vertical (4:5): 1080 x 1350 pixels
 * História (9:16): 1080 x 1920 pixels
 
-Se o anúncio não for projetado em uma dessas taxas de aspecto, o GenStudio corta automaticamente a imagem no tamanho apropriado.
+Se o anúncio não for projetado em uma dessas taxas de aspecto, o GenStudio para profissionais de marketing de desempenho recortará automaticamente a imagem no tamanho apropriado.
 
 ## Testar um modelo de meta-anúncio
 
@@ -47,11 +47,11 @@ Use sua plataforma de entrega ou prova de email para testar seu email e verifica
 
 ## Definir áreas de conteúdo gerado
 
-Defina as áreas no seu modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio.
+Defina as áreas no modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio para profissionais de marketing de desempenho.
 
 Para definir áreas de conteúdo geradas:
 
-* Identifique os elementos de texto no modelo que o GenStudio deve gerar automaticamente, como o título ou o CTA.
+* Identifique os elementos de texto no modelo que o GenStudio para profissionais de marketing de desempenho devem gerar automaticamente, como o título ou o CTA.
 * Adapte o modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handblebars.
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders).
@@ -64,6 +64,6 @@ Consulte [Visualização do modelo](/help/user-guide/content/customize-template.
 
 ## Fazer upload e usar modelo
 
-Depois que seu modelo for projetado, codificado, testado e visualizado, você poderá carregá-lo no GenStudio para uso na geração de conteúdo de marketing totalmente novo.
+Depois que seu modelo for criado, codificado, testado e visualizado, você poderá carregá-lo no GenStudio para profissionais de marketing de desempenho para uso na geração de conteúdo de marketing totalmente novo.
 
 Consulte [Trabalhando com modelos](use-templates.md).

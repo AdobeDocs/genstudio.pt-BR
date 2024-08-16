@@ -2,9 +2,9 @@
 title: Aprovar conteúdo
 description: Saiba como aprovar conteúdo.
 feature: Approval
-source-git-commit: 0d6eff35e66d3657aa4f5fda65f91f0caab4a7e1
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ Se o rascunho de conteúdo atender aos padrões da sua organização e às suas 
 
 1. Altere o status de rascunho de **Precisa trabalhar** para **Aprovado**.
 
-Seu trabalho como aprovador foi concluído. O GenStudio alerta o criador de rascunho da sua aprovação. Consulte [conteúdo do Publish](./publish-content.md) para obter uma visão geral do processo de salvar em [!DNL Content] ou _publicação_.
+Seu trabalho como aprovador foi concluído. O GenStudio para profissionais de marketing de desempenho alerta o criador de rascunho da sua aprovação. Consulte [conteúdo do Publish](./publish-content.md) para obter uma visão geral do processo de salvar em [!DNL Content] ou _publicação_.
 

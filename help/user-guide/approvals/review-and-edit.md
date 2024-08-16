@@ -2,9 +2,9 @@
 title: Revisar e editar conteúdo
 description: Saiba como revisar e editar o conteúdo interativamente.
 feature: Approval
-source-git-commit: c8fa0cf1633a5ca0ab94d9a0f33d9b7e7d6d61ed
+source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Processos de revisão e aprovação que envolvem vários revisores podem ser demorados. O ciclo de revisão de conteúdo, revisão de conteúdo em resposta a comentários de revisão e, em seguida, revisão do conteúdo alterado novamente pode se repetir várias vezes.
 
-Os recursos de IA gerativa da GenStudio aceleram essas fases iterativas críticas do processo de criação e revisão de conteúdo. Os criadores de conteúdo podem responder às solicitações do revisor usando recursos de prompt para editar rascunhos rapidamente. As notificações no produto notificam imediatamente os revisores que o rascunho foi revisado e podem revisar as alterações. Quanto mais revisores e ciclos de revisão forem necessários para o desenvolvimento de conteúdo, maiores serão as vantagens oferecidas pelo GenStudio.
+Os recursos de IA gerativa do GenStudio for Performance Marketing aceleram essas fases iterativas críticas do processo de criação e revisão de conteúdo. Os criadores de conteúdo podem responder às solicitações do revisor usando recursos de prompt para editar rascunhos rapidamente. As notificações no produto notificam imediatamente os revisores que o rascunho foi revisado e podem revisar as alterações. Quanto mais revisores e ciclos de revisão o desenvolvimento de conteúdo exigir, maiores serão as vantagens oferecidas pelo GenStudio para profissionais de marketing de desempenho.
 
 ## Edição iterativa de rascunho
 
@@ -24,7 +24,7 @@ Os criadores podem fazer edições em andamento no conteúdo em resposta aos com
 
 Como um aprovador designado, você pode acessar o conteúdo que deve ser revisado e aprovado de várias maneiras:
 
-* **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho na notificação por email da solicitação de aprovação ou na notificação no produto. O GenStudio abre uma Tela que exibe o ativo ou a experiência. O painel esquerdo de detalhes do _Ativo_ inclui um painel _Aprovação_.
+* **Acesse o rascunho para revisão diretamente do link de rascunho na solicitação de aprovação**. Clique no link de rascunho na notificação por email da solicitação de aprovação ou na notificação no produto. O GenStudio para profissionais de marketing de desempenho abre uma tela que exibe o ativo ou a experiência. O painel esquerdo de detalhes do _Ativo_ inclui um painel _Aprovação_.
 
 * **Acesse o rascunho para revisão a partir da lista de solicitações de aprovação**. Se for solicitado que você revise vários rascunhos de conteúdo, seu email de notificação incluirá o botão **[!UICONTROL Exibir todas as notificações]**. Clique neste botão para navegar para uma página que exibe todas as suas solicitações de revisão pendentes.
 
@@ -34,7 +34,7 @@ Você pode aprovar o conteúdo se tiver recebido um email de solicitação de ap
 
 **Para examinar o conteúdo**:
 
-1. Use o link na notificação em produção ou solicite o email para navegar até o conteúdo para revisão. O GenStudio exibe a Tela de conteúdo.
+1. Use o link na notificação em produção ou solicite o email para navegar até o conteúdo para revisão. O GenStudio para profissionais de marketing de desempenho exibe a tela de conteúdo.
 
 1. A Tela de ativos inclui o botão **[!UICONTROL Revisar e aprovar]** no canto superior direito. Clique neste botão para abrir o painel _Aprovações_ para este ativo.
 
@@ -42,7 +42,7 @@ Você pode aprovar o conteúdo se tiver recebido um email de solicitação de ap
 
 Você pode listar as alterações sugeridas ou fazer perguntas sobre o rascunho no painel _Aprovação_ do conteúdo. O status de rascunho **Precisa trabalhar** notifica o criador do conteúdo de que as alterações são solicitadas.
 
-Esse processo de revisar, sugerir edições ao criador do conteúdo e, em seguida, revisar o conteúdo e reenviar para aprovação é altamente iterativo. É nessa parte do ciclo que você vê as capacidades de economizar tempo do GenStudio.
+Esse processo de revisar, sugerir edições ao criador do conteúdo e, em seguida, revisar o conteúdo e reenviar para aprovação é altamente iterativo. É nessa parte do ciclo que você vê as capacidades de economia de tempo do GenStudio para profissionais de marketing de desempenho.
 
 **Para solicitar alterações**:
 
