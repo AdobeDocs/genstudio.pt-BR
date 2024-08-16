@@ -1,9 +1,9 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio.
-source-git-commit: 382026b07e123a1e49813b766f69496f6a8f38eb
+source-git-commit: 5505e3fdc78e217dd1eb73ed5bffa5e43d4f3084
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -28,8 +28,6 @@ O painel de validação de marca foi aprimorado para melhorar a experiência do 
 * _Carregamento incremental de marca durante a extração_: as diretrizes de marca agora são carregadas de forma incremental na interface do usuário.
 
 * _Simplificação do esquema de Diretriz de Cópia_: os campos `unique attributes` e `frequent keywords` foram removidos do esquema de Diretriz de Cópia, simplificando o processo de configuração de diretriz.
-
-* _Geração de imagem: Seleção de categoria_: os usuários agora podem selecionar as diretrizes de imagem específicas para suas necessidades de regeneração de imagem.
 
 ### Criar
 
@@ -63,22 +61,15 @@ Os seguintes problemas conhecidos serão resolvidos pela versão do GenStudio fo
 
 * As ações acionadas pelos botões **[!UICONTROL Adicionar modelos]** e **[!UICONTROL Carregar]** não são rastreadas no momento. <!-- GS-3505 -->
 
-### Marca
-
-* Um criador pode publicar uma marca com sucesso, mas os membros da organização não podem ver a marca. <!-- XI-2197 -->
-
-### Criar
-
-* O recorte de imagem em Metadados é inconsistente. <!-- GS-3739 -->
-
-* Os modelos compostos de vários grupos de elementos de página falham na validação da marca. <!-- GS-4037 -->
-
 ### Insights
 
-* Erros de acesso negado ocorrem com o ponto de extremidade `/admin/addOffer` (serviço de provisionamento). **Resolvido em 12/08**. <!-- GS-4047 -->
+* Vídeos não podem ser reproduzidos do _Assets_. <!-- GS-3846 -->
+
+* Os usuários devem fazer logon duas vezes quando também estiverem conectados à Facebook. **Solução alternativa**: saia da Facebook antes de entrar no Insights.
 
 * **Os valores de gastos no nível da campanha** não são precisos. No momento, os dados não são consistentes entre o Facebook Ads Manager e o data lake. <!-- GS-3202 -->
 
 ### Revisões e aprovações
 
-* Os criadores podem alterar os ativos após a aprovação antes de publicá-los. Os aprovadores não são notificados sobre essas alterações.
+* Os criadores podem alterar os ativos após a aprovação antes da publicação. Os aprovadores não são notificados sobre essas alterações.
+
