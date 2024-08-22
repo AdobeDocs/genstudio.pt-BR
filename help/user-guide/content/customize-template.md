@@ -3,9 +3,9 @@ title: Personalizar modelos
 description: Saiba como criar um modelo personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 44390d551e638fcff47cff5844fcfda4ed9f98f3
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,7 @@ ht-degree: 0%
 
 Adapte seus modelos de HTML para o Adobe GenStudio para profissionais de marketing de desempenho usando a linguagem de modelo _Handlebars_. A sintaxe Handlebars usa texto regular com chaves duplas como espaços reservados para o conteúdo. Consulte [`What is Handlebars?`](https://handlebarsjs.com/guide/#what-is-handlebars) no _Guia de linguagem do Handlebars_ para saber como preparar seu modelo.
 
-<!-- This is for email. In the future, maybe use tabs to provide guidance for other template types.
--->If you do not have an HTML template ready to use in GenStudio for Performance Marketers, you can start by defining the structure of your email using HTML tags: `DOCTYPE`, `html`, `head`, and `body`. You can include CSS styles to customize the appearance of your email.
+Se você não tiver um modelo de HTML pronto para uso no GenStudio para Profissionais de marketing de desempenho, poderá começar definindo a estrutura do modelo usando as tags de HTML: `DOCTYPE`, `html`, `head` e `body`. Este é um template de email básico que inclui estilos CSS para personalizar a aparência:
 
 ```html
 <!DOCTYPE html>
@@ -30,8 +29,6 @@ Adapte seus modelos de HTML para o Adobe GenStudio para profissionais de marketi
 </body>
 </html>
 ```
-
-Consulte [Exemplos de modelo](#template-examples).
 
 >[!TIP]
 >
@@ -47,13 +44,11 @@ Por exemplo, você pode usar `{{ headline }}` para indicar onde o título do ema
 <div>{{ headline }}</div>
 ```
 
-### Nomes de campos
+### Nomes de campo reconhecidos
 
 O número máximo de campos permitidos em um modelo personalizado é vinte.
 
-#### Nomes de campo reconhecidos
-
-A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para profissionais de marketing de desempenho para preenchimento de modelos.
+A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para profissionais de marketing de desempenho para preenchimento em modelos.
 
 | Texto | Função | Modelo de canal |
 | -------------- | ---------------------- | -------------------- |
@@ -63,12 +58,12 @@ A tabela a seguir lista os nomes de campo reconhecidos pelo GenStudio para profi
 | `cta` | Chamada para ação | email (recomendado)<br>Meta-anúncio |
 | `on_image_text` | No texto da imagem | Meta-anúncio (recomendado) |
 | `image` | Imagem | email (recomendado)<br>Meta-anúncio (recomendado) |
-| `brand_logo` | Logotipo da marca selecionada | email<br>Meta-anúncio |
+| `brand_logo` | Logotipo da marca selecionada<br>Consulte [nome do campo](#brand-logo-field-name) para obter o uso recomendado. | email<br>Meta-anúncio |
 
 O GenStudio para profissionais de marketing de desempenho preenche automaticamente determinados campos em modelos, portanto, não é necessário incluí-los em seus designs de modelo:
 
-* Campo `subject` (modelo de email)
-* Campos `headline`, `body` e `CTA` (Modelo de metadados)
+- Campo `subject` (modelo de email)
+- Campos `headline`, `body` e `CTA` (Modelo de metadados)
 
 >[!WARNING]
 >
@@ -76,33 +71,31 @@ O GenStudio para profissionais de marketing de desempenho preenche automaticamen
 
 #### Nome do campo de logotipo da marca
 
-Para adicionar um logotipo de marca no modelo, use um dos métodos a seguir para renderizar o logotipo padrão.
+Os exemplos a seguir demonstram dois métodos que renderizam condicionalmente o logotipo da marca, verificam a origem, fornecem um logotipo padrão ou alternativo no caso do logotipo da marca não estar disponível e aplicam um estilo:
 
-_Exemplo_:
+_Exemplo_: na definição HTML `img src`
 
-```bash
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default image>{{/if}}" alt="WKND" style="max-width: 88px; margin: 10px auto; display: block;"> 
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;"> 
 ```
 
-_Exemplo_:
+_Exemplo_: em uma condição Handlebars
 
-```bash
+```handlebars
 {{#if brand_logo}}
-
-                    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{else}}
-
-                    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-
-                {{/if}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
 ```
 
 #### Nomes de campo manuais
 
-Todos os outros nomes de campo são tratados como campos preenchidos manualmente. Se quiser que uma seção seja editável, adicione colchetes duplos ao redor da seção que deseja editar.
+Todos os outros nomes de campo são tratados como campos preenchidos manualmente. Para criar uma seção editável, adicione colchetes duplos ao redor do nome da seção:
 
-_Exemplo_: ``{{customVariable}}`` (`customVariable` é a seção editável manualmente)
+```handlebars
+{{customVariable}}
+```
 
 ## Seções ou grupos
 
@@ -112,19 +105,19 @@ Use um prefixo de sua escolha no nome do campo para indicar que um campo faz par
 
 Por exemplo, talvez você queira destacar o conteúdo que aparece em uma área destacada:
 
-* `spotlight_headline`
-* `spotlight_body`
+- `spotlight_headline`
+- `spotlight_body`
 
 Cada seção pode ter apenas uma de cada tipo de campo. No exemplo acima, o prefixo `spotlight` só pode ter um campo `spotlight_headline`.
 
 Um modelo pode incluir até três seções:
 
-* `headline`
-* `body`
-* `spotlight_headline`
-* `spotlight_body`
-* `news_headline`
-* `news_body`
+- `headline`
+- `body`
+- `spotlight_headline`
+- `spotlight_body`
+- `news_headline`
+- `news_body`
 
 O GenStudio para Comerciantes de Desempenho entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
 
@@ -263,7 +256,6 @@ Este é um exemplo básico de um modelo de Meta-anúncio. O cabeçalho contém C
     <div class="ad-body">"{{ body }}"</div>
     <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
 </div>
-
 </body>
 </html>
 ```

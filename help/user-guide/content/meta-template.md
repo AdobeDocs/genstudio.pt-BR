@@ -3,9 +3,9 @@ title: Preparar um modelo de meta anúncios para o Adobe GenStudio para profissi
 description: Saiba como criar um modelo de metadados personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -52,18 +52,18 @@ Defina as áreas no modelo de email que devem ser preenchidas dinamicamente com 
 Para definir áreas de conteúdo geradas:
 
 * Identifique os elementos de texto no modelo que o GenStudio para profissionais de marketing de desempenho devem gerar automaticamente, como o título ou o CTA.
-* Adapte o modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handblebars.
+* Adapte seu modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handlebars.
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders).
 
 ## Pré-visualizar o modelo
 
-Controlar a visibilidade de áreas de conteúdo específicas utilizando Auxiliares integrados. Por exemplo, é possível incluir parâmetros de rastreamento para links em um modelo exportado, mantendo links de visualização limpos.
+Controle a visibilidade de áreas de conteúdo específicas com Auxiliares incorporados. Por exemplo, inclua parâmetros de rastreamento para links em um modelo exportado enquanto mantém links de visualização limpos.
 
 Consulte [Visualização do modelo](/help/user-guide/content/customize-template.md#template-preview).
 
 ## Fazer upload e usar modelo
 
-Depois que seu modelo for criado, codificado, testado e visualizado, você poderá carregá-lo no GenStudio para profissionais de marketing de desempenho para uso na geração de conteúdo de marketing totalmente novo.
+Depois que seu modelo for projetado, codificado, testado e visualizado, faça upload dele para o GenStudio para profissionais de marketing de desempenho para uso na geração de conteúdo de marketing totalmente novo.
 
 Consulte [Trabalhando com modelos](use-templates.md).
