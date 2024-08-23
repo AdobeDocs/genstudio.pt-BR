@@ -1,7 +1,7 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
-source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
+source-git-commit: 44cee6fa5b543372b1264745dd42ca6d3c754ec5
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 
 * O menu suspenso Área de prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
 
-## Versões beta anteriores
+## Versões anteriores do Beta
 
-As versões anteriores da versão beta incluíam os seguintes destaques e correções.
+As versões anteriores do Beta incluíam os seguintes destaques e correções.
 
 ### Destaques
 
