@@ -1,7 +1,7 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
-source-git-commit: 44cee6fa5b543372b1264745dd42ca6d3c754ec5
+source-git-commit: 17d2cb3afd6c3ce8a8c5efe8c5b406f6cdf5aa76
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 
 ### Problemas conhecidos resolvidos
 
-* O menu suspenso Área de prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
+* O menu suspenso da área de Prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
 
 ## Versões anteriores do Beta
 
@@ -51,7 +51,7 @@ As versões anteriores do Beta incluíam os seguintes destaques e correções.
 
 * O nome de posicionamento do feed de página _Detalhes da experiência_ agora especifica o feed do Facebook ou do Instagram. (8/16)
 
-* O recorte de imagens e vídeos maiores agora é consistente quando o usuário navega da exibição _Visão geral do ativo_ para a exibição _Detalhes do ativo_.  (8/16)
+* O recorte de imagens e vídeos maiores agora é consistente quando o usuário navega da exibição _Visão geral do ativo_ para a exibição _Detalhes do ativo_. (8/16)
 
 * A contagem de resultados de pesquisa da tela Atributos não exibe mais `0 of` antes que um usuário faça logon.  (16/08) <!-- GS- 3665 -->
 
