@@ -1,9 +1,9 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
-source-git-commit: 72103c750a7708d97be87bed144bfe053ceeaa0f
+source-git-commit: 071871f91f0624c1bdb3be3f5ed2d9742352afea
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 * Vídeos não podem ser reproduzidos do _Assets_. <!-- GS-3846 -->
 
 * Os usuários devem fazer logon duas vezes em uma conta de Meta Ads de canal quando também estiverem conectados à Facebook. **Solução alternativa**: faça logout do Facebook antes de fazer logon em uma conta de Meta Ads do canal.
+
+### Problemas conhecidos resolvidos
+
+* O menu suspenso Área de prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
 
 ## Versões beta anteriores
 
