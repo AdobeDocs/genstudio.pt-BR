@@ -2,9 +2,9 @@
 title: Trabalhar com modelos
 description: Saiba como usar modelos para criar experiências envolventes no Adobe GenStudio para profissionais de marketing de desempenho.
 feature: Templates, Content
-source-git-commit: b383295810d4bd1b37227cf689ee76687e940f03
+source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,13 @@ ht-degree: 2%
 
 # Trabalhar com modelos
 
-Os modelos do GenStudio são essenciais para permitir que os criadores de conteúdo produzam rapidamente conteúdo de marketing consistente na marca. O uso de modelos reduz significativamente o tempo e o esforço necessários para gerar novo conteúdo, fornecendo um ponto de partida que inclui layouts e elementos de design pré-configurados.
+Os modelos do GenStudio permitem que os criadores de conteúdo produzam rapidamente conteúdo de marketing consistente na marca. O uso de modelos reduz significativamente o tempo e o esforço necessários para gerar novo conteúdo, fornecendo um ponto de partida que inclui layouts e elementos de design pré-configurados.
 
 Este guia fornece informações detalhadas sobre como:
 
 * Preparar um [modelo de email](email-template.md) ou um modelo de meta anúncio
-* [Personalizar modelos](customize-template.md) para GenStudio para Performance Marketerstudio
+* [Personalizar modelos](customize-template.md) para o GenStudio para profissionais de marketing de desempenho
+* Siga as orientações em [Criar modelos acessíveis](accessibility-for-templates.md)
 * [Carregar modelos](#upload-a-template) no GenStudio para profissionais de marketing de desempenho
 * [Usar modelos para criar experiências](#use-a-template)
 
@@ -28,16 +29,16 @@ O design básico do modelo inclui os seguintes elementos:
 | Elemento | Função | Modelo de canal |
 | ------------ | ---------------------- | -------------------- |
 | Pré-cabeçalho | Entre 40 e 50 caracteres <br>Atua como uma linha de assunto secundária aprimorando a linha de assunto principal <br>Visível na caixa de entrada ao lado do assunto antes que o email seja aberto | email |
-| Cabeçalho | A seção superior do destinatário do email aparece ao abrir o email <br>Define o tom e fornece o contexto do conteúdo incluído | email |
+| Cabeçalho | A seção superior do destinatário do email vê ao abrir o email <br>Define o tom e fornece o contexto do conteúdo incluído | email |
 | Título | O primeiro destinatário de conteúdo a perceber <br>Deve ser convincente para capturar interesse | Meta-anúncio |
 | Corpo | Área de conteúdo principal onde a mensagem principal é transmitida <br>Pode incluir texto, imagens e outras mídias | email<br>Meta-anúncio |
 | CTA | Frase de chamariz incentivando o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra | email<br>Meta-anúncio |
 | Imagens | Aprimora o apelo visual <br>Divide o texto <br>Dá suporte à mensagem <br>Deve ser de alta qualidade e atraente | email<br>Meta-anúncio |
-| Rodapé | Contém informações adicionais como detalhes de contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição | email |
+| Rodapé | Seção de rodapé, que contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção e opções de cancelamento de inscrição | email |
 | Sobreposição de texto | O texto em uma imagem <br>Deve suportar e aprimorar o título e o corpo | Meta-anúncio |
 
 >[!NOTE]
-> 
+>
 >É recomendável incluir campos específicos no conteúdo de cada canal para garantir que o GenStudio para profissionais de marketing de desempenho possa gerar texto para espaços reservados para conteúdo. Consulte [Nomes de campos reconhecidos](customize-template.md#recognized-field-names) para ver quais campos são recomendados para inclusão.
 
 ## Fazer upload de um modelo
