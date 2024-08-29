@@ -1,9 +1,9 @@
 ---
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
-source-git-commit: 17d2cb3afd6c3ce8a8c5efe8c5b406f6cdf5aa76
+source-git-commit: f30eaea46a0cbb45f1ba04e393219b843c356e10
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -11,23 +11,44 @@ ht-degree: 0%
 
 # Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 
-Essas notas destacam o Adobe GenStudio significativo para correções e aprimoramentos de Profissionais de marketing de desempenho para a semana que termina em 23 de agosto.
+Essas notas destacam o Adobe GenStudio significativo para correções e aprimoramentos de Profissionais de marketing de desempenho para a semana que termina em 30 de agosto.
+
+## Destaques
+
+* As diretrizes de canal do instagram e do Facebook foram combinadas nas diretrizes da marca Meta.
+
+* Os elementos de navegação Criar tela de desenho foram simplificados. A página de aterrissagem ([!DNL Create]) exibe o painel de navegação esquerdo, mas os usuários agora usam o botão **[!UICONTROL Voltar]** para navegar para este espaço a partir de outras áreas de trabalho Criar.  <!-- GS-1189 -->
+
+* Os elementos de navegação foram aprimorados para oferecer suporte ao foco do usuário enquanto executam tarefas em todo o produto, incluindo estas áreas de produtos:
+
+   * Detalhes de Ativo, Experiência e Modelo em ([!DNL Content])
+   * Detalhes de Experiência, Ativo e Atributo em ([!DNL Insights])
+   * Detalhes da marca em ([!DNL Brands])
+   * Detalhes de Produtos e Personalidades em ([!DNL Products]) e ([!DNL Personas]) <!-- GS-1189 -->
+
+* Os usuários não precisam mais clicar no botão **[!UICONTROL Atualizar]** para ver as atualizações das Experiências em ([!DNL Content]). <!-- GS-4218 -->
+
+* A página Detalhes da experiência agora renderiza miniaturas de ativos externos como HTML. <!-- GS-3092 -->
+
+* A latência da interface do usuário após adicionar ou excluir o Assets e a Experiências foi aprimorada. <!-- GS-3389 -->
+
+* As visualizações do modelo agora incluem mais texto padrão descritivo. <!-- GS-4028 -->
 
 ## Problemas conhecidos
 
 Os seguintes problemas conhecidos estão programados para resolução na versão do GenStudio para a disponibilidade geral dos profissionais de marketing de desempenho.
 
-* Falha no upload das diretrizes da marca devido a problemas com a plataforma de armazenamento ACP. <!-- GS-4369 -->
+* Há discrepância entre as visualizações da Tela do MetaAds e as visualizações exportadas. <!-- GS-4492 4401 -->
+
+* Miniaturas de campanha ausentes na exibição ([!DNL Insights]). <!-- GS-4648 -->
 
 * Atualmente, os usuários podem selecionar pequenos ativos que exigem redimensionamento, mas não há suporte para o aumento desses ativos. <!-- GS-3131 -->
-
-* Vídeos não podem ser reproduzidos do _Assets_. <!-- GS-3846 -->
 
 * Os usuários devem fazer logon duas vezes em uma conta de Meta Ads de canal quando também estiverem conectados à Facebook. **Solução alternativa**: faça logout do Facebook antes de fazer logon em uma conta de Meta Ads do canal.
 
 ### Problemas conhecidos resolvidos
 
-* O menu suspenso da área de Prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
+* O GenStudio exibe um erro quando um usuário tenta inserir credenciais na exibição ([!DNL Insights]). (corrigido em 29/8) <!-- GS-4689 -->
 
 ## Versões anteriores do Beta
 
@@ -56,3 +77,10 @@ As versões anteriores do Beta incluíam os seguintes destaques e correções.
 * A contagem de resultados de pesquisa da tela Atributos não exibe mais `0 of` antes que um usuário faça logon.  (16/08) <!-- GS- 3665 -->
 
 * Clicar no campo de contagem **[!UICONTROL [!DNL Insights]]** > **[!UICONTROL Ativo]** não limpa mais as configurações de pesquisa e filtro. (16/08) <!-- GS-3476 -->
+
+### Problemas conhecidos resolvidos em versões anteriores do Beta
+
+* Falha no upload das diretrizes da marca devido a problemas com a plataforma de armazenamento ACP. (corrigido em 22/8) <!-- GS-4369 -->
+
+* O menu suspenso da área de Prompt ([!DNL Brands]) exibe um ponteiro no final da lista ([!DNL Brands]) durante a criação do email. (corrigido em 22/8) <!-- GS-4077 -->
+
