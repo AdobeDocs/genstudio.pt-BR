@@ -2,9 +2,9 @@
 title: Gravar prompts efetivos
 description: Saiba como gravar solicitações eficazes para o Adobe GenStudio para profissionais de marketing de desempenho.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 306b64b44e69dbcec3984d1a0b54230fe0dbe48c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Para [emails](/help/tutorials/create-email-experience.md), os critérios de prom
 
 >[!NOTE]
 >
->Se as diretrizes forem adicionadas em _Parâmetros_ na área de prompt, não será necessário incluir referência a elas no prompt. O GenStudio para profissionais de marketing de desempenho utilizará estes [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
+>Se as diretrizes forem adicionadas em _Parâmetros_ na área de prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio para Marketing de Desempenho aproveita os [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
 
 ### Diretrizes
 
@@ -57,15 +57,7 @@ As diretrizes do GenStudio para profissionais de marketing de desempenho ajudam 
 
 ## Tente novamente
 
-A solicitação é um processo iterativo. Se os resultados não atenderem às suas expectativas, revise seu prompt e faça algumas alterações ou adicione mais detalhes. Você pode refinar seu prompt fornecendo um URL como exemplo ou uma fonte para obter mais informações.
-
-```bash
-Write an email to motivate infrequent users of Photoshop to follow an in-app tutorial that teaches them to combine elements of two photos into a beautiful work of art. Highlight the generative AI capabilities of Photoshop and use references to natural imagery.
-
-Use information from https://www.adobe.com/products/photoshop.html to inspire users with the latest features.
-```
-
-Ou você pode colar seções de um resumo da campanha. Você ainda pode solicitar que o GenStudio para profissionais de marketing de desempenho evite determinadas palavras, elementos ou temas.
+A solicitação é um processo iterativo. Se os resultados não atenderem às suas expectativas, revise seu prompt e faça algumas alterações ou adicione mais detalhes. Ou você pode colar seções de um resumo da campanha. Você ainda pode solicitar que o GenStudio para profissionais de marketing de desempenho evite determinadas palavras, elementos ou temas.
 
 ## Práticas recomendadas
 
