@@ -3,9 +3,9 @@ title: Preparar um modelo de meta anúncios para o Adobe GenStudio para profissi
 description: Saiba como criar um modelo de metadados personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Se as diretrizes não forem adicionadas ao GenStudio para profissionais de marke
 
 Normalmente, um designer cria o design visual de um modelo em um programa de design, como o Adobe XD.
 
-Consulte [Anatomia de um modelo](/help/user-guide/content/use-templates.md#anatomy-of-a-template) e [Exemplos de modelo](/help/user-guide/content/customize-template.md#template-examples).
+Consulte [Elementos de modelo](use-templates.md#template-elements) e [Exemplos de modelo](/help/user-guide/content/customize-template.md#template-examples).
 
 ### Especificações de publicidade
 

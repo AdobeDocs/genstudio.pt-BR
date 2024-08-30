@@ -3,9 +3,9 @@ title: Preparar um modelo de email para o Adobe GenStudio para profissionais de 
 description: Saiba como criar um modelo de email personalizado para o Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 5bbc089fa7441ad8ce4cd84dd92889d1a22c0f61
+source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Normalmente, um designer cria o design visual de um modelo em um programa de design, como o Adobe XD. Depois que um modelo de email for projetado, codificado e testado, você poderá prepará-lo para upload e uso no GenStudio para profissionais de marketing de desempenho.
 
-Consulte [Anatomia de um modelo](/help/user-guide/content/use-templates.md#anatomy-of-a-template).
+Consulte [Elementos do modelo](use-templates.md#template-elements).
 
 ## Adicionar diretrizes
 

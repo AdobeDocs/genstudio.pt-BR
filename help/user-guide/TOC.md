@@ -4,9 +4,9 @@ breadcrumb-title: Guia do usuário
 user-guide-description: Saiba como localizar e gerar ativos na marca rapidamente, criar variações e otimizar experiências com base em insights de desempenho de conteúdo em tempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
+source-git-commit: 3e5b91f86af691cc723f4b2dfc194beade53b696
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 9%
    + [Gerenciar ativos](content/manage-assets.md)
    + Modelos {#templates}
       + [Trabalhar com modelos](content/use-templates.md)
-      + [Personalizar modelos](content/customize-template.md)
+      + [Personalizar um modelo](content/customize-template.md)
       + [Criar modelos acessíveis](content/accessibility-for-templates.md)
       + [Preparar um modelo de email](content/email-template.md)
       + [Preparar um modelo de meta anúncios](content/meta-template.md)

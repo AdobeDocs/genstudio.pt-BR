@@ -1,10 +1,10 @@
 ---
 title: Criar modelos acessíveis
-description: Crie modelos capazes de atingir todos os públicos-alvo para uso no Adobe GenStudio para profissionais de marketing de desempenho.
+description: Crie modelos no Adobe GenStudio para profissionais de marketing de desempenho que sejam capazes de alcançar mais de seu público-alvo e fornecer uma experiência ideal.
 feature: Templates, Content
-source-git-commit: 26d1b9c7b392e93e87ffcd9444f391c2980d1c3c
+source-git-commit: c891f876fe5a7c75487fcba6552a213533f0b609
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---

@@ -1,49 +1,95 @@
 ---
 title: Trabalhar com modelos
-description: Saiba como usar modelos para criar experiências envolventes no Adobe GenStudio para profissionais de marketing de desempenho.
+description: Descubra como usar modelos de maneira eficaz para simplificar seu processo criativo no Adobe GenStudio para profissionais de marketing de desempenho.
 feature: Templates, Content
-source-git-commit: 0cd877737f8ed4d38201c832d454795206505de2
+source-git-commit: 192568a65bbd5c8c2e9cfc050462eb2c3465245d
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '682'
+ht-degree: 1%
 
 ---
 
 
 # Trabalhar com modelos
 
-Os modelos do GenStudio permitem que os criadores de conteúdo produzam rapidamente conteúdo de marketing consistente na marca. O uso de modelos reduz significativamente o tempo e o esforço necessários para gerar novo conteúdo, fornecendo um ponto de partida que inclui layouts e elementos de design pré-configurados.
+O GenStudio para profissionais de marketing de desempenho permite que os criadores de conteúdo produzam conteúdo de marketing consistente na marca rapidamente usando _modelos_. Um modelo reduz significativamente o tempo e o esforço necessários para gerar novo conteúdo, fornecendo um ponto de partida que inclui layouts pré-configurados e elementos de design.
 
-Este guia fornece informações detalhadas sobre como:
+## Elementos do modelo
 
-* Preparar um [modelo de email](email-template.md) ou um modelo de meta anúncio
-* [Personalizar modelos](customize-template.md) para o GenStudio para profissionais de marketing de desempenho
-* Siga as orientações em [Criar modelos acessíveis](accessibility-for-templates.md)
-* [Carregar modelos](#upload-a-template) no GenStudio para profissionais de marketing de desempenho
-* [Usar modelos para criar experiências](#use-a-template)
+Um modelo é um conjunto de instruções definidas com o HTML e o CSS em linha que podem ser usadas para produzir uma experiência de email ou de meta-anúncio.
 
-## Anatomia de um modelo
+Veja a seguir uma lista dos elementos usados em templates e alguns detalhes sobre suas características.
 
-O design básico do modelo inclui os seguintes elementos:
+- **Pré-cabeçalho**
 
-| Elemento | Função | Modelo de canal |
-| ------------ | ---------------------- | -------------------- |
-| Pré-cabeçalho | Entre 40 e 50 caracteres <br>Atua como uma linha de assunto secundária aprimorando a linha de assunto principal <br>Visível na caixa de entrada ao lado do assunto antes que o email seja aberto | email |
-| Cabeçalho | A seção superior do destinatário do email vê ao abrir o email <br>Define o tom e fornece o contexto do conteúdo incluído | email |
-| Título | O primeiro destinatário de conteúdo a perceber <br>Deve ser convincente para capturar interesse | Meta-anúncio |
-| Corpo | Área de conteúdo principal onde a mensagem principal é transmitida <br>Pode incluir texto, imagens e outras mídias | email<br>Meta-anúncio |
-| CTA | Frase de chamariz incentivando o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra | email<br>Meta-anúncio |
-| Imagens | Aprimora o apelo visual <br>Divide o texto <br>Dá suporte à mensagem <br>Deve ser de alta qualidade e atraente | email<br>Meta-anúncio |
-| Rodapé | Seção de rodapé, que contém conteúdo adicional, como detalhes de contato, links de redes sociais, avisos de isenção e opções de cancelamento de inscrição | email |
-| Sobreposição de texto | O texto em uma imagem <br>Deve suportar e aprimorar o título e o corpo | Meta-anúncio |
+   - Atua como uma linha de assunto secundária em um email, aprimorando a linha de assunto principal
+   - Entre 40 e 50 caracteres
+   - Visível na caixa de entrada ao lado do assunto antes que o email seja aberto
+   - Usado em modelos de email
 
->[!NOTE]
+- **Cabeçalho**
+
+   - Seção superior do email que o destinatário vê ao abrir o email
+   - Define o tom e fornece o contexto para o conteúdo incluído
+   - Usado em modelos de email
+
+- **Título**
+
+   - Primeiro conteúdo que o recipient vê
+   - Deve ser convincente para capturar interesse
+   - Usado em modelos de metadados
+
+- **Corpo**
+
+   - Área de conteúdo principal onde a mensagem principal é transmitida
+   - Capaz de incluir texto, imagens e outras mídias
+   - Usado em modelos de email e de meta-anúncios
+
+- **CTA (Plano de ação)**
+
+   - Incentiva o recipient a realizar uma ação específica, como clicar em um link ou fazer uma compra
+   - Usado em modelos de email e de meta-anúncios
+
+- **Imagens**
+
+   - Aprimora o apelo visual
+   - Dividir texto
+   - Dar suporte à mensagem
+   - Deve ser de alta qualidade e atraente
+   - Usado em modelos de email e de meta-anúncios
+
+- **Rodapé**
+
+   - Seção inferior que contém conteúdo adicional, como detalhes do contato, links de redes sociais, avisos de isenção de responsabilidade e opções de cancelamento de inscrição
+   - Usado em modelos de email
+
+- **Sobreposição de Texto**
+
+   - Texto em uma imagem
+   - Use para suportar e aprimorar o título e o corpo
+   - Usado em modelos de metadados
+
+>[!TIP]
 >
->É recomendável incluir campos específicos no conteúdo de cada canal para garantir que o GenStudio para profissionais de marketing de desempenho possa gerar texto para espaços reservados para conteúdo. Consulte [Nomes de campos reconhecidos](customize-template.md#recognized-field-names) para ver quais campos são recomendados para inclusão.
+>Consulte os [nomes de campo reconhecidos](customize-template.md#recognized-field-names) aceitos pelo GenStudio for Performance Marketers para modelos de cada tipo de Canal.
+
+## Configurar diretrizes do canal
+
+É uma prática recomendada configurar as [diretrizes do canal](../guidelines/brands.md#channel-guidelines) para cada marca antes de usar os modelos no GenStudio para profissionais de marketing de desempenho. As diretrizes de canal influenciam diretamente o tipo de conteúdo gerado ao usar o template. Por exemplo, você pode definir limites de caracteres no corpo de um email.
+
+![Especificações do corpo](/help/assets/channel-email-body.png)
+
+## Personalizar modelo
+
+Você [personaliza seu modelo](customize-template.md) para uso no GenStudio for Performance Marketers inserindo espaços reservados para conteúdo, ou campos, que a IA gerativa usa para inserir conteúdo. O GenStudio para profissionais de marketing de desempenho reconhece determinados campos, como o campo `body`, e segue as diretrizes de canal configuradas para a marca selecionada.
+
+>[!TIP]
+>
+>Siga as [diretrizes de acessibilidade para criar modelos](accessibility-for-templates.md) de forma que você possa alcançar mais de seu público-alvo e fornecer uma experiência ideal.
 
 ## Fazer upload de um modelo
 
-O GenStudio para profissionais de marketing de desempenho aceita modelos no formato HTML.
+Use [Personalizar modelos](customize-template.md) como guia ao preparar um modelo para o GenStudio para profissionais de marketing de desempenho. Consulte as [diretrizes de acessibilidade para modelos](accessibility-for-templates.md) para obter orientação sobre como fornecer uma experiência melhor para todos os públicos-alvo.
 
 **Para adicionar um modelo**:
 
@@ -53,22 +99,30 @@ O GenStudio para profissionais de marketing de desempenho aceita modelos no form
 
 1. No painel _[!UICONTROL Adicionar modelo aprovado]_, procure o arquivo de modelo de HTML ou arraste o arquivo de modelo de HTML para soltar espaço. Clique em **[!UICONTROL Avançar]**.
 
-1. No painel _[!UICONTROL Detalhes da estrutura de revisão]_, verifique se você está usando o modelo correto e se todos os detalhes estão conforme o esperado. Clique em **[!UICONTROL Avançar]**.
+1. No painel _[!UICONTROL Revisar campos descobertos]_, reveja os campos detectados. Verifique se você está usando o modelo correto e se todos os detalhes estão conforme esperado. Clique em **[!UICONTROL Avançar]**.
 
-1. No painel _[!UICONTROL Adicionar detalhes do modelo]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
+   Exemplo de visualização para um modelo de email:
 
-   O nome do modelo e o tipo de canal são obrigatórios.
+   ![Campos de visualização detectados](../../assets/template-detected-fields.png){width="650"}
 
-   * **Meta**: requer taxa de proporção
-   <!-- **Display ads**: requires Dimensions -->
+   >[!TIP]
+   >
+   >Se o modelo não estiver correto, clique em **[!UICONTROL Voltar]** e retorne à etapa anterior. Faça upload do arquivo de modelo corrigido.
+
+1. No painel _[!UICONTROL Fornecer detalhes do modelo e carregar]_, nomeie o modelo e selecione um tipo de **[!UICONTROL Canal]**.
+
+   O nome do modelo e o tipo de canal são obrigatórios. Os requisitos adicionais podem incluir:
+
+   - **Meta**: requer taxa de proporção
+   <!-- - **Display ads**: requires Dimensions -->
 
 1. Adicione quantos detalhes forem possíveis para melhorar a identificação do modelo em pesquisas e filtragem.
 
 1. Clique em **[!UICONTROL Concluído]**.
 
-## Usar um modelo
+## Criar com um modelo
 
-Localize e use um modelo existente para criar experiências.
+Encontre e use um modelo existente no GenStudio para profissionais de marketing de desempenho para criar mais experiências.
 
 **Para criar uma experiência com um modelo**:
 
@@ -78,9 +132,6 @@ Localize e use um modelo existente para criar experiências.
 
 1. Selecione um modelo para obter uma exibição completa e uma lista de detalhes.
 
->[!TIP]
->
->Consulte [[!DNL Create] uma experiência de email](/help/tutorials/create-email-experience.md) ou [[!DNL Create] uma Experiência de metadados](/help/tutorials/create-meta-ad.md) para obter tutoriais completos usando modelos.
-<!--  The create button in Content Template view does not work yet.
-1. Click **[!UICONTROL Create Experience]** (paintbrush) from the upper right corner to use the template.
--->
+1. Clique em **[!UICONTROL Criar experiência]** (pincel) no canto superior direito para usar o modelo.
+
+1. Continue com os [tutoriais](/help/tutorials/tutorials.md) para criar uma experiência.

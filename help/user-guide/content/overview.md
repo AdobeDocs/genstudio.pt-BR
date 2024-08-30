@@ -2,9 +2,9 @@
 title: Visão geral do Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content]
 description: Saiba como localizar, editar, reutilizar e compartilhar ativos aprovados pela marca em um portal intuitivo.
 feature: Attributes, Content, Templates
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: c34fd3ac0925624c685ae27d56d9964896796786
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '300'
 ht-degree: 1%
 
 ---
@@ -20,45 +20,43 @@ O GenStudio para profissionais de marketing de desempenho [!DNL Content] fornece
 <tr style="border: 0;">
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md#search">
-      <img alt="lente de aumento" src="../../assets/icons/icon-search.svg" width="35">
+         <img alt="lente de aumento" src="../../assets/icons/icon-search-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/manage-assets.md#search">
          <strong>Localizar conteúdo</strong>
          </a>
-      </div>
+      </p>
    </td>
    <td align="center" valign="top" width="100">
       <a href="../content/manage-assets.md">
-      <img alt="imagens com sinal de mais" src="../../assets/icons/icon-addContent.svg" width="35">
+         <img alt="imagens com sinal de mais" src="../../assets/icons/icon-addContent-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/manage-assets.md">
          <strong>Adicionar ativos</strong>
          </a>
-      </div>
+      </p>
    </td>
-<!--
    <td align="center" valign="top" width="100">
-      <a href="../content/manage-assets.md#search">
-      <img alt="sparkle and new asset" src="../../assets/icons/icon-AIVariation.svg" width="35">
+      <a href="../content/customize-template.md">
+         <img alt="raio parafuso no ativo" src="../../assets/icons/icon-template-35.svg" width="35">
       </a>
-      <div>
-         <a href="../content/manage-assets.md#search">
-         <strong>Refresh content</strong>
+      <p>
+         <a href="../content/customize-template.md">
+         <strong>Personalizar um modelo</strong>
          </a>
-      </div>
+      </p>
    </td>
--->
    <td align="center" valign="top" width="100">
       <a href="../content/use-templates.md">
-      <img alt="raio parafuso no ativo" src="../../assets/icons/icon-template.svg" width="35">
+         <img alt="raio parafuso no ativo com sinal de mais" src="../../assets/icons/icon-addTemplate-35.svg" width="35">
       </a>
-      <div>
+      <p>
          <a href="../content/use-templates.md#upload-a-template">
          <strong>Carregar modelo</strong>
          </a>
-      </div>
+      </p>
    </td>
 </tr>
 </table>
@@ -77,4 +75,4 @@ Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados av
 
 ### Trabalhar com modelos
 
-Os modelos aceleram o processo de criação para que você possa gerar conteúdo consistente em vários canais. Os modelos fornecem um ponto de partida para o processo de criação com layouts e elementos de design pré-configurados.
+Os modelos aceleram o processo de criação para que você possa gerar conteúdo consistente em vários canais. Faça upload do modelo personalizado para usar como ponto de partida no processo de criação com layouts e elementos de design pré-configurados.
