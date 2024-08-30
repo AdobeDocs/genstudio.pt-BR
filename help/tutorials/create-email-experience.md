@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para criar uma experiência de email eficaz, é recomendável [adicionar diretri
 
 ## Escolher um modelo
 
-Para começar a criar uma nova experiência de email, use um modelo disponível para fornecer a estrutura para o seu conteúdo.
+Para criar uma nova experiência de email, use um modelo disponível para fornecer a estrutura para o seu conteúdo.
 
 **Para escolher um modelo de email**:
 
@@ -47,6 +47,10 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
    * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox.
    * Arraste e solte ativos na seção _Conteúdo_.
+
+>[!NOTE]
+>
+>Se o seu modelo de email tiver várias seções, selecione [!DNL Products] e conteúdo (ativos visuais) para cada seção de email em _Emails de várias seções_. Emails de várias seções suportam um ativo visual por seção.
 
 Quando terminar de adicionar parâmetros, você poderá recolher a área de prompt clicando no ícone _Parâmetros_ novamente.
 

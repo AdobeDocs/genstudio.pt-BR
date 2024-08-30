@@ -6,9 +6,9 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+source-git-commit: 4745e7cab9cd605c3bc7e93cb610e510566c9302
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,8 @@ Ao gerar um meta anúncio, você pode escolher entre anúncios do Facebook ou do
 
 Alterne a opção de canal de Metadados na barra de menu superior para **Facebook** ou **Instagram** para gerenciar os rascunhos gerados de cada canal.
 
+Ao [revisar os Metadados](#revise-generated-meta-ads), é possível alterar a proporção da Facebook e dos anúncios do Instagram.
+
 ## Revisar metadados gerados
 
 Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar os Metadados ou excluir uma variante do conjunto de anúncios gerados.
@@ -81,6 +83,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
   A linha de assunto e o pré-cabeçalho exigem apenas um único clique para serem editados, enquanto o cabeçalho e a cópia do corpo exigem um clique duplo.
 
 * **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione em um botão disponível.
+* **Para alterar o tamanho e a taxa de proporção**, clique no botão _[!UICONTROL Redimensionar]_ (caixa com um ícone de botão no lado esquerdo da Tela de Pintura) e selecione um novo tamanho e uma nova taxa de proporção a serem aplicados a todas as variantes. As variantes são duplicadas e redimensionadas.
 * **Para excluir um Metadado**, clique para selecionar o título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
 
 ## Verificar o alinhamento da marca
