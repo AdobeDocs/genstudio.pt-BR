@@ -1,26 +1,26 @@
 ---
 title: Colunas de dados para  [!DNL Insights]
-description: Entenda o que cada coluna em uma grade  [!DNL Insights]  representa.
+description: Entenda o que cada coluna em uma tabela  [!DNL Insights]  representa no GenStudio para profissionais de marketing de desempenho.
 feature: Attributes, Insights
 recommendations: noDisplay
-source-git-commit: 4d5de6fc053297c823be9005c628dafcecc3f7a7
+exl-id: 138ad192-b178-45c9-9293-96d89ed7f2aa
+source-git-commit: 2a3085f535b4f161bd6e8bf321eac11357c44a5a
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
-
 # Colunas de dados para [!DNL Insights]
 
-O [!DNL Insights] exibe grades personalizáveis para cada exibição: Canais, Experiências, Assets e Atributos.
+O [!DNL Insights] exibe tabelas personalizáveis para cada exibição: Canais, Experiências, Assets e Atributos.
 
-Personalize a grade:
+Personalize a tabela:
 
-- Clique em um cabeçalho de coluna para acessar o menu de atalho com opções de redimensionamento e classificação.
-- Clique no ícone de engrenagem acima do lado direito da grade e abra o menu _[!UICONTROL Configurar tabela]_ para alternar colunas visualizáveis.
+- Clique em um cabeçalho de coluna para acessar o menu de atalho com as opções _Redimensionar_ e _Classificar_.
+- Clique no ícone de configurações (cog) no lado direito acima da tabela e abra o menu _[!UICONTROL Configurar tabela]_ para alternar colunas visualizáveis.
 
-As colunas disponíveis incluem:
+## Exibição de tabela de canais
 
 | Coluna | Descrição |
 | ----------- | ------------ |
@@ -32,5 +32,7 @@ As colunas disponíveis incluem:
 | CTR | A taxa de click-through é medida como todos os cliques no anúncio |
 | Conversão | Eventos que representam ações valiosas do cliente no final da jornada do cliente, como compras, assinaturas ou leads. |
 | Impressões | O número de vezes que os anúncios da campanha foram exibidos aos visualizadores por meio de impressões registradas. |
+| Launch | Data de lançamento da campanha. |
 | Objetivo | A meta de uma campanha ou projeto. Defina o objetivo ao criar a campanha ou o projeto.<br>Os tipos de objetivos incluem: `Awareness`, `Traffic`, `Engagement`, `Leads`, `App promotion`, `Sales` |
 | Gastos | O valor total do dinheiro gasto em USD para todos os anúncios em uma campanha. |
+| Reprodução de vídeo | O número de vezes que um vídeo começa a ser reproduzido quando clicado ou por reprodução automática. |
