@@ -2,9 +2,9 @@
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 2e40260db0f9972675b103c51f09acbfa83a1cb5
+source-git-commit: 2861dd76dde9428e0c39af18c1d5e21dc2b32b91
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 
 * O [!DNL Create Canvas] renderiza imagens em Metadados incorretamente. <!-- GS-4864 -->
 
-* O Assets sem campanhas pode ser carregado com êxito em [!DNL Content], mas pode não estar visível para os usuários. <!-- GS-4815 -->
+* Os modelos podem ser carregados, mas não visualizados. <!-- GS-4815 -->
 
 * Há discrepância entre as visualizações da Tela do MetaAds e as visualizações exportadas. <!-- GS-4492 4401 -->
 
