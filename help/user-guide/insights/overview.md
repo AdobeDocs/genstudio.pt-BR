@@ -3,9 +3,9 @@ title: Visão geral de  [!DNL Insights]
 description: Saiba como otimizar experiências com base em métricas de desempenho de conteúdo em tempo real.
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 2a3085f535b4f161bd6e8bf321eac11357c44a5a
+source-git-commit: 0713b18ed1ca5a0b695fdcef4bd488cf87bf2040
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A exibição [!DNL Insights] _[!UICONTROL Canais]_ é a exibição padrão e mos
 
 ### Experiências
 
-A exibição [!DNL Insights] _[!UICONTROL Experiências]_ concentra-se na avaliação da eficácia de uma experiência. A exibição [!UICONTROL Experiências] permite analisar as métricas de uma experiência com base no posicionamento do anúncio em um intervalo de datas especificado. Ao clicar em um _[!UICONTROL Nome do anúncio]_, você pode acessar uma lista de ativos usados na experiência selecionada, permitindo que identifique quais componentes contribuíram para seu sucesso geral.
+A exibição [!DNL Insights] _[!UICONTROL Experiências]_ concentra-se na avaliação da eficácia de uma experiência. A exibição [!UICONTROL Experiências] permite analisar as métricas de uma experiência com base no posicionamento do anúncio em um intervalo de datas especificado. Ao clicar em um _[!UICONTROL Nome do anúncio]_, você pode visualizar as métricas de desempenho do anúncio, o desempenho por posicionamento de anúncio e os atributos.
 
 ### Ativos
 

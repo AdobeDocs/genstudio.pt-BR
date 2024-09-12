@@ -4,10 +4,10 @@ breadcrumb-title: Guia do usuário
 user-guide-description: Saiba como localizar e gerar ativos na marca rapidamente, criar variações e otimizar experiências com base em insights de desempenho de conteúdo em tempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: b71f53eca2a0fdd7bf353a2eaf0b1b4e657b18b0
+source-git-commit: 0713b18ed1ca5a0b695fdcef4bd488cf87bf2040
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 9%
+source-wordcount: '130'
+ht-degree: 10%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 9%
    + [Visão geral do Insights](insights/overview.md)
    + [Conectar conta do canal](insights/connect-channel.md)
    + [Canais](insights/channels.md)
+   + [Experiências](insights/experiences.md)
    + [Colunas de dados](insights/data-columns.md)
 + Notas de versão {#release-notes}
    + [Notas de versão do Beta](beta-release-notes.md)

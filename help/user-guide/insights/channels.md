@@ -2,13 +2,13 @@
 title: Visão geral de canais
 description: Consulte uma visão geral do engajamento do cliente, desempenho, orçamento e despesas para campanhas de marketing em Adobe GenStudio para profissionais de marketing de desempenho.
 feature: Insights, Channels
-source-git-commit: 2e76eadcc3281ea935dca383eb3db8c41b83e679
+exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
+source-git-commit: 13e49dd7bd36e842513baa6311373671da827926
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral de canais
 
@@ -20,9 +20,9 @@ A exibição [!DNL Insights] _[!UICONTROL Canais]_ mostra uma lista de campanhas
 
 A tabela [!UICONTROL Canais] é organizada com o uso da campanha publicitária baseada em canais. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, no qual você pode selecionar entre as listas [!UICONTROL Conta], [!UICONTROL Status] e [!UICONTROL Objetivo] para filtrar as campanhas na tabela.
 
-![Filtro de canal e tabela](../../assets/insights-channel-filter.png)
+![Filtro de canais e tabela](../../assets/insights-channels-filter.png)
 
-Quando você seleciona uma campanha, a guia [!UICONTROL Experiências] é aberta para uma lista de nomes de anúncios associados a essa campanha.
+Quando você seleciona uma campanha, a guia [[!UICONTROL Experiências]](experiences.md) abre uma lista de nomes de anúncios associados a essa campanha, o que permite identificar quais experiências contribuíram para seu sucesso geral.
 
 ## Objetivos
 
