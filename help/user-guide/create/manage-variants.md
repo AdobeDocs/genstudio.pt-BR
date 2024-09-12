@@ -2,9 +2,9 @@
 title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: a6cf07179e888599860bc699ec17a3e8e4167e7b
+source-git-commit: d300d9e68cf63cde69500c90d97999057c8d1575
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -55,30 +55,35 @@ Por exemplo, você pode gerar novamente a seção de título de uma variante do 
 
    A variante é atualizada com o texto revisado.
 
-## Cortar ativos
+<!-- ## Crop assets
 
-Você pode cortar e reposicionar manualmente os ativos de imagem em variantes geradas individuais.
+You can manually crop and reposition image assets in individual generated variants.
 
-**Para recortar e reposicionar imagens nas variantes**:
+**To crop and reposition images in variants**:
 
-1. Depois de gerar um conjunto de variantes, passe o mouse sobre uma imagem em uma variante.
-1. Clique em **[!UICONTROL Aplicar corte]**.
-1. Aumente e diminua o zoom e arraste a imagem para a posição desejada.
-1. Clique em **[!UICONTROL Aplicar]**.
+1. After generating a set of variants, hover over an image within a variant.
+1. Click **[!UICONTROL Apply Crop]**.
+1. Zoom in and out and drag the image into the desired position.
+1. Click **[!UICONTROL Apply]**.
 
-   A imagem cortada é salva automaticamente e fica visível para a variante.
+   The cropped image is automatically saved and visible for the variant. -->
 
 ## Alterar taxa de proporção
 
 Você pode alterar rapidamente a proporção dos meta anúncios para acomodar o dimensionamento desejado.
 
-As taxas de proporções disponíveis são:
+Os tamanhos/proporções disponíveis são:
 
-* Quadrado 1:1
-* Vertical 4:5
-* Vertical 9:16
+* Quadrado 1:1 (Meta)
+* Vertical 4:5 (Meta)
+* 9:16 vertical (Meta)
+* 250 x 980 (anúncio de exibição)
 
-**Para alterar a proporção de metadados gerados**:
+>[!NOTE]
+>
+>Outras taxas de proporção e tamanhos podem estar disponíveis com base em modelos disponíveis.
+
+**Para alterar a taxa de proporção das variantes geradas**:
 
 1. Depois de gerar um conjunto de variantes, selecione o ícone de redimensionamento da taxa de proporção (seta apontando para o canto da caixa) no lado esquerdo da Tela de desenho.
 

@@ -1,15 +1,15 @@
 ---
 title: Criar uma experiência de email
-description: Saiba como criar experiências de email no Adobe [!DNL GenStudio].
-feature: Content, Brands Service, Guidelines, Content Generation
+description: Saiba como criar experiências de email no Adobe [!DNL GenStudio] para profissionais de marketing de desempenho.
+feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
+source-git-commit: 9624429977e21af614173c5078c6b470c8b5a147
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
    * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox.
    * Arraste e solte ativos na seção _Conteúdo_.
+1. Clique em **[!UICONTROL Usar]**.
 
 >[!NOTE]
 >
@@ -77,6 +78,12 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário.
 * **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
 * **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+
+## Visualizar para dispositivo
+
+Ao revisar e preparar experiências de email, você pode alternar entre visualizações para desktop e para dispositivos móveis para garantir a coerência e o apelo visual de variantes de rascunho.
+
+**Para visualizar as variantes para dispositivos móveis e desktop**, alterne a opção de visualização de dispositivo (entre **desktop** e **celular**) na barra de menu direita (ícones de computador e telefone) para visualizar como as variantes aparecem.
 
 ## Verificar o alinhamento da marca
 
