@@ -6,13 +6,13 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 4745e7cab9cd605c3bc7e93cb610e510566c9302
+exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
+source-git-commit: b71f53eca2a0fdd7bf353a2eaf0b1b4e657b18b0
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
-
 
 # Criar uma experiência de meta-anúncio
 
@@ -77,14 +77,16 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 **Para revisar variantes geradas**:
 
-* **Para editar o nome do rascunho do Metaanúncio**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para editar um Metadado** manualmente, clique duas vezes em qualquer fragmento do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
+* **Para [editar o nome do rascunho do Metaanúncio](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
+* **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer seção do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
 
   A linha de assunto e o pré-cabeçalho exigem apenas um único clique para serem editados, enquanto o cabeçalho e a cópia do corpo exigem um clique duplo.
 
-* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione em um botão disponível.
-* **Para alterar o tamanho e a taxa de proporção**, clique no botão _[!UICONTROL Redimensionar]_ (caixa com um ícone de botão no lado esquerdo da Tela de Pintura) e selecione um novo tamanho e uma nova taxa de proporção a serem aplicados a todas as variantes. As variantes são duplicadas e redimensionadas.
-* **Para excluir um Metadado**, clique para selecionar o título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+* **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _[!UICONTROL Link]_, insira um link para o texto de chamada para ação.
+* **Para [alterar o tamanho e a taxa de proporção do anúncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, clique no botão _[!UICONTROL Redimensionar]_ (caixa com um ícone de botão no lado esquerdo da Tela de Pintura) e selecione um novo tamanho e uma nova taxa de proporção a serem aplicados a todas as variantes. As variantes são duplicadas e redimensionadas.
+* **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
+* **Para [recortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique em **[!UICONTROL Aplicar Recorte]** e ajuste o tamanho e o posicionamento da imagem.
+* **Para [excluir um Meta ad](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
 
 ## Verificar o alinhamento da marca
 
@@ -93,7 +95,7 @@ Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da
 **Para verificar o alinhamento da marca**:
 
 1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
-1. Para obter os detalhes dos fragmentos e diretrizes que precisam ser aprimorados, clique em **[!UICONTROL Revisar]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Para obter os detalhes das seções e diretrizes que precisam ser aprimoradas, clique em **[!UICONTROL Revisão]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alterne cada anúncio para ver como você pode melhorar o conteúdo gerado para torná-lo mais alinhado à marca.
 1. [Revise os anúncios manualmente](#revise-generated-meta-ads) para garantir que seus anúncios estejam alinhados à sua marca.

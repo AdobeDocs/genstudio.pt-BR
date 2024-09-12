@@ -6,13 +6,13 @@ role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
-source-git-commit: 5026afb4eb71df73063559aee34971039511b31a
+exl-id: 34446202-da98-45ff-869a-b43496a477f8
+source-git-commit: 1fbf1bcb0434b9dbabcd2933d1451a165ec351d2
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
-
 
 # Criar uma experiência de email
 
@@ -69,16 +69,14 @@ Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretri
 
 ## Revisar emails gerados
 
-Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar fragmentos de email ou excluir uma variante do conjunto de emails gerados.
+Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar seções de email ou excluir uma variante do conjunto de emails gerados.
 
 **Para revisar variantes geradas**:
 
-* **Para editar o nome do rascunho do email**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para editar um email** manualmente, clique duas vezes em qualquer fragmento de email (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
-
-  A linha de assunto e o pré-cabeçalho exigem apenas um único clique para serem editados, enquanto o cabeçalho, a cópia do corpo e o plano de ação exigem um clique duplo.
-
-* **Para excluir um email**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+* **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
+* **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário.
+* **Para [regenerar uma seção de uma variante](/help/user-guide/create/manage-variants.md#re-generate-sections)**, clique em um campo de texto editável e use as opções de _[!UICONTROL Edições sugeridas]_ ou insira um novo prompt e clique em **[!UICONTROL Gerar]**.
+* **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
 
 ## Verificar o alinhamento da marca
 
@@ -87,7 +85,7 @@ Para otimizar os emails gerados e garantir a adesão estrita à identidade da ma
 **Para verificar o alinhamento da marca**:
 
 1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
-1. Para obter os detalhes dos fragmentos e diretrizes que precisam ser aprimorados, clique em **[!UICONTROL Revisar]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
+1. Para obter os detalhes das seções e diretrizes que precisam ser aprimoradas, clique em **[!UICONTROL Revisão]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alternar em cada email para ver como você pode melhorar o conteúdo gerado para estar mais alinhado à marca.
 1. [Revise emails manualmente](#revise-generated-emails) para garantir que seus emails estejam alinhados à sua marca.
