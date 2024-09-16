@@ -2,9 +2,9 @@
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: 5f729070a3a4c162ebac0fde9814c649c9984b4d
+source-git-commit: d1904bfe6e5775f71290c2fc7aa185ac2a4a4668
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 
 ### Melhorias adicionais e problemas corrigidos
 
-* A Tela de Pintura [!DNL Create] renderiza imagens em Meta Ads incorretamente. <!-- GS-4864 -->
+* A Tela do [!DNL Create] agora renderiza imagens em Meta Ads corretamente. <!-- GS-4864 -->
 
 * Embora possam existir discrepâncias entre as visualizações do Meta Ads Canvas e as visualizações exportadas, as experiências exportadas funcionam conforme esperado. <!-- GS-4492 4401 -->
 
-* As imagens carregadas nem sempre incluem as tags inteligentes esperadas. <!-- GS-4856 -->
+* As imagens carregadas agora incluem as tags inteligentes esperadas. <!-- GS-4856 -->
 
-* O arquivo CSV de exportação de metadados agora contém imagens conforme esperado. Anteriormente, o arquivo ZIP continha o arquivo de exportação CSV e arquivos NULL em vez de imagens.  <!-- GS-5107 -->
+* O arquivo CSV de exportação dos Meta Ads agora contém imagens conforme esperado. Anteriormente, o arquivo ZIP continha o arquivo de exportação CSV e arquivos NULL em vez de imagens.  <!-- GS-5107 -->
 
 * Agora os usuários podem inserir texto no campo Exibição de detalhes do modelo **[!UICONTROL Carregado por]**, conforme esperado. Anteriormente, o ícone de carregamento impedia os usuários de inserir texto. <!-- GS-4887 -->
 
