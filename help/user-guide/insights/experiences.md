@@ -1,8 +1,8 @@
 ---
 title: Visão geral das experiências
-description: Consulte uma visão geral do engajamento do cliente, orçamento e despesas para experiências e desempenho do ativo no Adobe GenStudio para profissionais de marketing de desempenho.
+description: Consulte uma visão geral do engajamento do cliente, orçamento e despesas para experiências e desempenho de anúncio no Adobe GenStudio para profissionais de marketing de desempenho.
 feature: Insights, Experiences
-source-git-commit: ed0ddb10ee65c2691f8ecbfe23533508e9174bf9
+source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%

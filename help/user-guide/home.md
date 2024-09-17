@@ -1,20 +1,24 @@
 ---
 title: Guia do usuário do Adobe GenStudio
 description: Habilite profissionais de marketing e criações de sobrecarga com o GenStudio para profissionais de marketing de desempenho, o aplicativo Adobe AI First que fornece acesso de autoatendimento a conteúdo na marca com medidas de proteção e governança corporativas para experiências de alto desempenho.
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: beae7802-09e6-4ca3-9ffa-b8494aea5ae4
+source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 1%
 
 ---
 
 # Guia do usuário do Adobe GenStudio para profissionais de marketing de desempenho
 
-Adobe GenStudio para profissionais de marketing de desempenho é uma plataforma orientada por IA que capacita as empresas a gerar e gerenciar de forma independente conteúdo de marketing que segue os padrões da marca, está em conformidade com as políticas corporativas e oferece suporte perfeito a uma estratégia de marketing impactante.
+O Adobe GenStudio para profissionais de marketing de desempenho é uma plataforma orientada por IA que permite gerar e gerenciar conteúdo de marketing que segue os padrões da sua marca e está em conformidade com as políticas da sua empresa.
 
-Com o GenStudio para profissionais de marketing de desempenho, os profissionais de marketing e criação podem simplificar o processo de criação de conteúdo para criar conteúdo de marketing envolvente, culturalmente relevante e personalizado para públicos-alvo específicos, tudo isso mantendo a alta qualidade e a integridade da marca.
+Ao utilizar a tecnologia de IA de Adobe, o GenStudio para profissionais de marketing de desempenho fornece um conjunto abrangente de ferramentas que simplificam as complexidades da criação e do gerenciamento de conteúdo para que os profissionais de criação possam se concentrar na inovação.
 
-Ao utilizar a tecnologia de IA, o GenStudio para profissionais de marketing de desempenho fornece um conjunto abrangente de ferramentas que simplificam as complexidades da criação e do gerenciamento de conteúdo para que os profissionais de criação possam se concentrar na inovação.
+## Novidades
+
+- [[!DNL Insights Channels]](insights/channels.md) — Nova visão geral sobre participação do cliente, desempenho, orçamento e despesas para campanhas de marketing.
+- [[!DNL Insights Experiences]](insights/experiences.md) — Nova visão geral sobre insights relacionados a experiências e desempenho de anúncios.
 
 ## Explorar recursos
 
