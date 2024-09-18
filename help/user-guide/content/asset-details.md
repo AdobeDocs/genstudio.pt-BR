@@ -2,13 +2,13 @@
 title: Detalhes do ativo
 description: O Adobe GenStudio para profissionais de marketing de desempenho armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
+source-git-commit: 95eb7c2eaeeceedf3abe5ab16e1e7c2de7bf8117
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '462'
+ht-degree: 0%
 
 ---
-
 
 # Detalhes do ativo
 
@@ -16,7 +16,21 @@ O Adobe GenStudio para profissionais de marketing de desempenho armazena conteú
 
 Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) que ajudam a identificar, rastrear, usar e aprender com o desempenho do conteúdo.
 
-Os tipos de metadados de ativos incluem [metadados do sistema](#system-metadata) e [metadados definidos pelo usuário](#user-defined-metadata).
+**Para exibir detalhes do ativo**:
+
+1. Em _[!DNL Content]_, selecione um ativo, experiência ou modelo. Clicar em um ativo abre uma exibição focada do ativo.
+
+1. Na exibição do ativo, revise a seção _[!UICONTROL Detalhes]_ à direita.
+
+   >[!TIP]
+   >
+   >Se a seção _[!UICONTROL Detalhes]_ não estiver visível, clique no ícone **[!UICONTROL Informações]** (i).
+
+Os detalhes do ativo incluem metadados aplicados durante o processo de criação ou upload. Os tipos de metadados de ativos incluem [metadados do sistema](#system-metadata) e [metadados definidos pelo usuário](#user-defined-metadata).
+
+>[!NOTE]
+>
+>O Assets de repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade de ativos](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes de ativos do AEM Assets Content Hub.
 
 ## Metadados do sistema
 
@@ -26,7 +40,7 @@ Os metadados padrão armazenados e capturados para um ativo incluem o nome do ar
 
 ### Tags geradas
 
-Quando os ativos são aprovados e armazenados no [!DNL Content], o GenStudio for Performance Marketing utiliza a IA do Adobe e os recursos de aprendizado de máquina para gerar tags com base nos recursos do ativo, como cor e tom ou palavras-chave que identificam os recursos do ativo. Não é possível editar tags.
+GenStudio Quando você armazena um ativo aprovado no [!DNL Content], os profissionais de marketing de desempenho usam os recursos de API e aprendizado de máquina do Adobe para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas inteligentes como `pet photography` ou `cat`, e marcas de cores que identificam cores dominantes na imagem. Não é possível editar tags.
 
 ### Metadados de conteúdo gerados
 
@@ -34,39 +48,25 @@ As informações usadas para gerar um novo ativo ou experiência se tornam metad
 
 ## Metadados definidos pelo usuário
 
-Os metadados definidos pelo usuário adicionam contexto de marketing ao conteúdo do ativo, permitindo que os profissionais de marketing entendam melhor como usar e se envolver com o ativo.
+Os metadados definidos pelo usuário adicionam contexto de marketing ao conteúdo do ativo, permitindo que os profissionais de marketing entendam como usar e se envolver com o ativo.
 
-Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo existentes no GenStudio para profissionais de marketing de desempenho como metadados.
+Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo existentes no GenStudio para profissionais de marketing de desempenho como metadados. A inclusão de mais detalhes pode melhorar a identificação de ativos em pesquisas e filtragem.
 
 ### Detalhes de metadados
 
 A tabela a seguir detalha os metadados (detalhes do ativo) que você pode definir ao criar um ativo.
 
-| Texto | Descrição | Editável | Obrigatório |
-| ------------- | ----------- | -------- | -------- |
-| Nome da campanha (nome do projeto) | Metadados padrão capturados e armazenados com o ativo | Y | N |
-| Nome da marca | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio para profissionais de marketing de desempenho e publicado para uso | Y | N |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso | Y | N |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso | Y | N |
-| Canais | Tipos de conteúdo no GenStudio para profissionais de marketing de desempenho para os quais o ativo é usado, como email e Meta ads | Y | N |
-| Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` | Y | N |
-| Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` | Y | N |
-| Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` | Y | N |
-| Palavras-chave | Palavras-chave usadas para identificar a finalidade do ativo | Y | N |
-
-## Exibir detalhes do ativo
-
-**Para ver detalhes do ativo**:
-
-1. Em _[!DNL Content]_, selecione um ativo.
-
-1. Na exibição do ativo, revise a seção _[!UICONTROL Detalhes]_ à direita.
-
-   Se a seção _[!UICONTROL Detalhes]_ não estiver visível, clique no ícone **[!UICONTROL Informações]** (i).
-
->[!TIP]
->
->Você também pode exibir detalhes do ativo de [!DNL Insights]. [!DNL Insights] fornece estatísticas de uso e contexto de desempenho entre experiências. Em _[!DNL Insights]_, selecione a seção **[!UICONTROL Assets]**.
+| Texto | Descrição |
+| ------------- | ----------- |
+| Campanhas (nome do projeto) | Metadados padrão capturados e armazenados com o ativo |
+| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio para profissionais de marketing de desempenho e publicado para uso |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso |
+| Canais | Tipos de conteúdo no GenStudio para profissionais de marketing de desempenho para os quais o ativo é usado, como email e Meta ads |
+| Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
+| Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
+| Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |
+| Palavras-chave | Palavras-chave usadas para identificação adicional de características e finalidade do ativo |
 
 <!-- ## History
 

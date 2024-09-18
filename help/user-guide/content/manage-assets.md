@@ -2,19 +2,45 @@
 title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
+source-git-commit: dc438085cfe7c93b20dc7fb0d5919d2dc8b3dcde
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
-
 
 # Gerenciar ativos e experiências
 
 O Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 
-## Adicionar ativos
+## Galeria do Assets
+
+A galeria [!UICONTROL Assets] mostra um inventário de ativos aprovados. O ícone de filtro (funil) acima do lado esquerdo da tabela abre o menu **[!UICONTROL Filtro]**, onde você pode selecionar entre várias categorias para filtrar os ativos mostrados na galeria. Clique no ícone de pesquisa (lupa) para usar uma palavra-chave para localizar um ativo.
+
+A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
+
+![exibição do Assets com pesquisa no cachorro](../../assets/content-assets.png)
+
+### Localização do Assets
+
+Por padrão, os ativos adicionados a [!DNL Content] por meio do processo [!DNL Create] ou através de upload são armazenados no repositório `GenStudio assets`. O repositório `GenStudio assets` é de leitura e gravação no GenStudio para profissionais de marketing de desempenho. Isso significa que você pode salvar, editar e excluir ativos no repositório `GenStudio assets`.
+
+A lista **[!UICONTROL Local]** acima da galeria no lado direito permite selecionar entre repositórios do Adobe Experience Manager (AEM) [!DNL Assets Content Hub] conectados. Quando você seleciona um repositório AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
+
+O repositório AEM é somente leitura, o que significa que não é possível salvar rascunhos, novos ativos ou metadados no repositório AEM. Todos os rascunhos e atualizações finais para ativos, experiências e modelos são salvos no repositório do `GenStudio assets` com os novos [metadados do sistema](asset-details.md#system-metadata).
+
+Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório [!DNL AEM Assets Content Hub] ao GenStudio para profissionais de marketing de desempenho.
+
+## Gerenciamento do Assets
+
+No [!UICONTROL Conteúdo], os profissionais de marketing de desempenho podem armazenar, recuperar e gerenciar facilmente seus ativos digitais. Ao utilizar os repositórios `GenStudio assets` e AEM, os usuários podem garantir que seus ativos estejam bem organizados e acessíveis para várias campanhas de marketing. Essa abordagem de vários repositórios oferece flexibilidade e controle sobre o uso de ativos em todos os ambientes, garantindo que somente ativos aprovados e atualizados sejam usados em esforços de marketing.
+
+### Adicionar ativos
+
+Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repositório `GenStudio assets`. O botão _[!UICONTROL Adicionar ativos]_ está disponível somente quando o _[!UICONTROL Local]_ é o repositório `GenStudio assets`.
+
+![Campo de localização](../../assets/content-location.png){width="350" align="center"}
 
 **Para adicionar um ou mais ativos**:
 
@@ -40,15 +66,21 @@ O Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content] s
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-## Pesquisar ativos
+### Pesquisar ativos
 
 A interface de pesquisa do [!DNL Content] é rápida e responsiva e fornece uma experiência produtiva de pesquisa.
 
-Aplique filtros e use tags de metadados dos detalhes do ativo para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo para ajudá-lo a criar uma nova experiência para sua campanha.
+Aplique filtros e use tags de metadados dos detalhes do ativo para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha.
 
 **Para pesquisar conteúdo a ser reutilizado**:
 
 1. Em _[!DNL Content]_, selecione a seção **[!UICONTROL Assets]**.
+
+1. Selecione um repositório de ativos na lista **[!UICONTROL Local]** ou verifique se você está observando o repositório de ativos correto. `GenStudio assets` é o repositório padrão.
+
+   >[!IMPORTANT]
+   >
+   >A lista _Local_ está disponível somente quando você [se conecta a um repositório AEM](connect-aem-repo.md).
 
 1. Clique em **[!UICONTROL Pesquisar]** (lupa) para inserir uma palavra-chave ou descrição.
 

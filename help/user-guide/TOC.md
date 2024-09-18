@@ -4,10 +4,10 @@ breadcrumb-title: Guia do usuário
 user-guide-description: Saiba como localizar e gerar ativos na marca rapidamente, criar variações e otimizar experiências com base em insights de desempenho de conteúdo em tempo real.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: b538268ec0238fd38c12ae8f32c0df551890d878
+source-git-commit: 476d36dd64607221be0b16f38f251db40e2cf907
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 10%
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
@@ -39,8 +39,9 @@ ht-degree: 10%
    + [Conteúdo aprovado pelo Publish](approvals/publish-content.md)
 + Conteúdo {#content}
    + [Visão geral do conteúdo](content/overview.md)
-   + [Detalhes do ativo](content/asset-details.md)
    + [Gerenciar ativos](content/manage-assets.md)
+   + [Conectar um repositório do AEM](content/connect-aem-repo.md)
+   + [Detalhes do ativo](content/asset-details.md)
    + Modelos {#templates}
       + [Trabalhar com modelos](content/use-templates.md)
       + [Personalizar um modelo](content/customize-template.md)
