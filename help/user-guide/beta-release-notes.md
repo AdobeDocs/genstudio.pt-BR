@@ -2,20 +2,34 @@
 title: Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 description: Saiba mais sobre os últimos recursos e aprimoramentos do Adobe GenStudio para profissionais de marketing de desempenho.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: d1904bfe6e5775f71290c2fc7aa185ac2a4a4668
+source-git-commit: 7085fa5a12a6ed36c9310f8f691969d9c1366d36
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio para notas de versão do Beta para profissionais de marketing de desempenho
 
-Essas notas destacam o Adobe GenStudio significativo para correções e aprimoramentos de Profissionais de marketing de desempenho para a semana que terminou em 13 de setembro.
+Essas notas destacam o Adobe GenStudio significativo para correções e aprimoramentos de Profissionais de marketing de desempenho para a semana que terminou em 19 de setembro.
 
-## Aprimoramentos
+## Novos recursos e melhorias
 
-* O seletor de conteúdo [!DNL Create] foi refatorado para melhorar o carregamento de ativos. <!-- GS-2586 -->
+* **Integração com o Adobe Experience Manager Assets**. O acesso somente leitura ao Adobe Experience Manager Assets agora está disponível. <!-- GS-2432 -->
+
+* **Melhorias no fluxo de trabalho do Modelo de Atualização**.  Os usuários que atualizam modelos agora selecionam o canal para o qual desejam usar o modelo. <!-- GS-4029 -->
+
+* **Desempenho de criação de carregamento de página aprimorado**. As dependências não utilizadas foram removidas do processo de carregamento da página. <!-- GS-3630 -->
+
+* **Suporte a email de várias seções**. Os editores agora podem gerar emails que contêm várias seções e imagens. Eles também podem regenerar fragmentos específicos de um email gerado (por exemplo, um título). <!-- GS-2436 -->
+
+* **Alternar entre exibição móvel e de área de trabalho durante a criação**. Agora os usuários podem alternar entre a exibição para desktop e dispositivo móvel para visualizar as variantes de experiência de email. <!-- GS-4314 -->
+
+* O conteúdo agora gera imagens com dimensões de corte relativas às dimensões do ativo original. <!-- GS-3150 -->
+
+* Agora os usuários podem selecionar variantes de imagem geradas e usar o recurso Ajustar recorte para recortá-las durante o fluxo de trabalho de criação. <!-- GS-5538 2342 -->
+
+* A exibição Detalhes de uma experiência aprovada agora exibe uma imagem em miniatura e o status de todos os ativos referenciados nessa experiência. <!-- GS-3783 -->
 
 ## Problemas conhecidos
 
@@ -25,43 +39,56 @@ Os seguintes problemas conhecidos estão programados para resolução na versão
 
 * A geração de email resulta em um email incompleto. **Solução alternativa**: atualize a página e gere novamente. <!-- GS-5209 -->
 
-* Os modelos podem ser carregados, mas não visualizados. **Solução alternativa**: criar ou carregar um ativo e inserir um nome de grupo de ativos no campo **[!UICONTROL Campanhas]**. Atribuir o ativo a um [!DNL Campaign] adiciona o valor de metadados do nome do grupo. Em seguida, faça upload do template novamente. <!-- GS-4815 -->
+* Os modelos podem ser carregados, mas não visualizados. **Solução alternativa**: carregue um ativo com o campo **[!UICONTROL Campanhas]** preenchido. Em seguida, faça upload do template novamente. <!-- GS-4815 -->
 
-* Miniaturas de campanha ausentes em [!DNL Insights]. <!-- GS-4648 -->
-
-* Os usuários devem fazer logon duas vezes em uma conta de Meta Ads de canal quando também estiverem conectados à Facebook. **Solução alternativa**: faça logout do Facebook antes de fazer logon em uma conta de Meta Ads do canal. <!-- GS-4806 -->
+* Os usuários devem fazer logon duas vezes em uma conta de Metadados do canal quando também estiverem conectados à Facebook. **Solução alternativa**: faça logout do Facebook antes de fazer logon em uma conta de Metadados do canal. <!-- GS-4806 -->
 
 ### Melhorias adicionais e problemas corrigidos
 
-* A Tela do [!DNL Create] agora renderiza imagens em Meta Ads corretamente. <!-- GS-4864 -->
+* Arrastar e soltar agora funciona conforme esperado na área de prompt. <!-- GS-3977 -->
 
-* Embora possam existir discrepâncias entre as visualizações do Meta Ads Canvas e as visualizações exportadas, as experiências exportadas funcionam conforme esperado. <!-- GS-4492 4401 -->
+* Correção de problemas com o uso da tecla Tab para navegar pelos elementos na barra de navegação esquerda. Anteriormente, vários cliques eram necessários para navegar de um elemento para o próximo elemento ativo.  <!-- GS-2639 -->
 
-* As imagens carregadas agora incluem as tags inteligentes esperadas. <!-- GS-4856 -->
+* O GenStudio agora salva nomes de experiência quando os usuários editam o nome enquanto a experiência é carregada. <!-- GS-5242 -->
 
-* O arquivo CSV de exportação dos Meta Ads agora contém imagens conforme esperado. Anteriormente, o arquivo ZIP continha o arquivo de exportação CSV e arquivos NULL em vez de imagens.  <!-- GS-5107 -->
+* Os usuários agora podem editar um título de experiência com sucesso. Anteriormente, o texto do título assumia o padrão do texto original depois que um usuário tentava editá-lo. <!-- GS-5246 -->
+* As imagens selecionadas agora são renderizadas na Tela conforme esperado durante a criação de email de várias partes. <!-- GS-5263 -->
 
-* Agora os usuários podem inserir texto no campo Exibição de detalhes do modelo **[!UICONTROL Carregado por]**, conforme esperado. Anteriormente, o ícone de carregamento impedia os usuários de inserir texto. <!-- GS-4887 -->
+* Todas as cadeias de caracteres na página Detalhes das experiências [!DNL Content] foram localizadas. <!-- GS-5016 -->
 
-* Os usuários não serão mais redirecionados para a exibição de Detalhes de uma marca depois que ela for excluída. <!-- GS-2663 -->
+* Os usuários agora podem excluir um produto cujo modo de exibição de Detalhes esteja aberto em [!DNL Products]. <!-- GS-5057 -->
 
-* Os editores não recebem mais o seguinte erro ao enviar variantes para revisão e aprovação: `You have no access to view comments on this Object`. <!-- GS-5140 -->
+* A mensagem que o GenStudio exibe quando uma pesquisa não produz resultados correspondentes foi aprimorada. <!-- GS-4544 -->
 
-* Atualização do template de email usado pelo fluxo de trabalho de revisão e aprovação. <!-- GS-5239 -->
+* `aria-label` valores de atributo para valores de filtro de pesquisa agora são traduzidos conforme esperado. <!-- GS-5388 -->
 
-* O GenStudio agora exibe uma mensagem de erro quando ocorre um erro de rede durante o carregamento do seletor de modelo. <!-- GS-4682 -->
+* Os usuários agora podem excluir ativos duplicados na área de prompt Tela [!DNL Create] com êxito.  <!-- GS-5233 -->
 
-* Solução de problemas ao navegar de um ativo, experiência ou cartão de modelo para o objeto selecionado. <!-- GS-4390 -->
+* O filtro Conta agora funciona conforme esperado com experiências, ativos e atributos. <!-- GS-4812 -->
 
-* O pop-up _Adicionar Assets_ agora está localizado quando aberto a partir de Criar Tela.  <!-- GS-4867 -->
+* Problemas de fonte nos modelos de metadados foram resolvidos para melhorar a legibilidade e a acessibilidade. <!-- GS-5354 -->
 
-* A validação da marca agora é acionada para variantes regeneradas. Anteriormente, se um editor regenerava variantes de um rascunho existente, a validação não era acionada. <!-- GS-3971 -->
+* As alterações nos títulos de rascunho agora persistem conforme esperado. Anteriormente, os títulos eram revertidos para o nome padrão após a edição. <!-- GS-2951 -->
+
+#### Correções de modelos
+
+* O recurso de redimensionamento agora funciona conforme esperado com várias imagens em modelos de meta-anúncios. Anteriormente, o GenStudio não redimensionava imagens para todos os modelos selecionados. <!-- GS-4696 -->
+
+* A exclusão de um modelo agora atualiza a página [!DNL Content] conforme esperado. <!-- GS-5397 -->
+
+* Os usuários agora podem escolher valores para [!DNL Personas], [!DNL Brands] ou [!DNL Products] somente no menu suspenso. Anteriormente, a caixa de diálogo _Carregamento de modelo_ permitia que os usuários inserissem qualquer nome [!DNL Persona], [!DNL Brand] ou [!DNL Product]. <!-- GS-5072 5071-->
+
+* O botão **[!UICONTROL Voltar]** agora está desabilitado durante o processo de carregamento do Modelo. <!-- GS-5358 -->
+
+* Todas as cadeias de caracteres na exibição de detalhes do modelo Select [!DNL Create] agora estão localizadas. <!-- GS-5025 -->
 
 ## Versões anteriores do Beta
 
 As versões anteriores do Beta incluíam os seguintes destaques e correções.
 
 ### Destaques
+
+* O seletor de conteúdo [!DNL Create] foi refatorado para melhorar o carregamento de ativos. <!-- GS-2586 -->
 
 * O GenStudio agora oferece suporte à opção de pré-visualização de ativos de mídia nas exibições de tabelas e galerias do [!DNL Insights]. As miniaturas de vídeo incluem um botão **Reproduzir** com uma opção de mudo. <!-- GS-4398 -->
 
@@ -92,21 +119,45 @@ As versões anteriores do Beta incluíam os seguintes destaques e correções.
 
 * **Criação de email de várias seções**: os usuários agora podem criar emails compostos de títulos, imagens, corpo e elementos CTA separados. (fixo em 16/08)
 
-* **Redimensionamento de MetaAds**: editores podem redimensionar as taxas de proporções de MetaAd. (fixo em 16/08)
+* **Redimensionamento de metaanúncios**: os editores podem redimensionar as taxas de proporções de metaanúncio. (fixo em 16/08)
 
 * **Contas de logon limitadas do [!DNL Insights]**: o logon do [!DNL Insights] agora dá suporte a apenas uma conta por cliente. (fixo em 16/08)
 
 ### Melhorias adicionais e problemas corrigidos
 
-* O pop-up _Adicionar Assets_ agora está localizado conforme esperado. <!-- GS-3834 -->
+* A Tela do [!DNL Create] agora renderiza imagens em Metadados corretamente. (corrigido em 13/09) <!-- GS-4864 -->
 
-* Problemas com o dimensionamento do modelo de experiência de Metadados foram resolvidos. <!-- GS-4174 -->
+* Embora possam existir discrepâncias entre as visualizações da Tela de metadados e as visualizações exportadas, as experiências exportadas funcionam conforme esperado. (corrigido em 13/09) <!-- GS-4492 4401 -->
 
-* Os campos de texto no arquivo de exportação CSV para emails de várias partes agora são ordenados conforme esperado. <!-- GS-4013 -->
+* As imagens carregadas agora incluem as tags inteligentes esperadas. (corrigido em 13/09) <!-- GS-4856 -->
 
-* O campo de pesquisa [!DNL Content] não desaparece mais quando um usuário pressiona repetidamente a tecla **Backspace** para apagar o texto do campo de pesquisa.  <!-- GS-4543 -->
+* O arquivo CSV de exportação de metadados agora contém imagens, conforme esperado. Anteriormente, o arquivo ZIP continha o arquivo de exportação CSV e arquivos NULL em vez de imagens. (corrigido em 13/09) <!-- GS-5107 -->
 
-* O GenStudio para profissionais de marketing de desempenho agora carrega os usuários conforme esperado quando um colaborador adiciona uma menção `@` a um comentário. Anteriormente, os usuários não eram carregados e um erro era exibido: `Unable to load users. Refresh the page`. <!-- GS-4113 -->
+* Agora os usuários podem inserir texto no campo Exibição de detalhes do modelo **[!UICONTROL Carregado por]**, conforme esperado. Anteriormente, o ícone de carregamento impedia os usuários de inserir texto. (corrigido em 13/09) <!-- GS-4887 -->
+
+* Os usuários não serão mais redirecionados para a exibição de Detalhes de uma marca depois que ela for excluída. (corrigido em 13/09) <!-- GS-2663 -->
+
+* Os editores não recebem mais o seguinte erro ao enviar variantes para revisão e aprovação: `You have no access to view comments on this Object`. (corrigido em 13/09) <!-- GS-5140 -->
+
+* Atualização do template de email usado pelo fluxo de trabalho de revisão e aprovação. (corrigido em 13/09) <!-- GS-5239 -->
+
+* O GenStudio agora exibe uma mensagem de erro quando ocorre um erro de rede durante o carregamento do seletor de modelo. (corrigido em 13/09) <!-- GS-4682 -->
+
+* Solução de problemas ao navegar de um ativo, experiência ou cartão de modelo para o objeto selecionado. (corrigido em 13/09) <!-- GS-4390 -->
+
+* O pop-up _Adicionar Assets_ agora está localizado quando aberto a partir de Criar Tela. (corrigido em 13/09) <!-- GS-4867 -->
+
+* A validação da marca agora é acionada para variantes regeneradas. Anteriormente, se um editor regenerava variantes de um rascunho existente, a validação não era acionada. (corrigido em 13/09) <!-- GS-3971 -->
+
+* O pop-up _Adicionar Assets_ agora está localizado conforme esperado. (corrigido em 5/9) <!-- GS-3834 -->
+
+* Problemas com o dimensionamento do modelo de experiência de Metadados foram resolvidos. (corrigido em 5/9) <!-- GS-4174 -->
+
+* Os campos de texto no arquivo de exportação CSV para emails de várias partes agora são ordenados conforme esperado. (corrigido em 5/9) <!-- GS-4013 -->
+
+* O campo de pesquisa [!DNL Content] não desaparece mais quando um usuário pressiona repetidamente a tecla **Backspace** para apagar o texto do campo de pesquisa. (corrigido em 5/9) <!-- GS-4543 -->
+
+* O GenStudio para profissionais de marketing de desempenho agora carrega os usuários conforme esperado quando um colaborador adiciona uma menção `@` a um comentário. Anteriormente, os usuários não eram carregados e um erro era exibido: `Unable to load users. Refresh the page`. (corrigido em 29/8) <!-- GS-4113 -->
 
 * O GenStudio não exibe mais a mensagem **Ocorreu um erro** quando um editor clica em **Selecionar conteúdo** durante a criação de email na área de prompt. <!-- GS-4879 -->
 
