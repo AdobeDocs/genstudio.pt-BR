@@ -3,7 +3,7 @@ title: GenStudio para profissionais de marketing de desempenho [!DNL Brands]
 description: O GenStudio para profissionais de marketing de desempenho [!DNL Brands] é uma coleção abrangente de ativos da marca (cópia de marketing, imagens, experiências e muito mais) para informar sobre a criação de conteúdo alinhado à marca.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
+source-git-commit: 1991e59c0badc0cdde92b863d6c8528e7ca31a38
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -20,7 +20,7 @@ A GenStudio para profissionais de marketing de desempenho usa as diversas inform
 
 1. Na área de navegação esquerda, clique em **[!UICONTROL [!DNL Brands]]**.
 1. Para ver as informações de visão geral de uma marca, clique em para abrir uma marca definida.
-1. Para exibir detalhes individuais ou modificar uma marca, clique em **[!UICONTROL Diretrizes de voz da marca]**, **[!UICONTROL Diretrizes do canal]**, **[!UICONTROL Diretrizes da imagem]** ou **[!UICONTROL Logotipos]** na parte superior.
+1. Para exibir detalhes individuais ou modificar uma marca, clique em [**[!UICONTROL Diretrizes de voz da marca]**](#brand-voice-guidelines), [**[!UICONTROL Diretrizes do canal]**](#channel-guidelines), **[!UICONTROL Diretrizes da imagem]** ou **[!UICONTROL Logotipos]** na parte superior.
 
 Você pode fazer upload de documentos de diretrizes da marca (até três arquivos PDF ou DOC) para a GenStudio para que os profissionais de marketing de desempenho criem uma marca automaticamente. Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar uma marca ao GenStudio para profissionais de marketing de desempenho, modificá-la, publicá-la e muito mais.
 
@@ -45,9 +45,9 @@ A tabela a seguir mostra cada categoria de diretrizes e exemplos de diretrizes p
 
 Cada canal tem determinadas diretrizes inerentes que influenciam a composição de ativos do canal.
 
-A tabela a seguir mostra cada fragmento de canal, canais para os quais ele está disponível, descrição do fragmento, exemplos de diretrizes e resultados de exemplo.
+A tabela a seguir mostra cada seção de canal, canais para os quais ela está disponível, descrição da seção, exemplos de diretrizes e resultados de exemplo.
 
-| Fragmentos | Canais | Descrição | Práticas recomendadas |
+| Seções | Canais | Descrição | Práticas recomendadas |
 | ------------------| --------- | --------- | -------- |
 | Geral | email, anúncios sociais | Uma segunda linha de assunto ou texto de visualização de email | Defina o tom/emoção geral para ser consistente em todo o email (2-5 diretrizes).<br>_Exemplos_: &quot;Manter um tom amigável e acessível&quot;, &quot;Evitar linguagem excessivamente formal&quot;<br><br> |
 | Assunto | email | Um título atraente e interessante para resumir o conteúdo de um email | Forneça orientação específica (2 a 5 diretrizes) sobre tom, comprimento, etc. Adicione linhas de assunto anteriormente bem-sucedidas na seção _Exemplos_ para obter uma saída de melhor qualidade.<br>_Exemplo_: &quot;Alinhar assunto ao corpo do email&quot; |

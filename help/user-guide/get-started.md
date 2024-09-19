@@ -4,7 +4,7 @@ description: Saiba como configurar seu GenStudio para que os profissionais de ma
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 333d32757a4327d8f8a54b25cb5c08ce2b3e2771
+source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Três tipos de funções de usuário do GenStudio para profissionais de marketin
 
 ### editores do GenStudio
 
-**Os editores** têm as permissões principais necessárias para criar GenStudio para os profissionais de marketing de desempenho [!DNL Brands], [!DNL Campaigns] e [!DNL Content] ativos. Eles também podem editar e excluir os ativos que criaram. O GenStudio para profissionais de marketing de desempenho oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar fragmentos de conteúdo ou experiências inteiras que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
+**Os editores** têm as permissões principais necessárias para criar GenStudio para os profissionais de marketing de desempenho [!DNL Brands], [!DNL Campaigns] e [!DNL Content] ativos. Eles também podem editar e excluir os ativos que criaram. O GenStudio para profissionais de marketing de desempenho oferece suporte à criação rápida de centenas de conteúdo. Esses usuários podem gerar seções de conteúdo ou experiências completas que orquestram partes distintas de conteúdo aprovado para atender às necessidades de campanhas de marketing específicas.
 
 Os editores interagem com o GenStudio para as tecnologias de IA gerativa dos profissionais de desempenho por meio de _prompts_. A área de prompt na Tela de Pintura fornece ferramentas para colocar prompts no contexto das diretrizes de uma campanha específica. Como resultado, a qualidade e o sucesso do conteúdo gerado dependem parcialmente da qualidade das diretrizes de marca que sua organização carregou e da especificidade do seu prompt.
 
