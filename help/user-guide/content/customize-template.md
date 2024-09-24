@@ -3,13 +3,13 @@ title: Personalizar um modelo
 description: Saiba como personalizar e otimizar seu modelo para o Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 909ac53580e672df1adf0c73e67a32f2c045dc35
+exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
+source-git-commit: 8ea0c17b60b18928540070448ad1ce0206208b00
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar um modelo
 
@@ -98,21 +98,21 @@ _As Seções_ informam ao GenStudio para Profissionais de marketing de desempenh
 
 Use um prefixo de sua escolha no nome do campo para indicar que um campo faz parte de uma seção ou grupo. Por exemplo, talvez você queira destacar o conteúdo que aparece em uma área destacada:
 
-- `spotlight_headline`
-- `spotlight_body`
+- `pod1_headline`
+- `pod1_body`
 
-Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `spotlight` só pode usar um campo `spotlight_headline`.
+Cada seção pode usar apenas um de cada tipo de campo. No exemplo acima, a seção `pod1` só pode usar um campo `pod1_headline`.
 
 Um modelo pode incluir até três seções:
 
 - `headline`
 - `body`
-- `spotlight_headline`
-- `spotlight_body`
-- `news_headline`
-- `news_body`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
 
-O GenStudio para Comerciantes de Desempenho entende que `spotlight_headline` está mais intimamente relacionado a `spotlight_body` do que a `news_body`.
+O GenStudio para Comerciantes de Desempenho entende que `pod1_headline` está mais intimamente relacionado a `pod1_body` do que a `pod2_body`.
 
 ## Visualização do modelo
 
@@ -224,14 +224,18 @@ O modelo a seguir é o mesmo modelo de HTML no exemplo acima, mas com mais duas 
                 width="600" height="600"
                 border="0"/></p>
         <p>{{ body }}</p>
+    <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p>This is Pod 1 content.</p>
+            <h2>{{ pod1_header }}</h2>
+            <p>{{ pod1_body }}</p>
         </div>
+        <!-- End of Pod1 -->
+    <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p>This is Pod 2 content.</p>
+            <h2>{{ pod2_header }}</h2>
+            <p>{{ pod2_body }}</p>
         </div>
+        <!-- End of Pod2 -->
     </div>
 </body>
 </html>
@@ -293,4 +297,3 @@ Este é um exemplo básico de um modelo de Meta-anúncio. O cabeçalho contém C
 ```
 
 +++
-
