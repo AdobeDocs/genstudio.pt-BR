@@ -1,20 +1,20 @@
 ---
-user-guide-title: Adobe [!DNL GenStudio] Tutorials
+user-guide-title: Adobe GenStudio para tutoriais de marketing de desempenho
 breadcrumb-title: Tutorials
-user-guide-description: Veja os tutoriais do Experience League no Adobe [!DNL GenStudio], uma solução completa para acelerar e simplificar sua cadeia de fornecimento de conteúdo com IA gerativa e automação inteligente.
+user-guide-description: Veja tutoriais do GenStudio para Marketing de desempenho, uma solução completa para acelerar e simplificar sua cadeia de fornecimento de conteúdo com IA gerativa e automação inteligente.
 feature-set: GenStudio
 feature: Generative AI
-source-git-commit: dab19da0063d6f4f4497112c4063bfc9c285e651
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
 
-# Adobe [!DNL GenStudio] Tutorials {#learning}
+# Adobe GenStudio para Tutorials de marketing de desempenho {#learning}
 
-+ [Tutoriais do [!DNL GenStudio]](tutorials.md)
++ [GenStudio para Tutorials de marketing de desempenho](tutorials.md)
 + [Criar uma experiência de email](create-email-experience.md)
 + [Criar uma experiência de meta-anúncio](create-meta-ad.md)
-+ [[!DNL GenStudio] Guia do Usuário](https://experienceleague.adobe.com/docs/genstudio/user-guide/home.html)
++ [Guia do Usuário do GenStudio for Performance Marketing](https://experienceleague.adobe.com/docs/genstudio/user-guide/home.html)

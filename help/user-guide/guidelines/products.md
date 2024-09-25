@@ -1,22 +1,22 @@
 ---
-title: GenStudio para profissionais de marketing de desempenho [!DNL Products]
-description: O GenStudio para profissionais de marketing de desempenho [!DNL Products] incorpora todos os aspectos do seu produto — imagens, descrições e propostas de valor — para criar conteúdo relevante que destaque os pontos fortes do produto e mantenha a consistência nas mensagens do produto.
+title: GenStudio para marketing de desempenho [!DNL Products]
+description: O GenStudio para Marketing de Desempenho [!DNL Products] incorpora todos os aspectos do seu produto—imagens, descrições e propostas de valor—para criar conteúdo relevante que destaque os pontos fortes do produto e mantenha a consistência nas mensagens do produto.
 feature: Products Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
+source-git-commit: 874c6f08b39b6e72d2c3d4ade5a2c78be0fcfa31
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
+# GenStudio para marketing de desempenho [!DNL Products]
 
-# GenStudio para profissionais de marketing de desempenho [!DNL Products]
+O [!DNL Products] no GenStudio para Marketing de Desempenho aproveita uma compreensão profunda das especificações do produto, vantagens e fatores diferenciadores para gerar conteúdo impactante.
 
-O GenStudio para profissionais de marketing de desempenho [!DNL Products] aproveita uma compreensão profunda das especificações do produto, vantagens e fatores diferenciadores para gerar conteúdo impactante.
+[!DNL Products] abrange todos os elementos de um produto específico, como imagens, descrições e propostas de valor, para criar uma representação de marca coesa. Utilizando a tecnologia avançada de IA do Adobe, as diretrizes de Marketing do GenStudio para desempenho (for Performance Marketing Guidelines)[[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md) trabalham juntas para gerar um conteúdo atraente que mostre os pontos fortes dos seus produtos e garanta a consistência em todas as mensagens.
 
-[!DNL Products] abrange todos os elementos de um produto específico, como imagens, descrições e propostas de valor, para criar uma representação de marca coesa. Utilizando a tecnologia avançada de IA do Adobe, as diretrizes do GenStudio para profissionais de marketing de desempenho —[[!DNL Brands], [!DNL Products] e [!DNL Personas]](/help/user-guide/guidelines/overview.md) — trabalham juntas para gerar conteúdo atraente que mostre os pontos fortes dos seus produtos e garanta a consistência em todas as mensagens.
-
-![[!DNL Products] diretrizes no GenStudio para profissionais de marketing de desempenho](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
+![[!DNL Products] diretrizes no GenStudio para Marketing de Desempenho](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Para exibir ou modificar um produto**:
 
@@ -24,11 +24,11 @@ O GenStudio para profissionais de marketing de desempenho [!DNL Products] aprove
 1. Para [exibir detalhes individuais ou modificar um produto](add-guidelines.md#manage-products), clique no menu de ações _[!DNL Products]_e selecione **[!UICONTROL Abrir]**.
 1. Revise as diretrizes do produto clicando em um campo de texto de categoria de diretrizes.
 
-Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou modificar um produto no GenStudio para profissionais de marketing de desempenho.
+Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou modificar um produto no GenStudio para Marketing de Desempenho.
 
 ## [!DNL Products] diretrizes
 
-As diretrizes de produtos individuais fornecem à GenStudio para profissionais de marketing de desempenho uma visão clara de seus produtos.
+O GenStudio para marketing de desempenho obtém uma visão clara de seus produtos com a adição de diretrizes de produtos individuais.
 
 Essas diretrizes detalham cada categoria de diretrizes e exemplos relacionados. Os exemplos são entradas de amostra que moldam a saída do conteúdo gerado. Use-as para informar suas diretrizes do [!DNL Products].
 

@@ -1,22 +1,22 @@
 ---
-title: GenStudio para profissionais de marketing de desempenho [!DNL Personas]
-description: O GenStudio para profissionais de marketing de desempenho [!DNL Personas] é uma representação real dos segmentos de clientes, capturando seus interesses, pontos problemáticos, preferências e características comportamentais.
+title: GenStudio para marketing de desempenho [!DNL Personas]
+description: O GenStudio para marketing de desempenho [!DNL Personas] é uma representação real dos segmentos de clientes, capturando seus interesses, pontos problemáticos, preferências e características comportamentais.
 feature: Personas Service, Guidelines
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
+source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-
-# GenStudio para profissionais de marketing de desempenho [!DNL Personas]
+# GenStudio para marketing de desempenho [!DNL Personas]
 
 O [!DNL Personas] fornece uma representação autêntica dos segmentos de clientes, abrangendo suas informações, interesses, pontos problemáticos, preferências e características comportamentais.
 
-O GenStudio para profissionais de marketing de desempenho aproveita o potencial das diretrizes—[[!DNL Brands], [!DNL Products] e [!DNL Personas]](overview.md)—e da tecnologia de IA gerativa de Adobe para preparar conteúdo de marketing personalizado para seus clientes-alvo.&#x200B;
+O GenStudio para Marketing de desempenho aproveita o potencial das diretrizes—[[!DNL Brands], [!DNL Products] e [!DNL Personas]](overview.md)—e a tecnologia de IA gerativa de Adobe para preparar conteúdo de marketing personalizado para seus clientes-alvo.&#x200B;
 
-![[!DNL Personas] diretrizes no GenStudio para profissionais de marketing de desempenho](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
+![[!DNL Personas] diretrizes no GenStudio para Marketing de Desempenho](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Para exibir ou modificar uma persona**:
 
@@ -24,11 +24,11 @@ O GenStudio para profissionais de marketing de desempenho aproveita o potencial 
 1. Para [exibir detalhes individuais ou modificar uma persona](add-guidelines.md#manage-personas), clique no menu de ação _[!DNL Personas]_e selecione **Abrir**.
 1. Revise as diretrizes de personas clicando em um campo de texto de categoria de diretrizes.
 
-Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou modificar um perfil no GenStudio para profissionais de marketing de desempenho.
+Consulte [Adicionar diretrizes](add-guidelines.md) para saber como adicionar ou modificar um perfil no GenStudio para Marketing de Desempenho.
 
 ## [!DNL Personas] diretrizes
 
-As diretrizes de persona individuais fornecem à GenStudio para profissionais de marketing de desempenho uma visão clara de seu [!DNL Personas].
+As diretrizes de persona individuais fornecem à GenStudio para Marketing de Desempenho uma visão clara do seu [!DNL Personas].
 
 Essas diretrizes detalham cada categoria de diretrizes e exemplos relacionados. Os exemplos são entradas de amostra que moldam a saída do conteúdo gerado. Use-as para informar suas próprias diretrizes do [!DNL Personas].
 

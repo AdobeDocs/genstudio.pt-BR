@@ -1,24 +1,24 @@
 ---
 title: Criar uma experiência de email
-description: Saiba como criar experiências de email no Adobe [!DNL GenStudio] para profissionais de marketing de desempenho.
+description: Saiba como criar experiências de email no Adobe GenStudio para Marketing de desempenho.
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: a00d4fcaabb97eae69294ddc9689179842d49512
+source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
 
 # Criar uma experiência de email
 
-Este tutorial demonstra como gerar experiências de email da marca usando o GenStudio para profissionais de marketing de desempenho [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
+Este tutorial demonstra como gerar experiências de email com marcas usando o GenStudio para Marketing de Desempenho [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
 
-Para criar uma experiência de email eficaz, é recomendável [adicionar diretrizes ao GenStudio para Profissionais de marketing de desempenho](/help/user-guide/guidelines/add-guidelines.md) e aprofundar as [noções básicas para a criação de um prompt](/help/user-guide/effective-prompts.md) antes de começar.
+Para criar uma experiência de email eficaz, é recomendável [adicionar diretrizes ao GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md) e aprofundar as [noções básicas de criação de um prompt](/help/user-guide/effective-prompts.md) antes de começar.
 
 ## Escolher um modelo
 
@@ -41,7 +41,7 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
 1. Clique no ícone _Parâmetros_ para expandir a área de prompt.
 1. Na seção _Parâmetros_, selecione as diretrizes—[!DNL Brands], [!DNL Personas] e [!DNL Products]—para informar sobre a criação de conteúdo.
 
-   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes à sua GenStudio para profissionais de marketing de desempenho](/help/user-guide/guidelines/add-guidelines.md).
+   Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Clique em **[!UICONTROL Selecionar conteúdo]** para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo.
    * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.

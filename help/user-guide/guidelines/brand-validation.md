@@ -1,9 +1,9 @@
 ---
-title: Validação de marca em Adobe GenStudio para profissionais de marketing de desempenho
-description: Saiba como o sistema integrado de validação de marca funciona no GenStudio para profissionais de marketing de desempenho.
+title: Validação da marca em Adobe GenStudio para Marketing de desempenho
+description: Saiba como o sistema integrado de validação de marca funciona no GenStudio para Marketing de desempenho.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: a00d4fcaabb97eae69294ddc9689179842d49512
+source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Validação da marca
 
-No GenStudio para profissionais de marketing de desempenho, a validação de marca é um componente essencial que funciona em colaboração com a funcionalidade e as diretrizes de IA gerativa—[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Ele garante que todo o seu conteúdo esteja alinhado à identidade da sua marca.
+No GenStudio para Marketing de Desempenho, a validação da marca é um componente essencial que funciona em colaboração com a funcionalidade e as diretrizes da IA gerativa—[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) e [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Ele garante que todo o seu conteúdo esteja alinhado à identidade da sua marca.
 
-A GenStudio para profissionais de marketing de desempenho valida a marca em vários aspectos, incluindo:
+O GenStudio para marketing de desempenho valida a marca em vários aspectos, incluindo:
 
 * Diretrizes de marca específicas para cada cliente
 * Copiar diretrizes para plataformas de canal diferentes
