@@ -3,13 +3,13 @@ title: Preparar um modelo de email para o Adobe GenStudio para profissionais de 
 description: Saiba como criar um modelo de email personalizado para o Adobe GenStudio para profissionais de marketing de desempenho.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
+exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
+source-git-commit: 58833ed0c8e28061ab2584b7949f2a0cbd3d10cc
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
-
 
 # Preparar modelo de email para o Adobe GenStudio para profissionais de marketing de desempenho
 
@@ -30,6 +30,14 @@ Se as diretrizes não forem adicionadas ao GenStudio para profissionais de marke
 Depois que um modelo é projetado, ele é codificado usando HTML e CSS em linha. O código deve ser limpo e responsivo para vários dispositivos.
 
 Consulte [Exemplos de modelo](/help/user-guide/content/customize-template.md#template-examples).
+
+### Emails de várias seções
+
+Você pode usar [prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts) durante a geração de conteúdo para instruir o GenStudio for Performance Marketing a gerar conteúdo variável por seção de um email.
+
+Por exemplo, se as seções no seu modelo de email tiverem o prefixo `Pod`—`Pod1` e `Pod2`, o prompt estruturado para geração de conteúdo poderá incluir diretivas específicas para essas seções de email. O GenStudio for Performance Marketing corresponde a diretiva específica da seção no prompt à seção de email relacionada e gera conteúdo alinhado às diretivas.
+
+Consulte [prompts estruturados](/help/user-guide/effective-prompts.md#structured-prompts).
 
 ## Testar um modelo de email
 
