@@ -3,9 +3,9 @@ title: GenStudio para marketing de desempenho [!DNL Personas]
 description: O GenStudio para marketing de desempenho [!DNL Personas] é uma representação real dos segmentos de clientes, capturando seus interesses, pontos problemáticos, preferências e características comportamentais.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: 86f9c94956b7e4891aa237ad00428753903d2839
+source-git-commit: 5a1da3b0b3311db01ec29099e802f2e9c6446467
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,4 @@ A tabela a seguir mostra cada categoria de diretrizes de [!DNL Personas] e exemp
 | ------------------| :---------- |-------------|
 | Nome pessoal | Representa um segmento de público-alvo específico para o qual os materiais de marketing gerados são adaptados | Adicione um nome de usuário claro e conciso.<br><br>_Exemplos_: &quot;CMOs de Varejo&quot;, &quot;Estudantes em potencial de Enfermagem&quot;, &quot;Novos Clientes de Conta de Poupança&quot; |
 | Descrição | Resumo definindo as principais características, necessidades e comportamentos | Use uma linguagem concisa para descrever claramente a segmentação personalizada e única do público-alvo (1-2 frases).<br><br>Concentre-se no que direciona este segmento de público-alvo (necessidades, características principais etc.)<br><br>Mantenha a descrição sucinta e sem dados demográficos profundos ou informações extras. |
-| Preferências de mensagens | Resumo claro de estilos de comunicação preferidos que refletem em um perfil específico | Defina requisitos de mensagem exclusivos e motivações para persona, com foco em como a persona prefere receber e interagir com as comunicações.<br><br>Forneça preferências de mensagens específicas na lista (cada item de lista 1-2 frases).<br><br>Limite a lista para um total de 10 frases ou menos, garantindo que as informações mais críticas sejam destacadas.<br><br>_Exemplo_: &quot;Preferências de mensagens para profissionais com conhecimento técnico:<li>Prefere comunicação concisa e sem jargões.</li><li>Responde positivamente a insights orientados por dados e conselhos acionáveis.</li><li>Prefere recursos visuais, como infográficos e gráficos, para compreender rapidamente informações complexas.<li><li>Valoriza a transparência com uma abordagem honesta e direta.</li>” |
-| Detalhes adicionais | Capturar informações essenciais importantes para a geração de conteúdo personalizado | Forneça detalhes adicionais (1-3 frases) vitais para a personalização do conteúdo e garanta que as informações contribuam diretamente para a eficácia do conteúdo.<br><br>Concentre-se na clareza e na brevidade. |
+| Preferências de mensagens | Resumo claro de estilos de comunicação preferidos que refletem em um perfil específico | Defina requisitos de mensagem exclusivos e motivações para persona, com foco em como a persona prefere receber e interagir com as comunicações.<br><br>Forneça preferências de mensagens específicas na lista (cada item de lista 1-2 frases).<br><br>Limite a lista para um total de 10 frases ou menos, garantindo que as informações mais críticas sejam destacadas.<br><br>_Exemplo_: &quot;Preferências de mensagens para profissionais com conhecimento técnico:<li>Prefere comunicação concisa e sem jargões.</li><li>Responde positivamente a insights orientados por dados e conselhos acionáveis.</li><li>Prefere recursos visuais, como infográficos e gráficos, para compreender rapidamente informações complexas.</li><li>Valoriza a transparência com uma abordagem honesta e direta.</li>” |
