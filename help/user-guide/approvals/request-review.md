@@ -1,19 +1,19 @@
 ---
 title: Solicitar revisões e aprovações
 description: Solicite uma revisão.
-source-git-commit: c9d09801f0bd3732611b01d4a98cc7ebf38884d7
+exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
+source-git-commit: d146397df0ea6054db010a72908f402431339c2c
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Solicitar revisão e aprovação
 
 Pronto para convidar seus colegas de trabalho para revisar um ativo ou experiência que você criou? Você pode convidar as partes interessadas a contribuir com feedback sobre um rascunho do conteúdo com a meta final de aprovação.
 
-Somente aprovadores designados podem atribuir um status de aprovação e adicionar comentários de revisão. Os aprovadores que receberam o link para o URL de rascunho só podem ver o rascunho, não atribuir o status de aprovação ou adicionar comentários. Se você compartilhar um URL de rascunho com um usuário do GenStudio for Performance Marketers em sua organização que não tenha sido incluído na revisão de rascunho, esse usuário poderá visualizar o rascunho. Eles não podem deixar comentários ou aprovar o conteúdo.
+Somente aprovadores designados podem atribuir um status de aprovação e adicionar comentários de revisão. Os aprovadores que receberam o link para o URL de rascunho só podem ver o rascunho, não atribuir o status de aprovação ou adicionar comentários. Se você compartilhar um URL de rascunho com um colaborador da Adobe GenStudio for Performance Marketing em sua organização que não tenha sido incluído na revisão de rascunho, esse usuário poderá visualizar o rascunho. Eles não podem deixar comentários ou aprovar o conteúdo.
 
 ## Iniciar uma solicitação de aprovação
 
@@ -23,17 +23,14 @@ Depois de gerar as variantes de conteúdo, você pode solicitar revisão e aprov
 
 1. Clique no botão **[!UICONTROL Enviar para aprovador]** na barra de menu superior da Tela. A janela pop-up _Enviar para aprovação_ é aberta e identifica o rascunho para o qual você está solicitando uma revisão. Se você gerar várias variantes, a Tela inteira será enviada para revisão.
 
-1. Selecione o aprovador ou aprovadores do(s) qual(is) deseja solicitar uma revisão. À medida que você começa a digitar, o campo **[!UICONTROL Aprovador]** preenche automaticamente o nome de usuário do aprovador da lista de usuários com permissões de exibição e aprovação do GenStudio for Performance Marketers. O botão **[!UICONTROL Enviar]** é ativado depois que você insere pelo menos um nome de aprovador.
+1. Selecione o aprovador ou aprovadores do(s) qual(is) deseja solicitar uma revisão. Quando você começa a digitar, o campo **[!UICONTROL Aprovador]** preenche automaticamente o nome de usuário do aprovador na lista de usuários com permissões de exibição e aprovação do GenStudio for Performance Marketing. O botão **[!UICONTROL Enviar]** é ativado depois que você insere pelo menos um nome de aprovador.
 
 1. Clique em **[!UICONTROL Enviar]**. Clicar nesse botão aciona notificações no produto e por email que alertam cada aprovador designado de que eles têm conteúdo para revisar.
 
-Opcional: adicione comentários para guiar o foco do aprovador para recursos específicos do rascunho.
+   _Opcional_: use comentários para comunicar contexto adicional sobre os ativos sob revisão e chamar a atenção para detalhes e chamadas de atenção específicas.
 
 ## Adicionar e remover aprovadores
 
 Se você for o criador do conteúdo, a Tela de rascunho exibirá o botão **[!UICONTROL Gerenciar aprovações]**. Use este botão para abrir um pop-up do qual você pode remover ou adicionar aprovadores através do processo de revisão e aprovação.
 
-Os nomes de aprovadores são listados nesta exibição com um status [!DNL Notified] após o início das solicitações de aprovação. Consulte [Aprovar conteúdo](./approve-content.md) para obter uma visão geral do GenStudio para as tarefas de aprovação de profissionais de marketing de desempenho.
-
-
-
+Os nomes de aprovadores são listados nesta exibição com um status [!DNL Notified] após o início das solicitações de aprovação. Consulte [Aprovar conteúdo](./approve-content.md) para obter uma visão geral das tarefas de aprovação do GenStudio for Performance Marketing.
