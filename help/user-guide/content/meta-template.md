@@ -1,27 +1,27 @@
 ---
-title: Preparar um modelo de meta anúncios para o Adobe GenStudio para profissionais de marketing de desempenho
-description: Saiba como criar um modelo de metadados personalizado para Adobe GenStudio para profissionais de marketing de desempenho.
+title: Preparar um modelo de meta anúncios para o Adobe GenStudio for Performance Marketing
+description: Saiba como criar um modelo de meta anúncio personalizado para o Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Templates, Content
-source-git-commit: 09431d6f5f5b00c1b84cf69667a337ce51683c1d
+exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
+# Preparar modelo de meta anúncios para o Adobe GenStudio for Performance Marketing
 
-# Preparar modelo de meta anúncios para o Adobe GenStudio para profissionais de marketing de desempenho
-
-A criação de um modelo de meta anúncios envolve uma abordagem estruturada e personalizada para redes sociais. Depois que um modelo de meta anúncio for criado e testado, você poderá prepará-lo para upload e uso no GenStudio para profissionais de marketing de desempenho.
+A criação de um modelo de meta anúncios envolve uma abordagem estruturada e personalizada para redes sociais. Depois que um modelo de meta anúncio for criado e testado, você poderá prepará-lo para upload e uso no GenStudio for Performance Marketing.
 
 ## Adicionar diretrizes
 
-Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio para profissionais de marketing de desempenho e se preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
+Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio for Performance Marketing e as preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
 
 **Exemplo**: se você quiser que o corpo de um modelo de Metadados não tenha mais de 500 caracteres, adicione esse requisito às [diretrizes de canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para o campo &quot;corpo&quot;.
 
-Se as diretrizes não forem adicionadas ao GenStudio para profissionais de marketing de desempenho, os padrões serão usados.
+Se as diretrizes não forem adicionadas ao GenStudio for Performance Marketing, os padrões serão usados.
 
 ## Criar um modelo
 
@@ -31,13 +31,13 @@ Consulte [Elementos de modelo](use-templates.md#template-elements) e [Exemplos d
 
 ### Especificações de publicidade
 
-O GenStudio para profissionais de marketing de desempenho aceita estas taxas de aspecto para Meta ads:
+A GenStudio for Performance Marketing aceita estas taxas de proporção para Meta anúncios:
 
 * Quadrado (1:1): 1080 x 1080 pixels
 * Vertical (4:5): 1080 x 1350 pixels
 * História (9:16): 1080 x 1920 pixels
 
-Se o anúncio não for projetado em uma dessas taxas de aspecto, o GenStudio para profissionais de marketing de desempenho recortará automaticamente a imagem no tamanho apropriado.
+Se o anúncio não for projetado em uma dessas taxas de aspecto, a GenStudio for Performance Marketing corta automaticamente a imagem no tamanho apropriado.
 
 ## Testar um modelo de meta-anúncio
 
@@ -47,11 +47,11 @@ Use sua plataforma de entrega ou prova de email para testar seu email e verifica
 
 ## Definir áreas de conteúdo gerado
 
-Defina as áreas no modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio para profissionais de marketing de desempenho.
+Defina as áreas no seu modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio for Performance Marketing.
 
 Para definir áreas de conteúdo geradas:
 
-* Identifique os elementos de texto no modelo que o GenStudio para profissionais de marketing de desempenho devem gerar automaticamente, como o título ou o CTA.
+* Identifique os elementos de texto no modelo que o GenStudio for Performance Marketing deve gerar automaticamente, como o título ou o CTA.
 * Adapte seu modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handlebars.
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders).
@@ -64,6 +64,6 @@ Consulte [Visualização do modelo](/help/user-guide/content/customize-template.
 
 ## Fazer upload e usar modelo
 
-Depois que seu modelo for projetado, codificado, testado e visualizado, faça upload dele para o GenStudio para profissionais de marketing de desempenho para uso na geração de conteúdo de marketing totalmente novo.
+Depois que seu modelo for projetado, codificado, testado e visualizado, faça upload dele para o GenStudio for Performance Marketing para uso na geração de conteúdo de marketing totalmente novo.
 
 Consulte [Trabalhando com modelos](use-templates.md).

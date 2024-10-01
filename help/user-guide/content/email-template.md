@@ -1,29 +1,29 @@
 ---
-title: Preparar um modelo de email para o Adobe GenStudio para profissionais de marketing de desempenho
-description: Saiba como criar um modelo de email personalizado para o Adobe GenStudio para profissionais de marketing de desempenho.
+title: Preparar um modelo de email para o Adobe GenStudio for Performance Marketing
+description: Saiba como criar um modelo de email personalizado para o Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Templates, Content
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 58833ed0c8e28061ab2584b7949f2a0cbd3d10cc
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# Preparar modelo de email para o Adobe GenStudio para profissionais de marketing de desempenho
+# Preparar modelo de email para o Adobe GenStudio for Performance Marketing
 
-Normalmente, um designer cria o design visual de um modelo em um programa de design, como o Adobe XD. Depois que um modelo de email for projetado, codificado e testado, você poderá prepará-lo para upload e uso no GenStudio para profissionais de marketing de desempenho.
+Normalmente, um designer cria o design visual de um modelo em um programa de design, como o Adobe XD. Depois que um modelo de email for projetado, codificado e testado, você poderá prepará-lo para upload e uso no GenStudio for Performance Marketing.
 
 Consulte [Elementos do modelo](use-templates.md#template-elements).
 
 ## Adicionar diretrizes
 
-Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio para profissionais de marketing de desempenho e se preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
+Antes de preparar um modelo de Metadados, verifique se você adicionou [diretrizes](/help/user-guide/guidelines/overview.md) à sua GenStudio for Performance Marketing e as preencheu com informações abrangentes sobre marcas relevantes. As [diretrizes de marca](/help/user-guide/guidelines/brands.md) influenciam diretamente o conteúdo gerado.
 
 **Exemplo**: se você quiser que o corpo de um modelo de email não tenha mais de 500 caracteres, adicione esse requisito às [diretrizes do canal](/help/user-guide/guidelines/brands.md#channel-guidelines) para o campo &quot;corpo&quot;.
 
-Se as diretrizes não forem adicionadas ao GenStudio para profissionais de marketing de desempenho, os padrões serão usados.
+Se as diretrizes não forem adicionadas ao GenStudio for Performance Marketing, os padrões serão usados.
 
 ## Codifique um modelo de email
 
@@ -51,11 +51,11 @@ Teste para garantir que seu modelo de email atenda aos seguintes requisitos:
 
 ## Definir áreas de conteúdo gerado
 
-Defina as áreas no modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio para profissionais de marketing de desempenho.
+Defina as áreas no seu modelo de email que devem ser preenchidas dinamicamente com conteúdo do GenStudio for Performance Marketing.
 
 Para definir áreas de conteúdo geradas:
 
-* Identifique os elementos de texto no modelo que o GenStudio para profissionais de marketing de desempenho devem gerar automaticamente, como o título ou o CTA.
+* Identifique os elementos de texto no modelo que o GenStudio for Performance Marketing deve gerar automaticamente, como o título ou o CTA.
 * Adapte seu modelo de HTML inserindo espaços reservados dentro dele usando a sintaxe Handlebars.
 
 Consulte [Espaços reservados para conteúdo](/help/user-guide/content/customize-template.md#content-placeholders).
@@ -68,6 +68,6 @@ Consulte [Visualização do modelo](/help/user-guide/content/customize-template.
 
 ## Fazer upload e usar modelo
 
-Depois que seu modelo for criado, codificado, testado e visualizado, você poderá carregá-lo no GenStudio para profissionais de marketing de desempenho para uso na geração de conteúdo de marketing totalmente novo.
+Depois que seu modelo for projetado, codificado, testado e visualizado, você poderá carregá-lo no GenStudio for Performance Marketing para uso na geração de conteúdo de marketing totalmente novo.
 
 Consulte [Trabalhando com modelos](use-templates.md).

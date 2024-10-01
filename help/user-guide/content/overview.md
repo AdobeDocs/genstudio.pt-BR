@@ -1,18 +1,18 @@
 ---
-title: Visão geral do Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content]
+title: Visão geral do Adobe GenStudio for Performance Marketing [!DNL Content]
 description: Saiba como localizar, editar, reutilizar e compartilhar ativos aprovados pela marca em um portal intuitivo.
 feature: Attributes, Content, Templates
 exl-id: e44e9c2d-33ee-4621-93a2-27f49478a8c9
-source-git-commit: c8c23be561dfb77ceb8f1abe6a85b9321201bb40
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
 
 ---
 
-# Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content]
+# Adobe GenStudio for Performance Marketing [!DNL Content]
 
-O GenStudio para profissionais de marketing de desempenho [!DNL Content] fornece um local central para armazenar, localizar e compartilhar todos os ativos, experiências e modelos aprovados pela marca. Você pode editar e remixar conteúdo, obter insights sobre o uso e o sentimento de conteúdo, além de atualizar e redefinir os ativos existentes usando IA gerativa.
+O GenStudio for Performance Marketing [!DNL Content] fornece um local central para armazenar, localizar e compartilhar todos os ativos, experiências e modelos aprovados pela marca. Você pode editar e remixar conteúdo, obter insights sobre o uso e o sentimento de conteúdo, além de atualizar e redefinir os ativos existentes usando IA gerativa.
 
 ## Casos de uso do [!DNL Content]
 
@@ -63,7 +63,7 @@ O GenStudio para profissionais de marketing de desempenho [!DNL Content] fornece
 
 ## Recursos do [!DNL Content]
 
-O GenStudio para profissionais de marketing de desempenho [!DNL Content] facilita o gerenciamento de ativos aprovados e acelera o ciclo de vida do conteúdo. No **[!UICONTROL [!DNL Content]]**, você pode pesquisar, localizar e reutilizar conteúdo com bom desempenho ou selecionar um ativo ou experiência para iniciar rapidamente a criação de novas variantes para uma campanha permanente.
+O GenStudio for Performance Marketing [!DNL Content] facilita o gerenciamento de ativos aprovados e acelera o ciclo de vida do conteúdo. No **[!UICONTROL [!DNL Content]]**, você pode pesquisar, localizar e reutilizar conteúdo com bom desempenho ou selecionar um ativo ou experiência para iniciar rapidamente a criação de novas variantes para uma campanha permanente.
 
 ### Faça upload de ativos
 
@@ -71,7 +71,7 @@ O painel **[!UICONTROL Adicionar ativos]** permite que você arraste e solte ou 
 
 ### Pesquisar e localizar conteúdo aprovado
 
-Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados avançados, o contexto de geração e o histórico de auditoria. Os detalhes do ativo ajudam a restringir os resultados da pesquisa rapidamente usando filtros e sequências de pesquisa. A IA do GenStudio para profissionais de marketing de desempenho identifica e armazena automaticamente determinados detalhes, como cores. A pesquisa de `blue` no campo de pesquisa restringe a lista de conteúdo aos ativos marcados como azul.
+Quando você salva os ativos aprovados, o [!DNL Content] mantém os metadados avançados, o contexto de geração e o histórico de auditoria. Os detalhes do ativo ajudam a restringir os resultados da pesquisa rapidamente usando filtros e sequências de pesquisa. A IA do GenStudio for Performance Marketing identifica e armazena automaticamente determinados detalhes, como cor. A pesquisa de `blue` no campo de pesquisa restringe a lista de conteúdo aos ativos marcados como azul.
 
 ### Trabalhar com modelos
 

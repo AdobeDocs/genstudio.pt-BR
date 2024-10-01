@@ -3,7 +3,7 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: dc438085cfe7c93b20dc7fb0d5919d2dc8b3dcde
+source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar ativos e experiências
 
-O Adobe GenStudio para profissionais de marketing de desempenho [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
+O Adobe GenStudio for Performance Marketing [!DNL Content] simplifica e aprimora o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 
 ## Galeria do Assets
 
@@ -24,13 +24,13 @@ A seguir, uma pesquisa sobre o termo `dog` na galeria [!UICONTROL Assets]:
 
 ### Localização do Assets
 
-Por padrão, os ativos adicionados a [!DNL Content] por meio do processo [!DNL Create] ou através de upload são armazenados no repositório `GenStudio assets`. O repositório `GenStudio assets` é de leitura e gravação no GenStudio para profissionais de marketing de desempenho. Isso significa que você pode salvar, editar e excluir ativos no repositório `GenStudio assets`.
+Por padrão, os ativos adicionados a [!DNL Content] por meio do processo [!DNL Create] ou através de upload são armazenados no repositório `GenStudio assets`. O repositório `GenStudio assets` é um repositório leitura-gravação no GenStudio for Performance Marketing. Isso significa que você pode salvar, editar e excluir ativos no repositório `GenStudio assets`.
 
 A lista **[!UICONTROL Local]** acima da galeria no lado direito permite selecionar entre repositórios do Adobe Experience Manager (AEM) [!DNL Assets Content Hub] conectados. Quando você seleciona um repositório AEM, a galeria mostra um inventário de ativos desse repositório, permitindo que você aproveite os ativos aprovados desses repositórios como entradas para a criação de conteúdo. As opções de filtro são alteradas para refletir as categorias configuradas em [!DNL AEM Assets Content Hub].
 
 O repositório AEM é somente leitura, o que significa que não é possível salvar rascunhos, novos ativos ou metadados no repositório AEM. Todos os rascunhos e atualizações finais para ativos, experiências e modelos são salvos no repositório do `GenStudio assets` com os novos [metadados do sistema](asset-details.md#system-metadata).
 
-Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório [!DNL AEM Assets Content Hub] ao GenStudio para profissionais de marketing de desempenho.
+Consulte [Conectar um repositório AEM](connect-aem-repo.md) para obter orientação sobre como adicionar seu repositório [!DNL AEM Assets Content Hub] ao GenStudio for Performance Marketing.
 
 ## Gerenciamento do Assets
 
@@ -52,7 +52,7 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
 
 1. Para melhorar a descoberta, adicione detalhes opcionais, como _Marca_, _Personas_, _Região_ e _Palavras-chave_, na seção **Mais detalhes**.
 
-   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio para profissionais de marketing de desempenho. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
+   Quanto mais detalhes você fornecer, mais conhecerá os recursos avançados do GenStudio for Performance Marketing. Selecione um ou mais detalhes na lista ou insira um novo, onde aplicável, como com palavras-chave. Cada detalhe adicionado aparece abaixo da lista. Clique em **`x`** para remover um detalhe.
 
    Todos os detalhes adicionados se aplicam a todos os ativos adicionados nesta ação.
 

@@ -1,18 +1,18 @@
 ---
 title: Detalhes do ativo
-description: O Adobe GenStudio para profissionais de marketing de desempenho armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
+description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 95eb7c2eaeeceedf3abe5ab16e1e7c2de7bf8117
+source-git-commit: 0d8f04ab26e8d0dd533cfc4e388dd0b0a68adb3b
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
 # Detalhes do ativo
 
-O Adobe GenStudio para profissionais de marketing de desempenho armazena conteúdo aprovado com metadados avançados para detecção e rastreamento de desempenho.
+O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para detecção e rastreamento de desempenho.
 
 Cada ativo (incluindo experiências e modelos) associou _detalhes_ (metadados) que ajudam a identificar, rastrear, usar e aprender com o desempenho do conteúdo.
 
@@ -30,7 +30,7 @@ Os detalhes do ativo incluem metadados aplicados durante o processo de criação
 
 >[!NOTE]
 >
->O Assets de repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade de ativos](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes de ativos do AEM Assets Content Hub.
+>O Assets de repositórios AEM exibe metadados diferentes. Consulte [Configurar visibilidade do ativo](connect-aem-repo.md#step-4-configure-asset-visibility) para saber como configurar detalhes do ativo [!DNL AEM Assets Content Hub].
 
 ## Metadados do sistema
 
@@ -40,7 +40,7 @@ Os metadados padrão armazenados e capturados para um ativo incluem o nome do ar
 
 ### Tags geradas
 
-GenStudio Quando você armazena um ativo aprovado no [!DNL Content], os profissionais de marketing de desempenho usam os recursos de API e aprendizado de máquina do Adobe para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas inteligentes como `pet photography` ou `cat`, e marcas de cores que identificam cores dominantes na imagem. Não é possível editar tags.
+Quando você armazena um ativo aprovado no [!DNL Content], a GenStudio for Performance Marketing usa a IA de Adobe e os recursos de aprendizado de máquina para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas inteligentes como `pet photography` ou `cat`, e marcas de cores que identificam cores dominantes na imagem. Não é possível editar tags.
 
 ### Metadados de conteúdo gerados
 
@@ -50,7 +50,7 @@ As informações usadas para gerar um novo ativo ou experiência se tornam metad
 
 Os metadados definidos pelo usuário adicionam contexto de marketing ao conteúdo do ativo, permitindo que os profissionais de marketing entendam como usar e se envolver com o ativo.
 
-Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo existentes no GenStudio para profissionais de marketing de desempenho como metadados. A inclusão de mais detalhes pode melhorar a identificação de ativos em pesquisas e filtragem.
+Ao [carregar um ativo](/help/user-guide/content/manage-assets.md#add-assets), você pode definir um conjunto de detalhes opcionais do ativo que existem no GenStudio for Performance Marketing como metadados. A inclusão de mais detalhes pode melhorar a identificação de ativos em pesquisas e filtragem.
 
 ### Detalhes de metadados
 
@@ -59,10 +59,10 @@ A tabela a seguir detalha os metadados (detalhes do ativo) que você pode defini
 | Texto | Descrição |
 | ------------- | ----------- |
 | Campanhas (nome do projeto) | Metadados padrão capturados e armazenados com o ativo |
-| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio para profissionais de marketing de desempenho e publicado para uso |
-| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso |
-| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio para profissionais de marketing de desempenho para uso |
-| Canais | Tipos de conteúdo no GenStudio para profissionais de marketing de desempenho para os quais o ativo é usado, como email e Meta ads |
+| [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) adicionado ao GenStudio for Performance Marketing e publicado para uso |
+| [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) adicionado ao GenStudio for Performance Marketing para uso |
+| [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) adicionado ao GenStudio for Performance Marketing para uso |
+| Canais | Tipos de conteúdo no GenStudio for Performance Marketing para os quais o ativo é usado, como email e Metadados |
 | Cronograma | Período para o qual o ativo foi usado, como trimestre, estação, ano etc. Exemplo: `Winter 2023` |
 | Região | Regiões para as quais o ativo é usado. Exemplos: `North America`, `APAC`, `Italy` |
 | Idioma | Idiomas para os quais o ativo é usado. Exemplo: `Spanish` |

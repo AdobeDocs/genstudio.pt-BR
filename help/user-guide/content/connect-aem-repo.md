@@ -1,18 +1,18 @@
 ---
-title: Conectar-se a um repositório do AEM Assets Content Hub
-description: Saiba como conectar o GenStudio para profissionais de marketing de desempenho a um repositório do Adobe Experience Manager (AEM) Content Hub e aproveitar o conteúdo aprovado existente.
+title: "Conectar-se a um  [!DNL AEM Assets Content Hub] repositório"
+description: Saiba como conectar o Adobe GenStudio for Performance Marketing a um repositório do Adobe Experience Manager (AEM) [!DNL Content Hub] e aproveitar o conteúdo aprovado existente.
 level: Experienced
 feature: Assets, Content
-source-git-commit: dc438085cfe7c93b20dc7fb0d5919d2dc8b3dcde
+source-git-commit: 0d8f04ab26e8d0dd533cfc4e388dd0b0a68adb3b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # Conectar a um repositório [!DNL AEM Assets Content Hub]
 
-Se você tiver ativos no Adobe Experience Manager (AEM), é possível seguir essas etapas para torná-los acessíveis no GenStudio para profissionais de marketing de desempenho.
+Se você tiver ativos no Adobe Experience Manager (AEM), poderá seguir essas etapas para torná-los acessíveis no GenStudio for Performance Marketing.
 
 >[!BEGINSHADEBOX]
 
@@ -37,7 +37,7 @@ No [!DNL Admin Console], adicione usuários ou grupos de usuários do GenStudio 
 
 ## Etapa 3: Aprovar ativos
 
-Aprove ativos para uso em [!DNL AEM Assets Content Hub], o que os torna disponíveis no GenStudio para profissionais de marketing de desempenho. Consulte [Aprovar ativos no Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) na documentação do _AEM as a Cloud Service_.
+Aprove ativos para uso no [!DNL AEM Assets Content Hub], que os disponibiliza no GenStudio for Performance Marketing. Consulte [Aprovar ativos no Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets) na documentação do _AEM as a Cloud Service_.
 
 ## Etapa 4: configurar a visibilidade do ativo
 
@@ -45,4 +45,4 @@ Nas opções de configuração do _[!DNL AEM Assets Content Hub]_, analise cada 
 
 ## Etapa 5: verificar a conexão
 
-No GenStudio para Conteúdo de Profissionais de Marketing de Desempenho, a lista _[!UICONTROL Local]_ está disponível acima da galeria, no lado direito. A lista não estará disponível se você não tiver acesso ou se sua organização não tiver implantado e conectado um repositório do [!DNL AEM Assets Content Hub].
+Em Conteúdo do GenStudio for Performance Marketing, a lista _[!UICONTROL Local]_ está disponível acima da galeria, no lado direito. A lista não estará disponível se você não tiver acesso ou se sua organização não tiver implantado e conectado um repositório do [!DNL AEM Assets Content Hub].
