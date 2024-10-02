@@ -3,9 +3,9 @@ title: Gerenciar ativos e experiências
 description: Simplifique e aprimore o gerenciamento de ativos aprovados pela marca para uso e reutilização em sua jornada de marketing digital.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 54fd20fec553b545b2f5d64cdf9327098b16580f
+source-git-commit: af20efaa511ed403f5160956ff98b42beb64bb34
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -59,18 +59,22 @@ Ao adicionar ativos ao [!DNL Content], eles são armazenados por padrão no repo
    Consulte [detalhes de metadados](/help/user-guide/content/asset-details.md#system-metadata).
 
 1. Clique em **[!UICONTROL Adicionar ativos]**.
+
 1. Quando o carregamento do ativo for concluído, clique em **Concluído**.
+
 1. Para exibir os novos ativos carregados, clique em **[!UICONTROL Atualizar]** na notificação _Novos ativos disponíveis_, na parte inferior da Tela.
 
 <!-- 
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 
-### Pesquisar ativos
+### Pesquisar conteúdo
 
-A interface de pesquisa do [!DNL Content] é rápida e responsiva e fornece uma experiência produtiva de pesquisa.
+O filtro e a interface de pesquisa são rápidos e responsivos e fornecem uma experiência produtiva de pesquisa. Cada exibição do [!DNL Content] fornece opções de Filtro para restringir sua pesquisa pelo ativo, experiência ou modelo ideal. Para ativos e experiências, você pode selecionar uma campanha e diretrizes específicas, como o conteúdo criado para um produto específico.
 
-Aplique filtros e use tags de metadados dos detalhes do ativo para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha.
+Há filtros baseados em [palavras-chave](asset-details.md#user-defined-metadata) e [atributos](/help/user-guide/insights/attributes.md) para restringir os resultados da pesquisa. Por exemplo, talvez você queira encontrar um ativo de um tipo de arquivo ou assunto específico para ajudá-lo a criar uma nova experiência para sua campanha.
+
+Ao pesquisar por _Experiências_, você pode usar o filtro **[!UICONTROL Criado por]** para limitar a lista a fim de mostrar apenas as experiências criadas por você ou por uma pessoa específica.
 
 **Para pesquisar conteúdo a ser reutilizado**:
 
