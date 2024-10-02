@@ -3,7 +3,7 @@ title: Visão geral da ativação
 description: Saiba como ativar conteúdo com o Adobe Experience Cloud e aplicativos de terceiros.
 feature: Assets, Approval, Experiences
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: b1550c4b1f624287e432bf7b610f9d31892b13c0
+source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A _Ativação_ é o processo de disponibilizar ativos e experiências gerados pela Adobe GenStudio for Performance Marketing para entrega por meio de canais e produtos Adobe Experience Cloud selecionados. É possível exportar facilmente conteúdo aprovado do GenStudio for Performance Marketing nos formatos ideais para os aplicativos de terceiros incluídos no [!DNL Products].
 
-O recurso de ativação do GenStudio para profissionais de marketing de desempenho é integrado nativamente nos produtos de entrega de experiência do Adobe: Journey Optimizer, Journey Optimizer B2B Edition, Experience Manager, Marketo e Target.
+O recurso de ativação do GenStudio for Performance Marketing é integrado nativamente em produtos de entrega de experiência do Adobe: Journey Optimizer, Journey Optimizer B2B Edition, Experience Manager, Marketo e Target.
 
 **Para ativar um ativo aprovado**:
 

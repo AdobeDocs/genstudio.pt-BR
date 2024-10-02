@@ -1,9 +1,9 @@
 ---
 title: Gravar prompts efetivos
-description: Saiba como gravar solicitações eficazes para o Adobe GenStudio para profissionais de marketing de desempenho.
+description: Saiba como escrever prompts efetivos para o Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 016cd2b5415651ed3cf157244f868315234330fa
+source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Gravar prompts efetivos
 
-Comunicar-se com a IA gerativa é essencial para trabalhar efetivamente no Adobe GenStudio para profissionais de marketing de desempenho.
+A comunicação com a IA gerativa é essencial para trabalhar com eficiência no Adobe GenStudio for Performance Marketing.
 
-O GenStudio para profissionais de marketing de desempenho fornece um prompt de IA generativo sempre que há uma oportunidade de modificar um ativo. Os componentes de um prompt efetivo devem incluir linguagem descritiva, exemplos e informações não fornecidas através das diretrizes configuradas.
+O GenStudio for Performance Marketing fornece um prompt de IA generativo sempre que há uma oportunidade de modificar um ativo. Os componentes de um prompt efetivo devem incluir linguagem descritiva, exemplos e informações não fornecidas através das diretrizes configuradas.
 
-Como prática recomendada, forneça à GenStudio para profissionais de marketing de desempenho as informações da sua marca usando as [diretrizes](/help/user-guide/guidelines/overview.md) para que você possa aproveitar ao máximo a IA gerativa e produzir experiências de conteúdo alinhadas à marca.
+Como prática recomendada, forneça à GenStudio for Performance Marketing as informações da sua marca usando as [diretrizes](/help/user-guide/guidelines/overview.md) e, em seguida, você poderá aproveitar totalmente a IA gerativa para produzir experiências de conteúdo alinhadas à marca.
 
 ## Linguagem descritiva
 
@@ -39,21 +39,21 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Critérios de solicitação
 
-No GenStudio para Profissionais de marketing de desempenho [[!DNL Create]](/help/user-guide/create/overview.md), você pode usar **[!UICONTROL Critérios de solicitação]** ([_Parâmetros_](/help/user-guide/create/overview.md#parameters) e um prompt) na área de prompt para adicionar detalhes por meio da seleção para melhorar a interpretação da IA.
+No GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md), você pode usar **[!UICONTROL Critérios de solicitação]** ([_Parâmetros_](/help/user-guide/create/overview.md#parameters) e um prompt) na área de prompt para adicionar detalhes por meio da seleção para melhorar a interpretação da IA.
 
 Para [emails](/help/tutorials/create-email-experience.md), os critérios de prompt podem incluir a adição de [diretrizes](/help/user-guide/guidelines/overview.md) em _Parâmetros_, o carregamento de um ativo para usar nas variantes de email e um prompt descritivo. Para um [Meta ad](/help/tutorials/create-meta-ad.md), os critérios de prompt podem incluir uma diretriz de marca em _Parâmetros_, a seleção ou o upload de um ativo existente, configurações relacionadas a imagens ou ativos, como proporção, e um prompt. A verdadeira potência começa com [diretrizes de configuração](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Se as diretrizes forem adicionadas em _Parâmetros_ na área de prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio para Marketing de Desempenho aproveita os [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
+>Se as diretrizes forem adicionadas em _Parâmetros_ na área de prompt, não será necessário incluir uma referência a elas no prompt. O GenStudio for Performance Marketing aproveita esses [!DNL Brands], [!DNL Products] e [!DNL Personas] na geração de conteúdo.
 
 ### Diretrizes
 
-As diretrizes do GenStudio para profissionais de marketing de desempenho ajudam a IA generativa a personalizar a composição de seus ativos. Quando apresentado com os critérios de prompt, você pode escolher um [[!DNL Brand]](/help/user-guide/guidelines/brands.md), um [[!DNL Persona]](/help/user-guide/guidelines/personas.md) e um [[!DNL Product]](/help/user-guide/guidelines/products.md) a partir das diretrizes configuradas.
+As diretrizes do GenStudio for Performance Marketing ajudam a IA gerativa a personalizar a composição do ativo. Quando apresentado com os critérios de prompt, você pode escolher um [[!DNL Brand]](/help/user-guide/guidelines/brands.md), um [[!DNL Persona]](/help/user-guide/guidelines/personas.md) e um [[!DNL Product]](/help/user-guide/guidelines/products.md) a partir das diretrizes configuradas.
 
 >[!TIP]
 >
->Você controla como e quando o GenStudio para profissionais de marketing de desempenho usa as diretrizes do [!DNL Brand]. Consulte [Diretrizes](/help/user-guide/guidelines/overview.md) para saber como configurar e gerenciar as diretrizes da sua marca.
+>Você controla como e quando a GenStudio for Performance Marketing usa suas diretrizes do [!DNL Brand]. Consulte [Diretrizes](/help/user-guide/guidelines/overview.md) para saber como configurar e gerenciar as diretrizes da sua marca.
 
 ### Prompts estruturados
 
@@ -95,7 +95,7 @@ Consulte [Preparar um modelo de email](/help/user-guide/content/email-template.m
 
 ## Tente novamente
 
-A solicitação é um processo iterativo. Se os resultados não atenderem às suas expectativas, revise seu prompt e faça algumas alterações ou adicione mais detalhes. Ou você pode colar seções de um resumo da campanha. Você ainda pode solicitar que o GenStudio para profissionais de marketing de desempenho evite determinadas palavras, elementos ou temas.
+A solicitação é um processo iterativo. Se os resultados não atenderem às suas expectativas, revise seu prompt e faça algumas alterações ou adicione mais detalhes. Ou você pode colar seções de um resumo da campanha. Você pode até solicitar que o GenStudio for Performance Marketing evite determinadas palavras, elementos ou temas.
 
 ## Práticas recomendadas
 
@@ -103,7 +103,7 @@ Algumas práticas recomendadas simples para criar prompts eficazes:
 
 - Seja específico e forneça detalhes sobre o que fazer ou não fazer.
 - Fornecer contexto usando referências externas.
-- Aproveite as diretrizes do GenStudio para profissionais de marketing de desempenho.
+- Aproveite as diretrizes do GenStudio for Performance Marketing.
 - Revise e ajuste as diretrizes regularmente.
 - Iterar e refinar.
 - Aprenda por meio da experimentação.
