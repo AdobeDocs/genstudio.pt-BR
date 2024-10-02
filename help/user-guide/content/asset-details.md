@@ -3,9 +3,9 @@ title: Detalhes do ativo
 description: O Adobe GenStudio for Performance Marketing armazena conteúdo aprovado com metadados avançados para pesquisa e rastreamento de desempenho.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 0d8f04ab26e8d0dd533cfc4e388dd0b0a68adb3b
+source-git-commit: 059b464cb2a7b57557407bbaee6162b770107222
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,9 @@ Os metadados padrão armazenados e capturados para um ativo incluem o nome do ar
 
 ### Tags geradas
 
-Quando você armazena um ativo aprovado no [!DNL Content], a GenStudio for Performance Marketing usa a IA de Adobe e os recursos de aprendizado de máquina para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas inteligentes como `pet photography` ou `cat`, e marcas de cores que identificam cores dominantes na imagem. Não é possível editar tags.
+Quando você armazena um ativo aprovado no [!DNL Content], a GenStudio for Performance Marketing usa a IA de Adobe e os recursos de aprendizado de máquina para estudar o ativo e aplicar tags com base nos recursos do ativo. Por exemplo, uma imagem de um gato pode resultar em marcas de atributo como `pet photography` ou `cat`, e marcas de cor que identificam cores dominantes na imagem. Não é possível editar tags.
+
+Consulte [Atributos do Insights](/help/user-guide/insights/attributes.md).
 
 ### Metadados de conteúdo gerados
 
