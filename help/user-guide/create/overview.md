@@ -3,9 +3,9 @@ title: Visão geral do GenStudio para marketing de desempenho [!DNL Create]
 description: Gere rapidamente conteúdo de alto desempenho na marca com IA gerativa no Adobe GenStudio para Marketing de desempenho [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
+source-git-commit: 4b6602e833ed7245bca1abc42ea95b465a61c109
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,8 @@ O GenStudio para Marketing de Desempenho [!DNL Create] aproveita o poder do Adob
 
 Com o [!DNL Create], você pode gerar conteúdo para os seguintes canais:
 
-* Emails
-* Meta ads
+* [Emails](email-experiences.md)
+* [Meta ads](meta-experiences.md)
 <!-- * Social media images and ads
 * Display ads -->
 
@@ -68,31 +68,25 @@ O GenStudio para Marketing de Desempenho permite que os profissionais de marketi
 
 O [!DNL Create] integra vários componentes do GenStudio para Marketing de Desempenho para ajudar os usuários a gerar conteúdo.
 
-### Rascunhos
-
-Na seção _Trabalho recente_ de [!DNL Create], acesse e gerencie todos os rascunhos recentes. Exiba e conclua seu trabalho anterior para prepará-lo para publicação em [[!DNL Content]](/help/user-guide/content/overview.md).
-
-Os rascunhos em andamento são salvos automaticamente. Ao navegar de volta para a página inicial do [!DNL Create], a seção _Trabalho recente_ é atualizada com seus rascunhos mais recentes. Para cada rascunho, você pode ver se ele foi _Aprovado_ ou se ainda está no formato _Rascunho_.
-
 ### Modelos
 
-Após selecionar qual canal de conteúdo deseja produzir em _O que deseja criar hoje?_, você pode acessar modelos aprovados pela marca para uso na geração de conteúdo. Use modelos para iniciar rapidamente o processo de criação de conteúdo e manter-se alinhado a uma identidade de marca definida.
+Após selecionar qual canal deseja produzir em _O que deseja criar hoje?_, você pode acessar modelos aprovados pela marca para uso na geração de conteúdo. Use modelos para iniciar rapidamente o processo de criação de conteúdo e permanecer alinhado com uma identidade de marca definida.
 
 Os modelos são [carregados e armazenados em [!DNL Content]](/help/user-guide/content/overview.md) e podem ser acessados em [!DNL Create].
+
+### Parâmetros
+
+Na área de prompts, você pode adicionar _Parâmetros_, como [!DNL Brands], [!DNL Products], [!DNL Personas] (diretrizes) e [!DNL Content] (ativos), para moldar a experiência gerada.
+
+Esses parâmetros adicionados injetam [diretrizes](/help/user-guide/guidelines/overview.md) e ativos no processo de geração, garantindo que o conteúdo seja personalizado para alinhar-se à identidade abrangente de uma marca. É recomendável adicionar diretrizes ao seu GenStudio para Marketing de desempenho e usá-las durante o processo de geração de conteúdo, pois elas melhoram muito a criação de conteúdo adequado na marca.
+
+O conteúdo—ativos de imagem carregados ou adicionados—em _Parâmetros_ são usados em variantes geradas e informam a cópia do conteúdo (texto) gerado para variantes. Você pode fazer upload de ativos ou selecionar ativos já presentes em [!DNL Content] ou em qualquer repositório conectado do AEM Content Hub.
 
 ### Prompts
 
 [Criar prompts efetivos](/help/user-guide/effective-prompts.md) é uma parte importante do processo de geração em [!DNL Create].
 
-Para criar um novo conteúdo gerado por IA, insira um [prompt descritivo](/help/user-guide/effective-prompts.md) que descreva o contexto ou a experiência que você pretende gerar, juntamente com [diretrizes](/help/user-guide/guidelines/overview.md) e [_Parâmetros_](#parameters), na área de prompt e clique em **[!UICONTROL Gerar]**.
-
-### Parâmetros
-
-Na área de prompts, você pode adicionar _Parâmetros_, como [!DNL Brands], [!DNL Products] e [!DNL Personas] (diretrizes) ou ativos para moldar a experiência gerada.
-
-As imagens carregadas em _Parâmetros_ são usadas em variantes geradas e informam a cópia de conteúdo (texto) gerada para variantes.
-
-Esses parâmetros adicionados injetam [diretrizes](/help/user-guide/guidelines/overview.md) e ativos no processo de geração, garantindo que o conteúdo seja personalizado para alinhar-se à identidade abrangente de uma marca. É recomendável adicionar diretrizes ao seu GenStudio para Marketing de desempenho e usá-las durante o processo de geração de conteúdo, pois elas melhoram muito a criação de conteúdo adequado na marca.
+Para criar conteúdo gerado por IA, insira um [prompt descritivo](/help/user-guide/effective-prompts.md) que descreva o contexto ou a experiência que você pretende gerar, juntamente com [diretrizes](/help/user-guide/guidelines/overview.md) e [_Parâmetros_](#parameters), na área de prompt e clique em **[!UICONTROL Gerar]**.
 
 ### Validação da marca
 
@@ -103,6 +97,12 @@ O GenStudio for Performance Marketing realiza a validação da marca em vários 
 Solicite revisões, rastreie comentários de revisão e obtenha aprovações durante o processo de criação com a funcionalidade integrada [Revisões e aprovações](/help/user-guide/approvals/overview.md).
 
 Depois de gerar as variações de conteúdo, envie seus rascunhos para aprovação pelos participantes para que eles possam ser salvos em [!DNL Content] e implementados nos esforços de marketing.
+
+### Rascunhos
+
+Na seção _Trabalho recente_ de [!DNL Create], acesse e gerencie todos os rascunhos recentes. Exiba e conclua seu trabalho anterior para prepará-lo para publicação em [[!DNL Content]](/help/user-guide/content/overview.md).
+
+Os rascunhos em andamento são salvos automaticamente. Ao navegar de volta para a página inicial do [!DNL Create], a seção _Trabalho recente_ é atualizada com seus rascunhos mais recentes. Para cada rascunho, você pode ver se ele foi _Aprovado_ ou se ainda está no formato _Rascunho_.
 
 ### Gerenciar variantes
 
