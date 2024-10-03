@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
+source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Ao revisar e preparar experiências de email, você pode alternar entre visualiz
 
 ## Verificar o alinhamento da marca
 
-Para otimizar os emails gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento.
+Para otimizar os emails gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_painel Validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento esclarecedoras.
 
 **Para verificar o alinhamento da marca**:
 

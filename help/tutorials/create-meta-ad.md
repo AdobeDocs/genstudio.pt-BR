@@ -7,7 +7,7 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: c0fd13e26f44c44c4d63bf285c421ef3dd5da975
+source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 
 ## Verificar o alinhamento da marca
 
-Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento.
+Para otimizar os anúncios gerados e garantir a adesão estrita à identidade da marca, aproveite o potencial da [_Verificação das diretrizes da marca_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check)—fornecendo um resumo do alinhamento da marca para uma variante—e do [_painel Validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel)—exibindo detalhes abrangentes da validação da marca e áreas de aprimoramento mais claras.
 
 **Para verificar o alinhamento da marca**:
 
