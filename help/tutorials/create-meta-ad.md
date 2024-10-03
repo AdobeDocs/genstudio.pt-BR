@@ -7,16 +7,16 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
 
 # Criar uma experiência de meta-anúncio
 
-Este tutorial demonstra como gerar experiências de Metadados da marca usando o GenStudio para Marketing de Desempenho [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
+Este tutorial demonstra como gerar experiências de [Metadados](/help/user-guide/create/meta-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
 
 Antes de começar a gerar uma experiência de metadados, é importante [incorporar diretrizes](/help/user-guide/guidelines/add-guidelines.md) ao GenStudio para Marketing de Desempenho e familiarizar-se com as noções básicas de [criação de um prompt](/help/user-guide/effective-prompts.md).
 
@@ -44,8 +44,11 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Clique em **[!UICONTROL Selecionar conteúdo]** para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo.
-   * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
-   * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox.
+   * Para selecionar ativos (imagens) já publicados em [!DNL Content], clique em **[!UICONTROL Selecionar do conteúdo]** e clique em para selecionar as imagens desejadas. Use os filtros para restringir ainda mais os resultados da pesquisa.
+
+     Se quiser usar ativos já presentes em um repositório conectado do AEM Content Hub, selecione o local aplicável no menu suspenso _Local_ e clique para selecionar as imagens desejadas.
+
+   * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox. Clique em para selecionar as imagens desejadas.
    * Arraste e solte ativos na seção _Conteúdo_.
 1. Clique em **[!UICONTROL Usar]**.
 
@@ -63,6 +66,8 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 1. Clique em **[!UICONTROL Gerar]**.
 
 Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
+
+O conteúdo gerado é carregado progressivamente — à medida que cada seção das metaexperiências é gerada, elas aparecem na Tela. Consulte [Metaexperiências](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber como essas alterações são carregadas na Tela.
 
 ## Escolher canal de metadados
 
@@ -82,9 +87,13 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 * **Para [editar um Metadado manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer seção do anúncio (como a linha de assunto, o cabeçalho ou a cópia do corpo) e edite conforme necessário.
 * **Para alterar ou selecionar a chamada para ação**, clique no botão de chamada para ação e selecione nas opções de texto disponíveis do botão. Em _[!UICONTROL Link]_, insira uma URL para o texto de chamada para ação.
 * **Para [alterar o tamanho e a taxa de proporção do anúncio](/help/user-guide/create/manage-variants.md#change-aspect-ratio)**, clique no botão _[!UICONTROL Redimensionar]_ (caixa com um ícone de botão no lado esquerdo da Tela de Pintura) e selecione um novo tamanho e uma nova taxa de proporção a serem aplicados a todas as variantes. As variantes são duplicadas e redimensionadas.
-<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**.
-* **To [crop or reposition images](/help/user-guide/create/manage-variants.md#crop-assets)**, hover over an image, click **[!UICONTROL Apply Crop]**, and adjust the image size and placement. -->
+<!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
+* **Para [cortar ou reposicionar imagens](/help/user-guide/create/manage-variants.md#crop-assets)**, passe o mouse sobre uma imagem, clique no ícone de recorte exibido e ajuste o tamanho e o posicionamento da imagem.
 * **Para [excluir um Metadado](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no título do anúncio (por exemplo, &quot;Meta 4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+
+## Enviar feedback de geração
+
+Para [enviar comentários](/help/user-guide/create/manage-variants.md#generation-feedback) sobre a qualidade da saída de geração, clique no ícone de opções (três pontos) e selecione **[!UICONTROL Boa saída]** ou **[!UICONTROL Má saída]**.
 
 ## Verificar o alinhamento da marca
 

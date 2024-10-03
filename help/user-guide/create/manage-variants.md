@@ -2,9 +2,9 @@
 title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: e99fadb7c440adbfa52759d6b392e08d0ee6d155
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Gerenciar variantes
 
-O Adobe GenStudio para Marketing de Desempenho [!DNL Create] permite personalizar e aprimorar as variantes geradas (emails, Meta anúncios e muito mais) para uso em iniciativas de marketing digital.
+O Adobe GenStudio for Performance Marketing [!DNL Create] permite personalizar e aprimorar as variantes geradas—[emails](/help/user-guide/create/email-experiences.md), [Metadados](/help/user-guide/create/meta-experiences.md) e muito mais — para uso em iniciativas de marketing digital.
 
 Ao [criar experiências](/help/tutorials/tutorials.md), você pode modificar o conteúdo e os ativos das variantes geradas individualmente ou em lote. A capacidade de gerenciar variantes em nível micro individual permite gerenciar explicitamente cada parte do conteúdo gerado.
 
@@ -53,20 +53,20 @@ For example, you can re-generate the headline section of one Meta ad variant to 
 1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
 1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
 
-   The variant is updated with the revised text.
+   The variant is updated with the revised text. -->
 
-## Crop assets
+## Cortar ativos
 
-You can manually crop and reposition image assets in individual generated variants.
+Você pode cortar e reposicionar manualmente os ativos de imagem em variantes geradas individuais.
 
-**To crop and reposition images in variants**:
+**Para recortar e reposicionar imagens nas variantes**:
 
-1. After generating a set of variants, hover over an image within a variant.
-1. Click **[!UICONTROL Apply Crop]**.
-1. Zoom in and out and drag the image into the desired position.
-1. Click **[!UICONTROL Apply]**.
+1. Depois de gerar um conjunto de variantes, passe o mouse sobre uma imagem em uma variante.
+1. Clique no ícone de corte que aparece no canto esquerdo da imagem.
+1. Ajuste a caixa delimitadora de imagem e arraste a imagem para a posição desejada.
+1. Clique em **[!UICONTROL Aplicar]** para aplicar o recorte a uma única imagem ou **[!UICONTROL Aplicar a todas as imagens]** para aplicar a todas as imagens nas variantes.
 
-   The cropped image is automatically saved and visible for the variant. -->
+   A imagem cortada é salva e visível para as variantes.
 
 ## Alterar taxa de proporção
 
@@ -101,6 +101,12 @@ As taxas de tamanho/aspecto disponíveis são:
 
 Por exemplo, se você gerar quatro variantes em uma proporção de 1:1 inicialmente e, em seguida, alterar a proporção para 4:5, _oito_ as variantes totais agora estarão disponíveis na Tela de desenho.
 
+## Visualizar para dispositivo
+
+Ao revisar e preparar experiências de email, você pode alternar entre visualizações para desktop e para dispositivos móveis para garantir a coerência e o apelo visual de variantes de rascunho.
+
+**Para visualizar as variantes para dispositivos móveis e desktop**, alterne a opção de visualização de dispositivo (entre **desktop** e **celular**) na barra de menu direita (ícones de computador e telefone) para visualizar como as variantes aparecem.
+
 ## Excluir variante
 
 É possível excluir qualquer variante gerada que você não planeja salvar ou reutilizar.
@@ -109,7 +115,7 @@ Exclua variantes desnecessárias para que a Tela de trabalho mostre apenas as va
 
 **Para excluir uma variante gerada**:
 
-1. Depois de gerar um conjunto de variantes, clique no nome acima de uma variante.
+1. Depois de gerar um conjunto de variantes, clique no ícone de opções (três pontos) acima de uma variante.
 
    A variante é realçada e um menu de atalho é exibido.
 
@@ -122,3 +128,27 @@ Exclua variantes desnecessárias para que a Tela de trabalho mostre apenas as va
 Use a _[!UICONTROL Verificação das diretrizes da marca]_ e o _[!UICONTROL Painel de validação da marca]_ para manter a identidade da marca e o alinhamento consistentes das variantes.
 
 Consulte [Validação da marca](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+
+## Feedback de geração
+
+É possível enviar feedback sobre a qualidade dos ativos alinhados à marca gerados para melhorar o processo de geração de conteúdo. Indicar se os resultados são de alta ou baixa qualidade ajuda a aprimorar a qualidade geral do conteúdo e a segurança do usuário no GenStudio for Performance Marketing.
+
+O feedback de geração é aplicável a uma variante individual, não para o conjunto coletado de variantes.
+
+**Para enviar comentários de geração**:
+
+1. Depois de gerar um conjunto de variantes, clique no ícone de opções (três pontos) acima de uma variante.
+
+   A variante é realçada e um menu de atalho é exibido.
+
+1. Selecione **[!UICONTROL Boa saída]** ou **[!UICONTROL Má saída]**.
+
+   Um pop-up de feedback é exibido para coletar mais informações. O conteúdo gerado e as informações de prompt são incluídos em seu feedback.
+
+1. Adicione as seguintes informações no pop-up de feedback:
+   1. Selecione a opção _[!UICONTROL Incluir também seu conteúdo de referência e dados de camada]_ para incluir essas informações de referência extras no feedback coletado.
+   1. A partir do _[!UICONTROL O que funcionou bem?]_ ou _[!UICONTROL O que deu errado?]_, selecione as opções que descrevem o que torna a geração de conteúdo de alta ou baixa qualidade.
+   1. Adicione outras informações úteis ou relacionadas no campo _[!UICONTROL Notas]_.
+1. Clique em **[!UICONTROL Enviar]**.
+
+   Um banner aparece para confirmar que você enviou feedback.

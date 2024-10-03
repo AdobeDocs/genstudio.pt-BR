@@ -7,16 +7,16 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 06c8884a8e1ac4d02b73931fdc4be3625565c70a
+source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
 
 # Criar uma experiência de email
 
-Este tutorial demonstra como gerar experiências de email com marcas usando o GenStudio para Marketing de Desempenho [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
+Este tutorial demonstra como gerar [experiências de email](/help/user-guide/create/email-experiences.md) com a marca usando o GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (ícone de pincel na área de navegação à esquerda).
 
 Para criar uma experiência de email eficaz, é recomendável [adicionar diretrizes ao GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md) e aprofundar as [noções básicas de criação de um prompt](/help/user-guide/effective-prompts.md) antes de começar.
 
@@ -44,8 +44,11 @@ Adicionar [diretrizes](/help/user-guide/guidelines/overview.md) e ativos em _Par
    Se não houver marcas, personalidades ou produtos disponíveis nesses menus, [adicione diretrizes ao seu GenStudio para Marketing de Desempenho](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Clique em **[!UICONTROL Selecionar conteúdo]** para adicionar conteúdo a ser usado na experiência *e* para influenciar a geração de conteúdo.
-   * Clique em **[!UICONTROL Selecionar do conteúdo]** para selecionar ativos (imagens) já publicados em [!DNL Content]. Use os filtros para restringir ainda mais os resultados da pesquisa.
-   * Clique em **[!UICONTROL Carregar]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você também pode importar do Microsoft OneDrive ou Dropbox.
+   * Para selecionar ativos (imagens) do seu repositório [!DNL Content], clique em **[!UICONTROL Selecionar do conteúdo]**. Filtre e selecione uma ou mais imagens.
+
+     Para usar ativos de um repositório [!DNL AEM Assets Content Hub] conectado, escolha um repositório no menu suspenso _Local_. Filtre e selecione uma ou mais imagens.
+
+   * Para carregar um ou mais novos ativos, clique em **[!UICONTROL Carregar]**, navegue pelos arquivos e escolha os ativos a serem usados. Além de navegar em seu dispositivo, você pode importar do Microsoft OneDrive ou Dropbox. Clique em para selecionar as imagens desejadas.
    * Arraste e solte ativos na seção _Conteúdo_.
 1. Clique em **[!UICONTROL Usar]**.
 
@@ -68,6 +71,8 @@ Consulte [Gravar prompts efetivos](/help/user-guide/effective-prompts.md) para s
 
 Por padrão, quatro variações — todas alimentadas pelo prompt, pelas diretrizes e pelo conteúdo adicionado — são geradas e mostradas na Tela.
 
+O conteúdo gerado é carregado progressivamente — à medida que cada seção das experiências de email é gerada, elas são exibidas na Tela. Consulte [Experiências de email](/help/user-guide/create/meta-experiences.md#progressive-loading) para saber como essas alterações são carregadas na Tela.
+
 ## Revisar emails gerados
 
 Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Content], você pode editar seções de email ou excluir uma variante do conjunto de emails gerados.
@@ -75,15 +80,17 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 **Para revisar variantes geradas**:
 
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
-* **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário.
+* **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
+* **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no ícone de opções (três pontos) de uma variante e clique em **[!UICONTROL Excluir]**.
+
+## Enviar feedback de geração
+
+Para [enviar comentários](/help/user-guide/create/manage-variants.md#generation-feedback) sobre a qualidade da saída de geração, clique no ícone de opções (três pontos) e selecione **[!UICONTROL Boa saída]** ou **[!UICONTROL Má saída]**.
 
 ## Visualizar para dispositivo
 
-Ao revisar e preparar experiências de email, você pode alternar entre visualizações para desktop e para dispositivos móveis para garantir a coerência e o apelo visual de variantes de rascunho.
-
-**Para visualizar as variantes para dispositivos móveis e desktop**, alterne a opção de visualização de dispositivo (entre **desktop** e **celular**) na barra de menu direita (ícones de computador e telefone) para visualizar como as variantes aparecem.
+Ao revisar e preparar experiências de email, você pode [alternar entre visualizações para desktop e dispositivos móveis](/help/user-guide/create/manage-variants.md#preview-for-device) para garantir a coerência e o apelo visual de variantes de rascunho.
 
 ## Verificar o alinhamento da marca
 
