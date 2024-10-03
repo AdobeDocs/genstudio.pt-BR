@@ -2,9 +2,9 @@
 title: Gerenciar variantes
 description: Personalize e aprimore as variantes e os ativos gerados para atender às suas necessidades de marketing digital.
 feature: Content, Assets, Experiences
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,28 @@ As taxas de tamanho/aspecto disponíveis são:
 
 1. Clique em **[!UICONTROL Duplicar e redimensionar]**.
 
-[!DNL Create] cria uma cópia de cada variante com base na nova taxa de proporção selecionada. Todas as variantes, incluindo as da taxa de proporção inicial, estão presentes na Tela de desenho.
+   [!DNL Create] cria uma cópia de cada variante com base na nova taxa de proporção selecionada. Todas as variantes, incluindo as da taxa de proporção inicial, estão presentes na Tela de desenho.
 
-Por exemplo, se você gerar quatro variantes em uma proporção de 1:1 inicialmente e, em seguida, alterar a proporção para 4:5, _oito_ as variantes totais agora estarão disponíveis na Tela de desenho.
+   Por exemplo, se você gerar quatro variantes em uma proporção de 1:1 inicialmente e, em seguida, alterar a proporção para 4:5, _oito_ as variantes totais agora estarão disponíveis na Tela de desenho.
+
+## Trocar imagem
+
+Você pode adicionar ou trocar imagens em variantes geradas diretamente da Tela de desenho.
+
+**Para adicionar ou trocar imagens em uma variante**:
+
+1. Depois de gerar um conjunto de variantes, clique em um ativo de imagem.
+
+   Se a variante não tiver um ativo de imagem inserido no momento, clique na área do ativo de imagem.
+
+1. Para selecionar um ativo de imagem já publicado em [!DNL Content]:
+   1. Clique em **[!UICONTROL Selecionar do conteúdo]**. Use os filtros para restringir ainda mais os resultados da pesquisa.
+   1. Clique em **[!UICONTROL Usar]**
+1. Para fazer upload de um ativo de imagem:
+   1. Clique em **[!UICONTROL Carregar nova imagem]** para procurar seus arquivos e escolher os ativos a serem usados. Além de navegar em seu dispositivo, você pode importar do Microsoft OneDrive ou Dropbox.
+   1. Clique em **[!UICONTROL Adicionar Assets]**.
+
+   As imagens são adicionadas ou trocadas pela variante aplicável.
 
 ## Visualizar para dispositivo
 
@@ -119,7 +138,7 @@ Exclua variantes desnecessárias para que a Tela de trabalho mostre apenas as va
 
    A variante é realçada e um menu de atalho é exibido.
 
-1. Selecione **[!UICONTROL Excluir]** nas opções de menu disponíveis.
+1. Selecione **[!UICONTROL Excluir]** das opções disponíveis.
 
    A variante é excluída.
 

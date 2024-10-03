@@ -7,9 +7,9 @@ level: Beginner
 type: Tutorial
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 8ca3cf0706e5b4646b3c95bbfd4bf6f9dd3c9f6b
+source-git-commit: c1cc90b4c80b6b754b34ac609e8e94b799386fad
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,8 @@ Antes de selecionar o que enviar para aprovação ou publicação para [!DNL Con
 * **Para [editar o nome do rascunho do email](/help/user-guide/create/manage-variants.md#change-draft-name)**, clique no título _Rascunho Sem Título_ na parte superior da Tela e insira um novo título.
 * **Para [editar um email manualmente](/help/user-guide/create/manage-variants.md#manually-edit-text)**, clique duas vezes em qualquer campo de texto editável (como linha de assunto, cabeçalho ou cópia de corpo) e edite conforme necessário
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique no ícone de opções (três pontos) de uma variante e clique em **[!UICONTROL Excluir]**.
+* **Para [adicionar ou trocar imagens em uma variante](/help/user-guide/create/manage-variants.md#swap-image)**, clique em um ativo de imagem (ou na área do ativo de imagem se uma imagem não existir no momento) e clique em **[!UICONTROL Selecionar/trocar conteúdo]** ou **[!UICONTROL Carregar nova imagem]** para adicionar ou trocar uma imagem em uma variante individual.
+* **Para [excluir um email](/help/user-guide/create/manage-variants.md#delete-variant)**, clique para selecionar o título do email (por exemplo, &quot;Email 1/4&quot;) e clique em **[!UICONTROL Excluir variante]**.
 
 ## Enviar feedback de geração
 
