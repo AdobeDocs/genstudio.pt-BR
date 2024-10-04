@@ -2,94 +2,87 @@
 title: Notas de versão do Adobe GenStudio for Performance Marketing Beta
 description: Saiba mais sobre os recursos e aprimoramentos mais recentes do Adobe GenStudio for Performance Marketing.
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: f56f3733ead0bfcb4f37e10b66577e1ef597b76d
+source-git-commit: 7fe3ba26a64a69d1c9d13e06f746bf537c8e57a4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Notas de versão do Adobe GenStudio for Performance Marketing Beta
 
-Essas notas destacam correções e aprimoramentos significativos do Adobe GenStudio for Performance Marketing para a semana que terminou em 27 de setembro.
+Essas notas destacam correções e aprimoramentos significativos do Adobe GenStudio for Performance Marketing para a semana que terminou em 4 de outubro.
 
 ## Novos recursos e melhorias
 
-* O GenStudio agora pode extrair informações pessoais e de produtos de um PDF carregado e preencher campos relacionados. <!-- GS-3806 -->
+* O recurso de filtragem no produto foi aprimorado. Problemas com a filtragem por idade e sexo em [!DNL Insights] foram resolvidos.  <!-- GS-1198 -->
 
-* Agora os usuários podem filtrar [!DNL Content] ativos e experiências pelo nome do usuário que carregou o ativo. <!-- GS-1808 -->
+* É possível editar ativos de imagem (JPG ou PNG) diretamente usando o Adobe Express. Os editores de conteúdo podem usar a Tela _[!UICONTROL Powered by Adobe Express]_ para remover planos de fundo, aplicar preenchimentos generativos, ajustar efeitos e recortar imagens sem sair do GenStudio for Performance Marketing. <!-- GS-4615 -->
 
-* A seção [!DNL Additional details] foi renomeada para [!DNL Messaging preferences] na página de detalhes [!DNL Products]. <!-- GS-5133 5134 -->
+* Melhoria na experiência de carregamento progressivo para variantes geradas, email gerado e mensagens contextuais. <!-- GS-4651 3062-->
 
-* Adição de um botão [!DNL Add persona] à página _Adicionar sua primeira persona_. <!-- GS-5132 -->
+* Os editores de conteúdo agora podem usar o recurso de ajuste de corte para cortar imagens renderizadas em variantes. <!-- GS-2342 -->
 
-## Problemas conhecidos
+* Problemas com o redimensionamento e a duplicação de modelos foram resolvidos. <!-- GS-4895 -->
 
-Os seguintes problemas conhecidos estão programados para serem resolvidos na versão do GenStudio for Performance Marketing GA.
+* A validação da marca agora explica a causa das falhas que ocorrem durante a validação.
 
-* Os modelos podem ser carregados, mas não visualizados. **Solução alternativa**: carregue um ativo com o campo **[!UICONTROL Campanhas]** preenchido. Em seguida, faça upload do template novamente. <!-- GS-4815 5650-->
+* As visualizações do modelo agora exibem o texto na imagem conforme esperado. <!-- GS-5917 -->
 
-* Os usuários não podem recortar manualmente os meta anúncios depois de redimensioná-los. <!-- GS-5871 -->
+## Melhorias adicionais e problemas corrigidos
 
-* Os usuários devem fazer logon duas vezes em uma conta de Metadados do canal quando também estiverem conectados à Facebook. Solução alternativa: Faça logout do Facebook antes de fazer logon em uma conta de Meta ads do canal. <!-- GS-3009 -->
+* A Tela de Pintura [!DNL Create] agora renderiza fontes personalizadas de modelos conforme esperado. <!-- GS-3415 -->
 
-### Melhorias adicionais e problemas corrigidos
+* A fonte correta agora é aplicada durante a exportação de Metadados. <!-- GS-5875 -->
 
-* Problemas de latência intermitentes com algumas operações do Canvas [!DNL Create] foram resolvidos. <!-- GS-5203 -->
+* Problemas com o upload do modelo que resultaram em upload bem-sucedido, mas a falta de visibilidade na interface do produto foi resolvida. <!-- GS-4815 5650-->
 
-* Os usuários não precisam mais fazer logon duas vezes em uma conta de Metadados do canal quando também estão conectados ao Facebook. <!-- GS-4806 -->
+* Os usuários agora podem recortar manualmente os Metadados após redimensioná-los. <!-- GS-5871 -->
 
-* A geração de email agora resulta mais em um email incompleto. <!-- GS-5209 -->
+* Os usuários não precisam mais fazer logon duas vezes em uma conta de Metadados do canal quando também estão conectados ao Facebook. <!-- GS-3009 -->
 
-* A criação de uma campanha no workflow do template agora armazena IDs conforme esperado.  <!-- GS-4923 -->
+* A visualização da Tela de ativos e experiências agora permanece consistente em todo o processo de criação, revisão e aprovação de conteúdo. <!-- GS-5877 -->
 
-* O seletor de vários repositórios agora lista os repositórios em ordem alfabética. <!-- GS-5553 -->
+* A Tela de desenho agora exibe apenas quatro variantes ao regenerar após uma operação de redimensionamento. <!-- GS-5869 -->
 
-* Problemas com formatos de arquivo de exportação CSV para idiomas diferentes do inglês foram resolvidos. <!-- GS-5141 -->
+* A verificação ortográfica baseada em navegador agora funciona como esperado na Tela [!DNL Create]. <!-- GS-5760 -->
 
-* Agora os usuários podem clicar no botão [!DNL Create] _Trabalho recente_ área **[!UICONTROL Exibir todos os rascunhos]** enquanto os rascunhos estão carregando. Anteriormente, clicar neste botão antes do carregamento de todos os rascunhos resultava no carregamento de apenas alguns rascunhos, e o botão **[!UICONTROL Exibir todos os rascunhos]** ficava indisponível. <!-- GS-3938 -->
+* Anúncios de Exibição agora são exportados como arquivos PNG quando **[!UICONTROL Exportar como PNG]** é selecionado. Anteriormente, os anúncios de exibição eram exportados como JPEG quando o formato PNG era selecionado. <!-- GS-5545 -->
 
-* A Tela de Pintura [!DNL Create] agora exibe o botão **[!UICONTROL Exibir todos os rascunhos]**, conforme esperado, quando a Tela de Pintura exibe mais de quatro rascunhos. <!-- GS-5588 -->
+* O preenchimento foi aumentado entre o botão **[!UICONTROL Recorte manual]** e o botão **[!UICONTROL Gerar]**. Anteriormente, o botão **[!UICONTROL Recorte manual]** estava parcialmente obscurecido. <!-- GS-6084 -->
 
-* A pesquisa agora funciona conforme esperado na guia _Atributos_. <!-- GS-5658 -->
+* As visualizações do modelo agora exibem as fontes do Google conforme esperado. <!-- GS-5946 -->
 
-* A animação com brilho agora é dimensionada corretamente durante o carregamento da experiência. <!-- GS-5574 -->
+* As fontes TypeKit e Google importadas agora são carregadas conforme esperado durante a exportação. <!-- GS-5948 -->
 
-* As visualizações de miniaturas para emails de várias partes agora são renderizadas conforme esperado em [!DNL Content]. <!-- GS-5258 -->
+* Solução de problemas com a geração de conteúdo com modelos personalizados. Anteriormente, quando um editor de conteúdo tentava gerar um ativo usando um modelo personalizado, o pop-up de geração não era exibido e o console exibia erros. <!-- GS-5262 -->
 
-* Correção de um problema relacionado ao Workfront com o botão **[!UICONTROL Enviar para aprovação]**. <!-- GS-5847 -->
+* A Tela de rascunho do DisplayAds agora mantém sua posição quando um usuário clica com o botão direito do mouse na Tela antes de clicar com o botão esquerdo do mouse fora do menu de contexto. Anteriormente, a Tela de desenho era deslocada quando o usuário clicava com o botão esquerdo do mouse, o que tornava o conteúdo de rascunho parcialmente inacessível.  <!-- GS-5687 -->
 
-* Correção de problemas com o carregamento do shimmer na exibição de trabalho [!DNL Create] Recente. <!-- GS-5589 -->
+* Os efeitos de carregamento do shimmer agora persistem até que a regeneração da imagem seja concluída.  <!-- GS-5811 -->
 
-* Inserir um termo de pesquisa agora resulta em apenas uma chamada de pesquisa, conforme esperado.  <!-- GS-2999 -->
+* As pontuações de validação de marca não são mais invalidadas depois que um usuário faz edições em emails gerados, Metadados ou anúncios de exibição. Anteriormente, essa pontuação estava oculta. <!-- GS-5379 -->
 
-* Renderização de imagem corrigida de imagens geradas por metadados após a exportação. <!-- GS-5749 -->
+* Os modelos que têm estilos CSS anexados ao elemento `body` agora são aproveitados conforme esperado durante a exportação de experiências. <!-- GS-5947 -->
 
-* O símbolo `%` agora é renderizado corretamente nas localidades DEU, FRA e ESP quando os usuários ampliam ou reduzem o zoom de variantes de email na Tela C[!DNL Create]. <!-- GS-5007 -->
+* Correção de problemas com o recorte manual de imagens de grandes dimensões. <!-- GS-6039 -->
 
-#### Localização
+* Apenas uma mensagem pop-up é exibida quando um usuário adiciona um novo ativo em [!DNL Content]. <!-- GS-5020 -->
 
-Esta versão inclui aprimoramentos na localização em toda a interface do produto, especialmente em [!DNL Create]. Os seguintes componentes de interface foram localizados: <!-- GS-5295 -->
+* Aprimoramento do desempenho da Tela de desenho durante a edição de texto.  <!-- GS-5118 -->
 
-* Todas as cadeias de caracteres na área _Prompt_ (título de parâmetros, nomes de opções de menu suspenso e texto de espaço reservado de prompt) <!-- GS-5027 -->
+* Adicionados espaços ausentes entre cadeias de caracteres no Email ou na Meta ad Canvas do [!DNL Create]. <!-- GS-5019 -->
 
-* Todas as cadeias de caracteres na janela _Redimensionar_ para Metadados gerados em [!DNL Create] <!-- GS-5035 -->
+* Os editores agora podem salvar um arquivo com nomes que contêm caracteres especiais após a edição no Express. <!-- GS-6131 -->
 
-* Todas as cadeias de caracteres na área _Trabalho recente_ em [!DNL Create] <!-- GS-5037 -->
+### Localização
 
-* As cadeias de caracteres da opção de menu suspenso Marcas, Personalidades e Produto na área de Prompt <!-- GS-5293 -->
+Esta versão inclui melhorias de localização em toda a interface do produto, incluindo estas áreas de interface:
 
-* A sequência de caracteres **Zoom para caber na tela** exibida durante o email e a geração de metadados <!-- GS-5063 -->
+* A URL para o destino de opção **[!UICONTROL Saiba mais]** no menu de prompts [!DNL Create]. <!-- GS-5029 -->
 
-* Formatos de data e hora, sequência de caracteres **Rascunho sem título** e mensagens de erro em emails e nomes de metaanúncios <!-- GS-5023 5022 5048-->
+* Formatos de número adjacentes aos campos de entrada de pesquisa [!DNL Insights] > [!DNL Experience]. <!-- GS-4494 -->
 
-* As cadeias de exibição de galeria de guias [!DNL Content] _Assets_ e o símbolo de porcentagem (%) <!-- GS-4983 4984-->
+## Problema conhecido
 
-* O símbolo de porcentagem (%) usado na taxa de cliques de Insights > Experiências <!-- GS-4279 -->
-
-* Mensagem de erro exibida quando ocorre um erro do sistema durante o email ou a criação de Metadados<!-- GS-5061 -->
-
-* Separador decimal da frase &quot;Contagem de Palavras por Frase&quot; na página Detalhes da experiência do Insights <!-- GS-4986 -->
-
-* Cadeias de caracteres no menu Exportar para um Meta anúncio gerado com um modelo. <!-- GS-5031 -->
-
+* Fragmentos de email regenerados não aparecem na variante após a seleção. (No entanto, as variantes aparecem depois que o rascunho é reaberto.) <!-- GS-5913 -->
