@@ -3,7 +3,7 @@ title: Conceitos do Adobe GenStudio for Performance Marketing
 description: Saiba mais sobre conceitos e terminologia do Adobe GenStudio for Performance Marketing.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 6a90b2b2615dbb0c2104195ff5ed2204cac72241
+source-git-commit: 9016841b6a788fe5ca50f3e9c0d774a248a6c793
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -25,7 +25,9 @@ Com o GenStudio for Performance Marketing, você pode:
 
 O GenStudio for Performance Marketing aproveita o potencial da IA gerativa para acelerar o processo de criação de conteúdo e garantir a geração de conteúdo de alta qualidade. O ciclo de vida iterativo de seus ativos criativos resulta em um conteúdo cada vez mais preciso e alinhado à marca, que repercute em seu público-alvo.
 
-Comece treinando efetivamente a GenStudio for Performance Marketing sobre a marca da sua organização, as personalidades do cliente e as descrições do produto por meio do poderoso recurso de diretrizes da marca. Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
+Comece treinando efetivamente a GenStudio for Performance Marketing sobre a marca da sua organização, as personalidades do cliente e as descrições do produto por meio do poderoso recurso de diretrizes da marca.
+
+Consulte a [Visão geral das diretrizes](../user-guide/guidelines/overview.md) para saber como preparar e carregar essas diretrizes.
 
 ## Ciclo de vida do conteúdo
 
@@ -34,7 +36,7 @@ A demanda é alta por experiências de qualidade em vários canais em um ritmo m
 <table style="table-layout:fixed">
 <tr style="border: 0;">
     <td style="width: 120px;">
-       <img alt="calendário" src="../assets/csc-workflow-planning.svg" width="100">
+       <img alt="calendário" src="../assets/csc-workflow-planning.png" width="100">
     </td>
     <td>
         <p>Elabore ideias, defina diretrizes e crie uma estratégia em torno do conteúdo para envolver seu público-alvo.</p>
@@ -42,7 +44,7 @@ A demanda é alta por experiências de qualidade em vários canais em um ritmo m
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="pincel e tela" src="../assets/csc-creation-production.svg" width="100">
+        <img alt="pincel e tela" src="../assets/csc-creation-production.png" width="100">
     </td>
     <td>
         <p>Produza o conteúdo com base no plano. Colabore em tempo real, receba feedback, faça edições e aprove o conteúdo.</p>
@@ -50,7 +52,7 @@ A demanda é alta por experiências de qualidade em vários canais em um ritmo m
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="imagens e muito mais" src="../assets/csc-content-mgmt.svg" width="100">
+        <img alt="imagens e muito mais" src="../assets/csc-content-mgmt.png" width="100">
     </td>
     <td>
         <p>Armazene, compartilhe e encontre ativos criativos no repositório centralizado. Reutilizar e revitalizar conteúdo com base no desempenho.</p>
@@ -58,7 +60,7 @@ A demanda é alta por experiências de qualidade em vários canais em um ritmo m
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="avião de papel" src="../assets/csc-delivery-activation.svg" width="100">
+        <img alt="avião de papel" src="../assets/csc-delivery-activation.png" width="100">
     </td>
     <td>
         <p>Ative o conteúdo e publique em vários canais de marketing.</P>
@@ -66,7 +68,7 @@ A demanda é alta por experiências de qualidade em vários canais em um ritmo m
 </tr>
 <tr style="border: 0;">
     <td style="width: 120px;">
-        <img alt="gráfico" src="../assets/csc-reporting-insights.svg" width="100">
+        <img alt="gráfico" src="../assets/csc-reporting-insights.png" width="100">
     </td>
     <td>
         <p>Colete dados e obtenha insights para a otimização do desempenho do ativo.</p>
