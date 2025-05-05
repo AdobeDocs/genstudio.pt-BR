@@ -24,7 +24,7 @@ Por padrão, o GenStudio for Performance Marketing gera quatro variações de em
 
 1. Com as variantes de email geradas visíveis, clique em **[!UICONTROL Abrir para solicitar]**, próximo à parte inferior da tela, para expandir a barra de solicitações.
 1. Modificar _Parâmetros_:
-   1. Escolha as **[!UICONTROL Diretrizes de]**, **[!UICONTROL Persona]** ou **[!UICONTROL Produto]**[](/help/user-guide/guidelines/overview.md).
+   1. Escolha as **[!UICONTROL Diretrizes de]**, **[!UICONTROL Persona]** ou **[!UICONTROL Produto]**&#x200B;[&#128279;](/help/user-guide/guidelines/overview.md).
    1. Adicionar ou excluir imagens na seção _[!UICONTROL Conteúdo]_.
    1. Digite um novo prompt na caixa de prompt _&quot;Descrever as experiências que você deseja gerar&quot;_.
 1. Clique em **[!UICONTROL Gerar]**.

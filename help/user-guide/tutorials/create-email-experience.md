@@ -26,7 +26,7 @@ Para criar uma nova experiência de email, use um modelo disponível para fornec
 
 **Para escolher um modelo de email**:
 
-1. Em _[!DNL Create]_, clique em **[!UICONTROL Email]**na_&quot;O que deseja criar hoje?&quot;seção _.
+1. Em _[!DNL Create]_, clique em **[!UICONTROL Email]**&#x200B;na_&quot;O que deseja criar hoje?&quot;seção _.
 1. Use a opção de pesquisa, ao lado de _Filtro_, para localizar um modelo de email específico.
 1. Clique para selecionar um modelo de email e clique em **[!UICONTROL Usar]**.
 
@@ -99,7 +99,7 @@ Para otimizar os emails gerados e garantir a adesão estrita à identidade da ma
 
 **Para verificar o alinhamento da marca**:
 
-1. Clique no ícone de verificação]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de [**[!UICONTROL [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
+1. Clique no ícone de verificação&#x200B;**[&#128279;](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) das diretrizes de &#x200B;** [!DNL Brand] para uma variante e veja um resumo de como essa variante é executada quando marcada em relação à sua marca.
 1. Para obter os detalhes das seções e diretrizes que precisam ser aprimoradas, clique em **[!UICONTROL Revisão]** _ou_ clique no ícone Validação da marca na barra de menu superior para abrir o [_Painel de validação da marca_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel).
 
 1. Alternar em cada email para ver como você pode melhorar o conteúdo gerado para estar mais alinhado à marca.

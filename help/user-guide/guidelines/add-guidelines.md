@@ -85,11 +85,11 @@ Antes de publicar sua marca, clique nas seções _Diretrizes de voz da marca_, _
 
 Quando a marca for publicada, um banner será exibido confirmando que sua marca está pronta para uso: &quot;*Marca publicada e disponível para uso*&quot;.
 
-A marca publicada agora está disponível para uso em _[!DNL Create]_ou_[!DNL Content]_.
+A marca publicada agora está disponível para uso em _[!DNL Create]_&#x200B;ou&#x200B;_[!DNL Content]_.
 
 ### Gerenciar [!DNL Brands]
 
-Na página inicial de _[!DNL Brands]_, você pode clicar em **abrir uma marca já criada**para editá-la ou revisá-la, em **renomear**ou em **excluir uma marca**da lista do menu de ações [!DNL Brands]:
+Na página inicial de _[!DNL Brands]_, você pode clicar em **abrir uma marca já criada**&#x200B;para editá-la ou revisá-la, em **renomear**&#x200B;ou em **excluir uma marca**&#x200B;da lista do menu de ações [!DNL Brands]:
 
 * Clique em um bloco de marca para abrir uma marca.
 * Selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Brands] para renomear um perfil existente.
@@ -159,11 +159,11 @@ Clique em _Preferências de mensagens_ e insira os detalhes de mensagens de [!DN
 
 ### Gerenciar [!DNL Products]
 
-Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**já criado para editá-lo ou revisá-lo, ou **excluir um produto**da lista:
+Na página inicial de _[!DNL Products]_, você pode **abrir um[!DNL Product]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um produto**&#x200B;da lista:
 
 * Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Products] para revisar e analisar um produto existente.
 * Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Products] para **Excluir** um produto.
-* 
+* &#x200B;
    * Selecione **[!UICONTROL Renomear]** no menu de ações [!DNL Products] para **Renomear** um produto.
 
 ## Adicionar [!DNL Personas]
@@ -230,7 +230,7 @@ Você pode adicionar detalhes de persona manualmente, em vez de carregar documen
 
 ### Gerenciar [!DNL Personas]
 
-Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**já criado para editá-lo ou revisá-lo, ou **excluir um**da lista:
+Na página inicial de _[!DNL Personas]_, você pode **abrir um[!DNL Persona]**&#x200B;já criado para editá-lo ou revisá-lo, ou **excluir um**&#x200B;da lista:
 
 * Selecione **[!UICONTROL Abrir]** no menu de ações [!DNL Personas] para revisar e revisar um perfil existente.
 * Selecione **[!UICONTROL Excluir]** do menu de ações [!DNL Personas] para **Excluir** um perfil.
